@@ -76,6 +76,7 @@ My main focus is these tags: **Array, Hash Table, String**.
 |392 | [Is Subsequence](solutions/392---Is-Subsequence/solution392.go) | Dynamic Programming, String, Two Pointers | 🟢 Easy |
 |412 | [Fizz Buzz](solutions/412---Fizz-Buzz/solution412.go) | Math, Simulation, String | 🟢 Easy |
 |434 | [Number of Segments in a String](solutions/434---Number-of-Segments-in-a-String/solution434.go) | String | 🟢 Easy |
+|455 | [Assign Cookies](solutions/455---Assign-Cookies/solution455.go) | Array, Greedy, Sorting, Two Pointers | 🟢 Easy |
 |459 | [Repeated Substring Pattern](solutions/459---Repeated-Substring-Pattern/solution459.go) | String, String Matching | 🟢 Easy |
 |482 | [License Key Formatting](solutions/482---License-Key-Formatting/solution482.go) | String | 🟢 Easy |
 |500 | [Keyboard Row](solutions/500---Keyboard-Row/solution500.go) | Array, Hash Table, String | 🟢 Easy |
