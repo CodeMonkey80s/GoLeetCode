@@ -19,7 +19,7 @@ My main focus is these tags: **Array, Hash Table, String**.
 
 # Solutions
 
-| #    | Title                                                                      | Tags                                              | <div style="width:100px">Difficulty<div>               |
+| #    | Title                                                                      | Tags                                              | <span style="display: inline-block; width:100px">Difficulty</span>               |
 | :--- | :------------------------------------------------------------------------- | :------------------------------------------------ | :------------------------------------------------ |
 |1 | [Two Sum](solutions/1---Two-Sum/solution1.go) | Array, Hash Table | 🟢 Easy |
 |3 | [Longest Substring Without Repeating Characters](solutions/3---Longest-Substring-Without-Repeating-Characters/solution3.go) | Hash Table, Sliding Window, String | 🟡 Medium |
