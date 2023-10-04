@@ -81,6 +81,7 @@ My main focus is these tags: **Array, Hash Table, String**.
 |448 | [Find All Numbers Disappeared in an Array](solutions/448---Find-All-Numbers-Disappeared-in-an-Array/solution448.go) | Array, Hash Table | 🟢 Easy |
 |455 | [Assign Cookies](solutions/455---Assign-Cookies/solution455.go) | Array, Greedy, Sorting, Two Pointers | 🟢 Easy |
 |459 | [Repeated Substring Pattern](solutions/459---Repeated-Substring-Pattern/solution459.go) | String, String Matching | 🟢 Easy |
+|476 | [Number Complement](solutions/476---Number-Complement/solution476.go) | Bit Manipulation | 🟢 Easy |
 |482 | [License Key Formatting](solutions/482---License-Key-Formatting/solution482.go) | String | 🟢 Easy |
 |500 | [Keyboard Row](solutions/500---Keyboard-Row/solution500.go) | Array, Hash Table, String | 🟢 Easy |
 |509 | [Fibonacci Number](solutions/509---Fibonacci-Number/solution509.go) | Dynamic Programming, Math, Memoization, Recursion | 🟢 Easy |
