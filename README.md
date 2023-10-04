@@ -1,7 +1,7 @@
 # Go LeetCode Solutions
 
 <p align="center">
-    <a href="https://github.com/CodeMonkey80s/GoLeetCode"><img src="gopher-learn.png" width="325"/></a>
+    <a href="https://github.com/CodeMonkey80s/GoLeetCode"><img src="gopher-learn.png" width="500"/></a>
 </p>
 
 Repository with my solutions to various **LeetCode** problems.
