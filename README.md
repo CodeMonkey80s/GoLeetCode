@@ -19,8 +19,8 @@ My main focus is these tags: **Array, Hash Table, String**.
 
 # Solutions
 
-| #    | Title                                                                      | Tags                                              | Difficulty |
-| :--- | :------------------------------------------------------------------------- | :------------------------------------------------ | :----------|
+| #    | Title                                                                      | Tags                                              | <div style="width:100px">Difficulty<div>               |
+| :--- | :------------------------------------------------------------------------- | :------------------------------------------------ | :------------------------------------------------ |
 |1 | [Two Sum](solutions/1---Two-Sum/solution1.go) | Array, Hash Table | 🟢 Easy |
 |3 | [Longest Substring Without Repeating Characters](solutions/3---Longest-Substring-Without-Repeating-Characters/solution3.go) | Hash Table, Sliding Window, String | 🟡 Medium |
 |9 | [Palindrome Number](solutions/9---Palindrome-Number/solution9.go) | Math | 🟢 Easy |
