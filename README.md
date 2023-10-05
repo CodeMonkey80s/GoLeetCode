@@ -35,7 +35,7 @@ My main focus is these tags: **Array, Hash Table, String**.
 | 58   | [Length of Last Word](solutions/58---Length-Of-Last-Word/solution58.go)                                                               | String | 🟢 Easy |
 | 66   | [Plus One](solutions/66---Plus-One/solution66.go)                                                                                     | Array, Math | 🟢 Easy |
 | 67   | [Add Binary](solutions/67---Add-Binary/solution67.go)                                                                                 | Bit Manipulation, Math, Simulation, String | 🟢 Easy |
-| 69   | [Sqrt(solutions/x)](solutions/69---Sqrt(solutions/x)/solution69.go)                                                                   | Bit Search, Math | 🟢 Easy |
+| 69   | [Sqrt(x)](solutions/69---Sqrt-x/solution69.go)                                                                                        | Bit Search, Math | 🟢 Easy |
 | 70   | [Climbing Stairs](solutions/70---Climbing-Stairs/solution70.go)                                                                       | Dynamic Programming, Math, Memoization | 🟢 Easy |
 | 83   | [Remove Duplicates from Sorted List](solutions/83---Remove-Duplicates-from-Sorted-List/solution83.go)                                 | Linked List | 🟢 Easy |
 | 88   | [Merge Sorted Array](solutions/88---Merge-Sorted-Array/solution88.go)                                                                 | Array, Sorting, Two Pointers | 🟢 Easy |
@@ -111,13 +111,14 @@ My main focus is these tags: **Array, Hash Table, String**.
 | 1189 | [Maximum Number of Balloons](solutions/1189---Maximum-Number-of-Balloons/solution1189.go)                                             | Counting, Hash Table, String | 🟢 Easy |
 | 1207 | [Unique Number of Occurrences](solutions/1207---Unique-Number-of-Occurrences/solution1207.go)                                         | Array, Hash Table | 🟢 Easy |
 | 1360 | [Number of Days Between Two Dates](solutions/1360---Number-of-Days-Between-Two-Dates/)                                                | Math, String | 🟢 Easy |
-| 1436 | [Destination City](solutions/1436---Destination-City/solution1436.go)   | Hash Table, String | 🟢 Easy |
+| 1436 | [Destination City](solutions/1436---Destination-City/solution1436.go)                                                                 | Hash Table, String | 🟢 Easy |
 | 1455 | [Check If a Word Occurs As a Prefix](solutions/1455---Check-If-a-Word-Occurs-As-a-Prefix-of-Any-Word-in-a-Sentence/solution1455.go)   | String Manipulation, String | 🟢 Easy |
 | 1496 | [Path Crossing](solutions/1496---Path-Crossing/solution1496.go)                                                                       | Hash Table, String | 🟢 Easy |
 | 1507 | [Reformat Date](solutions/1507---Reformat-Date/solution1507.go)                                                                       | String | 🟢 Easy |
 | 1528 | [Shuffle String](solutions/1528---Shuffle-String/solution1528.go)                                                                     | Array, String | 🟢 Easy |
 | 1556 | [Thousand Separator](solutions/1556---Thousand-Separator/solution1556.go)                                                             | String | 🟢 Easy |
 | 1592 | [Rearrange Spaces Between Words](solutions/1592---Rearrange-Spaces-Between-Words/solution1592.go)                                     | String | 🟢 Easy |
+| 1624 | [Largest Substring Between Two Equal Characters](solutions/1624---Largest-Substring-Between-Two-Equal-Characters/solution1624.go)     | Hash Table, String | 🟢 Easy |
 | 1662 | [Check If Two String Arrays are Equivalent](solutions/1662---Check-If-Two-String-Arrays-are-Equivalent/solution1662.go)               | Array, String | 🟢 Easy |
 | 1678 | [Goal Parser Interpretation](solutions/1678---Goal-Parser-Interpretation/solution1678.go)                                             | String | 🟢 Easy |
 | 1704 | [Determine if String Halves Are Alike](solutions/1704---Determine-if-String-Halves-Are-Alike/solution1704.go)                         | Counting, String | 🟢 Easy |
