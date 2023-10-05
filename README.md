@@ -91,7 +91,7 @@ My main focus is these tags: **Array, Hash Table, String**.
 | 599  | [Minimum Index Sum of Two Lists](solutions/599---Minimum-Index-Sum-of-Two-Lists/solution599.go)                                       | Array, Hash Table, String | 🟢 Easy |
 | 657  | [Robot Return to Origin](solutions/657---Robot-Return-to-Origin/solution657.go)                                                       | Simulation, String | 🟢 Easy |
 | 709  | [To Lower Case](solutions/709---To-Lower-Case/solution709.go)                                                                         | String | 🟢 Easy |
-| 746  | [Min Cost Clibming Stairs](solutions/746---Min-Cost-Climbing-Stairs/solution746.go)                                                   | Array, Dynamic Programming | 🟢 Easy |
+| 746  | [Min Cost Climbing Stairs](solutions/746---Min-Cost-Climbing-Stairs/solution746.go)                                                   | Array, Dynamic Programming | 🟢 Easy |
 | 771  | [Jewels and Stones](solutions/771---Jewels-and-Stones/solution771.go)                                                                 | Hash Table, String | 🟢 Easy |
 | 796  | [Rotate String](solutions/796---Rotate-String/solution796.go)                                                                         | String Matching, String | 🟢 Easy |
 | 804  | [Unique Morse Code Words](solutions/804---Unique-Morse-Code-Words/solution804.go)                                                     | Array, Hash Table, String | 🟢 Easy |
@@ -111,6 +111,7 @@ My main focus is these tags: **Array, Hash Table, String**.
 | 1189 | [Maximum Number of Balloons](solutions/1189---Maximum-Number-of-Balloons/solution1189.go)                                             | Counting, Hash Table, String | 🟢 Easy |
 | 1207 | [Unique Number of Occurrences](solutions/1207---Unique-Number-of-Occurrences/solution1207.go)                                         | Array, Hash Table | 🟢 Easy |
 | 1360 | [Number of Days Between Two Dates](solutions/1360---Number-of-Days-Between-Two-Dates/)                                                | Math, String | 🟢 Easy |
+| 1436 | [Destination City](solutions/1436---Destination-City/solution1436.go)   | Hash Table, String | 🟢 Easy |
 | 1455 | [Check If a Word Occurs As a Prefix](solutions/1455---Check-If-a-Word-Occurs-As-a-Prefix-of-Any-Word-in-a-Sentence/solution1455.go)   | String Manipulation, String | 🟢 Easy |
 | 1496 | [Path Crossing](solutions/1496---Path-Crossing/solution1496.go)                                                                       | Hash Table, String | 🟢 Easy |
 | 1507 | [Reformat Date](solutions/1507---Reformat-Date/solution1507.go)                                                                       | String | 🟢 Easy |
