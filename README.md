@@ -125,6 +125,7 @@ My main focus is these tags: **Array, Hash Table, String**.
 | 1704 | [Determine if String Halves Are Alike](solutions/1704---Determine-if-String-Halves-Are-Alike/solution1704.go)                         | Counting, String | 🟢 Easy |
 | 1796 | [Second Largest Digit in a String](solutions/1796---Second-Largest-Digit-in-a-String/solution1796.go)                                 | Hash Table, String | 🟢 Easy |
 | 1805 | [Number of Different Integers in a String](solutions/1805---Number-of-Different-Integers-in-a-String/solution1805.go)                 | Hash Table, String | 🟢 Easy |
+| 2418 | [Sort the People](solutions/2418---Sort-the-People/solution2418.go)                                                                   | Array, Hash Table, Sorting, String | 🟢 Easy |
 
 Legend:
 <ul>
