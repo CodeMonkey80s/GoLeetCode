@@ -16,35 +16,35 @@ package solution1047
 */
 
 func removeDuplicates(s string) string {
-	sl := make([]byte, len(s))
-	copy(sl, s)
+	stack := make([]byte, len(s))
+	copy(stack, s)
 	var a, b byte
 	i := 0
-	m := len(sl)
+	m := len(stack)
 	for {
 		if i+1 > m-1 {
 			break
 		}
-		a = sl[i]
-		b = sl[i+1]
+		a = stack[i]
+		b = stack[i+1]
 		if a == b {
-			sl = append(sl[:i], sl[i+2:]...)
+			stack = append(stack[:i], stack[i+2:]...)
 			i = 0
-			m = len(sl)
+			m = len(stack)
 			continue
 		}
 		i++
 	}
-	return string(sl)
+	return string(stack)
 }
 
-func removeDuplicates_string(s string) string {
+func removeDuplicatesStack(s string) string {
 	stack := make([]rune, 0)
-	for _, elem := range s {
-		if len(stack) != 0 && stack[len(stack)-1] == elem {
+	for _, char := range s {
+		if len(stack) != 0 && stack[len(stack)-1] == char {
 			stack = stack[:len(stack)-1]
 		} else {
-			stack = append(stack, elem)
+			stack = append(stack, char)
 		}
 	}
 	return string(stack)

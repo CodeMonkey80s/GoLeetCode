@@ -16,24 +16,24 @@ package solution448
 */
 
 func findDisappearedNumbers(nums []int) []int {
-	ans := make([]int, 0)
-	m := make(map[int]int)
-	v := 0
+	stack := make([]int, 0)
+	freq := make(map[int]int)
+	val := 0
 	maxval := len(nums)
 	for i := 0; i < maxval; i++ {
-		v = nums[i]
-		_, ok := m[v]
+		val = nums[i]
+		_, ok := freq[val]
 		if !ok {
-			m[v] = 1
+			freq[val] = 1
 		} else {
-			m[v]++
+			freq[val]++
 		}
 	}
 	for i := 1; i <= maxval; i++ {
-		_, ok := m[i]
+		_, ok := freq[i]
 		if !ok {
-			ans = append(ans, i)
+			stack = append(stack, i)
 		}
 	}
-	return ans
+	return stack
 }

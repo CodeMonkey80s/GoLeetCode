@@ -9,7 +9,6 @@ var testCases = []struct {
 	Input  string
 	Output string
 }{
-	// Mandatory Test Cases
 	{
 		Input:  "abbaca",
 		Output: "ca",
@@ -18,7 +17,6 @@ var testCases = []struct {
 		Input:  "azxxzy",
 		Output: "ay",
 	},
-	// Additional my custom cases
 }
 
 func Test_removeDuplicates(t *testing.T) {
@@ -42,6 +40,6 @@ func Benchmark_removeDuplicates(b *testing.B) {
 
 func Benchmark_removeDuplicates_string(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		_ = removeDuplicates_string(testCases[0].Input)
+		_ = removeDuplicatesStack(testCases[0].Input)
 	}
 }
