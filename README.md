@@ -126,6 +126,7 @@ My main focus is these tags: **Array, Hash Table, String**.
 | 1796 | [Second Largest Digit in a String](solutions/1796---Second-Largest-Digit-in-a-String/solution1796.go)                                 | Hash Table, String | 🟢 Easy |
 | 1805 | [Number of Different Integers in a String](solutions/1805---Number-of-Different-Integers-in-a-String/solution1805.go)                 | Hash Table, String | 🟢 Easy |
 | 2418 | [Sort the People](solutions/2418---Sort-the-People/solution2418.go)                                                                   | Array, Hash Table, Sorting, String | 🟢 Easy |
+| 2788 | [Split Strings by Separator](solutions/2788---Split-Strings-by-Separator/solution2788.go)                                             | Array, String | 🟢 Easy |
 
 Legend:
 <ul>
