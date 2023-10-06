@@ -77,6 +77,7 @@ My main focus is these tags: **Array, Hash Table, String**.
 | 401  | [Binary Watch](solutions/401---Binary-Watch/solution401.go)                                                                           | Backtracking, Bit Manipulation | 🟢 Easy |
 | 405  | [Convert a Number to Hexadecimal](solutions/405---Convert-a-Number-to-Hexadecimal/solution405.go)                                     | Bit Manipulation, Math | 🟢 Easy |
 | 412  | [Fizz Buzz](solutions/412---Fizz-Buzz/solution412.go)                                                                                 | Math, Simulation, String | 🟢 Easy |
+| 415  | [Add Strings](solutions/415---Add-Strings/solution415.go)                                                                             | Math, Simulation, String | 🟢 Easy |
 | 434  | [Number of Segments in a String](solutions/434---Number-of-Segments-in-a-String/solution434.go)                                       | String | 🟢 Easy |
 | 448  | [Find All Numbers Disappeared in an Array](solutions/448---Find-All-Numbers-Disappeared-in-an-Array/solution448.go)                   | Array, Hash Table | 🟢 Easy |
 | 455  | [Assign Cookies](solutions/455---Assign-Cookies/solution455.go)                                                                       | Array, Greedy, Sorting, Two Pointers | 🟢 Easy |
