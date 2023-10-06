@@ -11,12 +11,57 @@ package solution1189
 	goos: linux
 	goarch: amd64
 	cpu: 13th Gen Intel(R) Core(TM) i7-13700K
-	Benchmark_maxNumberOfBalloons-24    	 4035127	       294.5 ns/op	       0 B/op	       0 allocs/op
+	Benchmark_maxNumberOfBalloons-24                  	84417007	        14.55 ns/op	       0 B/op	       0 allocs/op
+	Benchmark_maxNumberOfBalloons_first_attempt-24    	 4507036	       266.8 ns/op	       0 B/op	       0 allocs/op
 	PASS
 
 */
 
 func maxNumberOfBalloons(text string) int {
+	if len(text) < 7 {
+		return 0
+	}
+	m := [5]int{0, 0, 0, 0, 0}
+	for _, ch := range text {
+		switch ch {
+		case 'b':
+			m[0]++
+		case 'a':
+			m[1]++
+		case 'l':
+			m[2]++
+		case 'o':
+			m[3]++
+		case 'n':
+			m[4]++
+		}
+	}
+	num := 0
+outer:
+	for {
+		m[0] -= 1
+		m[1] -= 1
+		m[2] -= 2
+		m[3] -= 2
+		m[4] -= 1
+		switch {
+		case m[0] < 0:
+			break outer
+		case m[1] < 0:
+			break outer
+		case m[2] < 0:
+			break outer
+		case m[3] < 0:
+			break outer
+		case m[4] < 0:
+			break outer
+		}
+		num++
+	}
+	return num
+}
+
+func maxNumberOfBalloons_first_attempt(text string) int {
 	if len(text) < 7 {
 		return 0
 	}

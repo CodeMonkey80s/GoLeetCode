@@ -55,3 +55,9 @@ func Benchmark_maxNumberOfBalloons(b *testing.B) {
 		_ = maxNumberOfBalloons(testCases[0].Input)
 	}
 }
+
+func Benchmark_maxNumberOfBalloons_first_attempt(b *testing.B) {
+	for i := 0; i < b.N; i++ {
+		_ = maxNumberOfBalloons_first_attempt(testCases[0].Input)
+	}
+}
