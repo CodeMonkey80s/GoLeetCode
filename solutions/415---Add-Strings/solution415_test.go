@@ -57,7 +57,7 @@ func Test_addStrings(t *testing.T) {
 	for _, tc := range testCases {
 		label = fmt.Sprintf("Case: Input: %v %v Output: %v\n", tc.InputA, tc.InputB, tc.Output)
 		t.Run(label, func(t *testing.T) {
-			output := addStrings(tc.InputA, tc.InputB)
+			output := addStrings_std(tc.InputA, tc.InputB)
 			if output != tc.Output {
 				t.Errorf("Expected output to be %v but we got %v", tc.Output, output)
 			}
@@ -68,5 +68,11 @@ func Test_addStrings(t *testing.T) {
 func Benchmark_addStrings(b *testing.B) {
 	for i := 0; i < b.N; i++ {
 		_ = addStrings(testCases[0].InputA, testCases[0].InputB)
+	}
+}
+
+func Benchmark_addStrings_std(b *testing.B) {
+	for i := 0; i < b.N; i++ {
+		_ = addStrings_std(testCases[0].InputA, testCases[0].InputB)
 	}
 }

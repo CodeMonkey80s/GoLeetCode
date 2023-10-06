@@ -1,6 +1,7 @@
 package solution415
 
 import (
+	"math/big"
 	"strings"
 )
 
@@ -15,7 +16,8 @@ import (
 	goarch: amd64
 	pkg: GoLeetCode/solutions/415---Add-Strings
 	cpu: 13th Gen Intel(R) Core(TM) i7-13700K
-	Benchmark_addStrings-24    	14375216	        91.97 ns/op	      28 B/op	       7 allocs/op
+	Benchmark_addStrings-24        	16012267	        87.12 ns/op	      28 B/op	       7 allocs/op
+	Benchmark_addStrings_std-24    	 5277220	       227.2 ns/op	     136 B/op	       7 allocs/op
 	PASS
 */
 
@@ -64,4 +66,15 @@ func addStrings(num1 string, num2 string) string {
 		b--
 	}
 	return strings.TrimLeft(ans, "0")
+}
+
+func addStrings_std(num1 string, num2 string) string {
+	v1 := big.Int{}
+	v1.SetString(num1, 10)
+	v2 := big.Int{}
+	v2.SetString(num2, 10)
+	sum := &big.Int{}
+	sum = sum.Add(&v1, &v2)
+
+	return sum.String()
 }
