@@ -24,23 +24,12 @@ func haveConflict(event1 []string, event2 []string) bool {
 		v := h*60 + m
 		return v
 	}
-	eventOneTimeA := getMinutes(event1[0])
-	eventOneTimeB := getMinutes(event1[1])
-	eventTwoTimeA := getMinutes(event2[0])
-	eventTwoTimeB := getMinutes(event2[1])
-	if eventTwoTimeA <= eventOneTimeB && eventTwoTimeB >= eventOneTimeA {
-		return true
+	a1 := getMinutes(event1[0])
+	a2 := getMinutes(event1[1])
+	b1 := getMinutes(event2[0])
+	b2 := getMinutes(event2[1])
+	overlap := func(a1, a2, b1, b2 int) bool {
+		return b2 >= a1 && a2 >= b1
 	}
-
-	if eventTwoTimeB >= eventOneTimeA && eventTwoTimeB <= eventOneTimeB {
-		return true
-	}
-
-	if eventTwoTimeA >= eventOneTimeA && eventTwoTimeB <= eventOneTimeB {
-		return true
-	}
-	if eventOneTimeA >= eventTwoTimeA && eventOneTimeB <= eventTwoTimeB {
-		return true
-	}
-	return false
+	return overlap(a1, a2, b1, b2) || overlap(b1, b2, a1, a2)
 }
