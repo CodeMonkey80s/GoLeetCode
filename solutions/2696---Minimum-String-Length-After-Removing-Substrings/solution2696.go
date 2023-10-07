@@ -16,9 +16,9 @@ import (
 	goarch: amd64
 	pkg: GoLeetCode/solutions/2696---Minimum-String-Length-After-Removing-Substrings
 	cpu: 13th Gen Intel(R) Core(TM) i7-13700K
-	Benchmark_minLength-24           		88411903	        13.69 ns/op	       0 B/op	       0 allocs/op
-	Benchmark_minLength_string-24    		35640510	        36.39 ns/op	       4 B/op	       1 allocs/op
-	Benchmark_minLength_strings_replace-24  13744791	       100.6 ns/op	      16 B/op	       3 allocs/op
+	Benchmark_minLength-24           			88411903	        13.69 ns/op	       0 B/op	       0 allocs/op
+	Benchmark_minLength_string-24    			35640510	        36.39 ns/op	       4 B/op	       1 allocs/op
+	Benchmark_minLength_strings_replace-24    	12477807	       114.7 ns/op	      16 B/op	       3 allocs/op
 	PASS
 
 */
@@ -59,9 +59,13 @@ outer:
 }
 
 func minLength_strings_replace(s string) int {
+outer:
 	for i := 0; i < len(s)-1; i++ {
 		s = strings.ReplaceAll(s, "AB", "")
 		s = strings.ReplaceAll(s, "CD", "")
+		if strings.Contains(s, "AB") || strings.Contains(s, "CD") {
+			goto outer
+		}
 	}
 	return len(s)
 }

@@ -17,6 +17,10 @@ var testCases = []struct {
 		Input:  "ACBBD",
 		Output: 5,
 	},
+	{
+		Input:  "CCCCDDDD",
+		Output: 0,
+	},
 }
 
 func Test_minLength(t *testing.T) {
@@ -24,7 +28,7 @@ func Test_minLength(t *testing.T) {
 	for _, tc := range testCases {
 		label = fmt.Sprintf("Case: Input: %v Output: %v\n", tc.Input, tc.Output)
 		t.Run(label, func(t *testing.T) {
-			output := minLength(tc.Input)
+			output := minLength_strings_replace(tc.Input)
 			if output != tc.Output {
 				t.Errorf("Expected output to be %v but we got %v", tc.Output, output)
 			}
