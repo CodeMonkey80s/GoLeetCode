@@ -6,7 +6,7 @@
 
 Repository with my solutions to various **LeetCode** problems.
 
-To solve these problems I use functions from [Golang str library](https://pkg.go.dev/std) where applicable...
+To solve these problems I use functions from [Golang Standard Library](https://pkg.go.dev/std) where applicable...
 <ul>
 <li>unicode, strings, sort, slices, time, strconv...</li>
 </ul>
