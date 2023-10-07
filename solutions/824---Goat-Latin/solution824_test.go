@@ -39,3 +39,9 @@ func Benchmark_toGoatLatin(b *testing.B) {
 		_ = toGoatLatin(testCases[0].Input)
 	}
 }
+
+func Benchmark_toGoatLatin_map(b *testing.B) {
+	for i := 0; i < b.N; i++ {
+		_ = toGoatLatin_map(testCases[0].Input)
+	}
+}
