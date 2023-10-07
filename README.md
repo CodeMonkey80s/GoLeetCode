@@ -129,6 +129,7 @@ My main focus is these tags: **Array, Hash Table, String**.
 | 2085 | [Count Common Words With One Occurrence](solutions/2085---Count-Common-Words-With-One-Occurrence/solution2085.go)                     | Array, Counting, Hash Table, String | 🟢 Easy |
 | 2418 | [Sort the People](solutions/2418---Sort-the-People/solution2418.go)                                                                   | Array, Hash Table, Sorting, String | 🟢 Easy |
 | 2446 | [Determine if Two Events Have Conflict](solutions/2446---Determine-if-Two-Events-Have-Conflict/solution2446.go)                       | Array, String | 🟢 Easy |
+| 2496 | [Maximum Value of a String in an Array](solutions/2496---Maximum-Value-of-a-String-in-an-Array/solution2496.go)                       | Array, String | 🟢 Easy |
 | 2586 | [Count the Number of Vowel Strings in Range](solutions/2586---Count-the-Number-of-Vowel-Strings-in-Range/solution2586.go)             | Array, String | 🟢 Easy |
 | 2696 | [Minimum String Length After Removing Substrings](solutions/2696---Minimum-String-Length-After-Removing-Substrings/solution2696.go)   | Simulation, Stack, String | 🟢 Easy |
 | 2716 | [Minimize String Length](solutions/2716---Minimize-String-Length/solution2716.go)                                                     | Hash Table, String | 🟢 Easy |
