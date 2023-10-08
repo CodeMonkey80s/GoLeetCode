@@ -127,6 +127,7 @@ My main focus is these tags: **Array, Hash Table, String**.
 | 1796 | [Second Largest Digit in a String](solutions/1796---Second-Largest-Digit-in-a-String/solution1796.go)                                 | Hash Table, String | 🟢 Easy |
 | 1805 | [Number of Different Integers in a String](solutions/1805---Number-of-Different-Integers-in-a-String/solution1805.go)                 | Hash Table, String | 🟢 Easy |
 | 1832 | [Check if the Sentence Is Pangram](solutions/1832---Check-if-the-Sentence-is-Pangram/solution1832.go)                                 | Hash Table, String | 🟢 Easy |
+| 1941 | [Check if All Characters Have Equal Number of Occurrences](solutions/1941---Check-if-All-Characters-Have-Equal-Number-of-Occurrences/solution1941.go)                                 | Counting, Hash Table, String | 🟢 Easy |
 | 2085 | [Count Common Words With One Occurrence](solutions/2085---Count-Common-Words-With-One-Occurrence/solution2085.go)                     | Array, Counting, Hash Table, String | 🟢 Easy |
 | 2325 | [Decode the Message](solutions/2325---Decode-the-Message/solution2325.go)                                                             | Hash Table, String | 🟢 Easy |
 | 2418 | [Sort the People](solutions/2418---Sort-the-People/solution2418.go)                                                                   | Array, Hash Table, Sorting, String | 🟢 Easy |
