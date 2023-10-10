@@ -41,3 +41,9 @@ func Benchmark_areOccurrencesEqual(b *testing.B) {
 		_ = areOccurrencesEqual(testCases[0].Input)
 	}
 }
+
+func Benchmark_areOccurrencesEqual_map(b *testing.B) {
+	for i := 0; i < b.N; i++ {
+		_ = areOccurrencesEqual_map(testCases[0].Input)
+	}
+}

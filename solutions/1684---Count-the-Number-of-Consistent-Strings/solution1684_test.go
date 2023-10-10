@@ -46,6 +46,12 @@ func Benchmark_countConsistentStrings_map(b *testing.B) {
 	}
 }
 
+func Benchmark_countConsistentStrings_array(b *testing.B) {
+	for i := 0; i < b.N; i++ {
+		_ = countConsistentStrings_array(testCases[2].InputA, testCases[2].InputB)
+	}
+}
+
 func Benchmark_countConsistentStrings_slice(b *testing.B) {
 	for i := 0; i < b.N; i++ {
 		_ = countConsistentStrings_slice(testCases[2].InputA, testCases[2].InputB)

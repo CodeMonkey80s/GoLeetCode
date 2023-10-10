@@ -18,7 +18,7 @@ package solution1832
 */
 
 func checkIfPangram(sentence string) bool {
-	freq := make([]byte, 26)
+	freq := [26]byte{}
 	n := 0
 	for _, char := range sentence {
 		ch := byte(char) - 'a'
