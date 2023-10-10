@@ -132,6 +132,7 @@ My main focus is these tags: **Array, Hash Table, String**.
 | 2085 | [Count Common Words With One Occurrence](solutions/2085---Count-Common-Words-With-One-Occurrence/solution2085.go)                     | Array, Counting, Hash Table, String | 🟢 Easy |
 | 2103 | [Rings and Rods](solutions/2103---Rigns-and-Rods/solution2103.go)                                                                     | Hash Table, String | 🟢 Easy |
 | 2283 | [Check if Number Has Equal Digit Count and Digit Value](solutions/2283---Check-if-Number-Has-Equal-Digit-Count-and-Digit-Value/solution2283.go) | Counting, Hash Table, String | 🟢 Easy |
+| 2309 | [Greatest English Letter in Upper and Lower Case](solutions/2309---Greatest-English-Letter-in-Upper-and-Lower-Case/solution2309.go)   | Enumeration, Hash Table, String | 🟢 Easy |
 | 2325 | [Decode the Message](solutions/2325---Decode-the-Message/solution2325.go)                                                             | Hash Table, String | 🟢 Easy |
 | 2418 | [Sort the People](solutions/2418---Sort-the-People/solution2418.go)                                                                   | Array, Hash Table, Sorting, String | 🟢 Easy |
 | 2446 | [Determine if Two Events Have Conflict](solutions/2446---Determine-if-Two-Events-Have-Conflict/solution2446.go)                       | Array, String | 🟢 Easy |
