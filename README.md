@@ -129,6 +129,7 @@ My main focus is these tags: **Array, Hash Table, String**.
 | 1832 | [Check if the Sentence Is Pangram](solutions/1832---Check-if-the-Sentence-is-Pangram/solution1832.go)                                 | Hash Table, String | 🟢 Easy |
 | 1876 | [Substrings of Size Three with Distinct Characters](solutions/1876--Substrings-of-Size-Three-with-Distinct-Characters/solution1876.go)   | Counting, Hash Table, Sliding Window, String | 🟢 Easy |
 | 1941 | [Check if All Characters Have Equal Number of Occurrences](solutions/1941---Check-if-All-Characters-Have-Equal-Number-of-Occurrences/solution1941.go)                                 | Counting, Hash Table, String | 🟢 Easy |
+| 2011 | [Final Value of Variable After Performing Operations](solutions/2011---Final-Value-of-Variable-After-Performing-Operations/solution2011.go) | Array, Simulation, String | 🟢 Easy |
 | 2085 | [Count Common Words With One Occurrence](solutions/2085---Count-Common-Words-With-One-Occurrence/solution2085.go)                     | Array, Counting, Hash Table, String | 🟢 Easy |
 | 2103 | [Rings and Rods](solutions/2103---Rigns-and-Rods/solution2103.go)                                                                     | Hash Table, String | 🟢 Easy |
 | 2283 | [Check if Number Has Equal Digit Count and Digit Value](solutions/2283---Check-if-Number-Has-Equal-Digit-Count-and-Digit-Value/solution2283.go) | Counting, Hash Table, String | 🟢 Easy |
