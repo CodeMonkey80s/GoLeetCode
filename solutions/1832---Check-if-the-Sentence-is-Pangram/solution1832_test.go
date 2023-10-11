@@ -37,3 +37,9 @@ func Benchmark_checkIfPangram(b *testing.B) {
 		_ = checkIfPangram(testCases[0].Input)
 	}
 }
+
+func Benchmark_checkIfPangram_bit_manipulation(b *testing.B) {
+	for i := 0; i < b.N; i++ {
+		_ = checkIfPangram_bit_manipulation(testCases[0].Input)
+	}
+}
