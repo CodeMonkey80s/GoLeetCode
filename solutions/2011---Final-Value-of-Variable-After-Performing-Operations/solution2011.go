@@ -20,8 +20,20 @@ package solution2011
 func finalValueAfterOperations(operations []string) int {
 	ans := 0
 	for _, operation := range operations {
-		ch := operation[1]
-		switch ch {
+		switch operation[1] {
+		case '+':
+			ans++
+		case '-':
+			ans--
+		}
+	}
+	return ans
+}
+
+func finalValueAfterOperations_if(operations []string) int {
+	ans := 0
+	for i := 0; i < len(operations); i++ {
+		switch operations[i][1] {
 		case '+':
 			ans++
 		case '-':

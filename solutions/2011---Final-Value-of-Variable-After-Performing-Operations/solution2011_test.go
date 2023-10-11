@@ -41,3 +41,9 @@ func Benchmark_finalValue(b *testing.B) {
 		_ = finalValueAfterOperations(testCases[2].Input)
 	}
 }
+
+func Benchmark_finalValue_if(b *testing.B) {
+	for i := 0; i < b.N; i++ {
+		_ = finalValueAfterOperations_if(testCases[2].Input)
+	}
+}
