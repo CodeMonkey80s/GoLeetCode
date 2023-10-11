@@ -124,6 +124,7 @@ My main focus is these tags: **Array, Hash Table, String**.
 | 1678 | [Goal Parser Interpretation](solutions/1678---Goal-Parser-Interpretation/solution1678.go)                                             | String | 🟢 Easy |
 | 1684 | [Count the Number of Consistent Strings](solutions/1684---Count-the-Number-of-Consistent-Strings/solution1684.go)                     | Array, Bit Manipulation, Hash Table, String | 🟢 Easy |
 | 1704 | [Determine if String Halves Are Alike](solutions/1704---Determine-if-String-Halves-Are-Alike/solution1704.go)                         | Counting, String | 🟢 Easy |
+| 1773 | [Count Items Matching a Rule](solutions/1773---Count-Items-Matching-a-Rule/solution1773.go)                                           | Array, String | 🟢 Easy |
 | 1796 | [Second Largest Digit in a String](solutions/1796---Second-Largest-Digit-in-a-String/solution1796.go)                                 | Hash Table, String | 🟢 Easy |
 | 1805 | [Number of Different Integers in a String](solutions/1805---Number-of-Different-Integers-in-a-String/solution1805.go)                 | Hash Table, String | 🟢 Easy |
 | 1832 | [Check if the Sentence Is Pangram](solutions/1832---Check-if-the-Sentence-is-Pangram/solution1832.go)                                 | Hash Table, String | 🟢 Easy |
