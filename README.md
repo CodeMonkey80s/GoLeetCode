@@ -129,6 +129,7 @@ My main focus is these tags: **Array, Hash Table, String**.
 | 1805 | [Number of Different Integers in a String](solutions/1805---Number-of-Different-Integers-in-a-String/solution1805.go)                 | Hash Table, String | 🟢 Easy |
 | 1816 | [Truncate Sentence](solutions/1816---Truncate-Sentence/solution1816.go)                                                               | Array, String | 🟢 Easy |
 | 1832 | [Check if the Sentence Is Pangram](solutions/1832---Check-if-the-Sentence-is-Pangram/solution1832.go)                                 | Hash Table, String | 🟢 Easy |
+| 1844 | [Replace All Digits with Characters](solutions/1844---Replace-All-Digits-with-Characters/solution1844.go)                             | String | 🟢 Easy |
 | 1876 | [Substrings of Size Three with Distinct Characters](solutions/1876--Substrings-of-Size-Three-with-Distinct-Characters/solution1876.go)   | Counting, Hash Table, Sliding Window, String | 🟢 Easy |
 | 1941 | [Check if All Characters Have Equal Number of Occurrences](solutions/1941---Check-if-All-Characters-Have-Equal-Number-of-Occurrences/solution1941.go)                                 | Counting, Hash Table, String | 🟢 Easy |
 | 2011 | [Final Value of Variable After Performing Operations](solutions/2011---Final-Value-of-Variable-After-Performing-Operations/solution2011.go) | Array, Simulation, String | 🟢 Easy |
