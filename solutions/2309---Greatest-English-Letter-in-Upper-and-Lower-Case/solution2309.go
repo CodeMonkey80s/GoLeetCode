@@ -12,27 +12,27 @@ package solution2309
 	goarch: amd64
 	pkg: GoLeetCode/solutions/2309---Greatest-English-Letter-in-Upper-and-Lower-Case
 	cpu: 13th Gen Intel(R) Core(TM) i7-13700K
-	Benchmark_greatestLetter-24    	46853886	        25.69 ns/op	       4 B/op	       1 allocs/op
+	Benchmark_greatestLetter-24    	54209395	        22.88 ns/op	       4 B/op	       1 allocs/op
 	PASS
 
 */
 
 func greatestLetter(s string) string {
 	var val byte
-	freqUp := make([]byte, 27)
-	freqDo := make([]byte, 27)
+	upper := [27]byte{}
+	lower := [27]byte{}
 	for _, letter := range s {
 		val = byte(letter)
 		if 'a' <= letter && letter <= 'z' {
 			val -= 'a'
-			freqDo[val]++
+			lower[val]++
 		} else if 'A' <= letter && letter <= 'Z' {
 			val -= 'A'
-			freqUp[val]++
+			upper[val]++
 		}
 	}
-	for i := len(freqDo) - 1; i >= 0; i-- {
-		if freqDo[i] >= 1 && freqUp[i] >= 1 {
+	for i := len(lower) - 1; i >= 0; i-- {
+		if lower[i] >= 1 && upper[i] >= 1 {
 			return string(byte(i) + 'A')
 		}
 	}
