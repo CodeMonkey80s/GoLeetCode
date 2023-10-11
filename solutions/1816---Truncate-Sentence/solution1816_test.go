@@ -45,3 +45,9 @@ func Benchmark_truncateSentence(b *testing.B) {
 		_ = truncateSentence(testCases[0].InputA, testCases[0].InputB)
 	}
 }
+
+func Benchmark_truncateSentence_strings(b *testing.B) {
+	for i := 0; i < b.N; i++ {
+		_ = truncateSentence_strings(testCases[0].InputA, testCases[0].InputB)
+	}
+}
