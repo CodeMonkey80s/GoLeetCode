@@ -1,5 +1,7 @@
 package solution2185
 
+import "strings"
+
 // ============================================================================
 // 2185. Counting Words With a Given Prefix
 // URL: https://leetcode.com/problems/counting-words-with-a-given-prefix/
@@ -24,6 +26,16 @@ func prefixCount(words []string, pref string) int {
 			continue
 		}
 		if pref == word[:len(pref)] {
+			ans++
+		}
+	}
+	return ans
+}
+
+func prefixCount_strings_index(words []string, pref string) int {
+	ans := 0
+	for _, word := range words {
+		if strings.Index(word, pref) != -1 {
 			ans++
 		}
 	}

@@ -40,3 +40,9 @@ func Benchmark_prefixCount(b *testing.B) {
 		_ = prefixCount(testCases[0].InputA, testCases[0].InputB)
 	}
 }
+
+func Benchmark_prefixCount_strings_index(b *testing.B) {
+	for i := 0; i < b.N; i++ {
+		_ = prefixCount_strings_index(testCases[0].InputA, testCases[0].InputB)
+	}
+}
