@@ -1,7 +1,5 @@
 package solution1880
 
-import "math"
-
 // ============================================================================
 // 1880. Check if Word Equals Summation of Two Words
 // URL: https://leetcode.com/problems/check-if-word-equals-summation-of-two-words/
@@ -20,19 +18,33 @@ import "math"
 */
 
 func isSumEqual(firstWord string, secondWord string, targetWord string) bool {
-	getVal := func(s string) int {
+	val := func(s string) int {
 		n := 0
-		step := 0
+		p := 1.0
 		for i := len(s) - 1; i >= 0; i-- {
-			p := math.Pow10(step)
+			p *= 10
 			v := float64(byte(s[i]) - 'a')
 			n += int(v * p)
-			step++
 		}
 		return n
 	}
-	v1 := getVal(firstWord)
-	v2 := getVal(secondWord)
-	v3 := getVal(targetWord)
-	return v1+v2 == v3
+	return val(firstWord)+val(secondWord) == val(targetWord)
+}
+
+func isSumEqual_array(firstWord string, secondWord string, targetWord string) bool {
+	p := [8]int{
+		1, 10, 100, 1_000, 10_000, 100_000, 1_000_000, 10_000_000,
+	}
+	n := 0
+	i := 0
+	v := 0
+	val := func(s string) int {
+		n = 0
+		for i = len(s) - 1; i >= 0; i-- {
+			v = int(byte(s[i]) - 'a')
+			n += v * p[i]
+		}
+		return n
+	}
+	return val(firstWord)+val(secondWord) == val(targetWord)
 }

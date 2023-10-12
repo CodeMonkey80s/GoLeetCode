@@ -49,3 +49,9 @@ func Benchmark_isSumEqual(b *testing.B) {
 		_ = isSumEqual(testCases[0].InputA, testCases[0].InputB, testCases[0].InputC)
 	}
 }
+
+func Benchmark_isSumEqual_array(b *testing.B) {
+	for i := 0; i < b.N; i++ {
+		_ = isSumEqual_array(testCases[0].InputA, testCases[0].InputB, testCases[0].InputC)
+	}
+}

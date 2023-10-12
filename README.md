@@ -111,6 +111,7 @@ My main focus is these tags: **Array, Hash Table, String**.
 | 1154 | [Day of the Year](solutions/1154---Day-of-the-Year/solution1154.go)                                                                   | Math, String | 🟢 Easy |
 | 1189 | [Maximum Number of Balloons](solutions/1189---Maximum-Number-of-Balloons/solution1189.go)                                             | Counting, Hash Table, String | 🟢 Easy |
 | 1207 | [Unique Number of Occurrences](solutions/1207---Unique-Number-of-Occurrences/solution1207.go)                                         | Array, Hash Table | 🟢 Easy |
+| 1221 | [Split a String in Balanced Strings](solutions/1221---Split-a-String-in-Balanced-Strings/solution1221.go)                             | Counting, Greedy, String | 🟢 Easy |
 | 1309 | [Decrypt String from Alphabet to Integer Mapping](solutions/1309---Decrypt-String-from-Alphabet-to-Integer-Mapping/solution1309.go)   | String | 🟢 Easy |
 | 1360 | [Number of Days Between Two Dates](solutions/1360---Number-of-Days-Between-Two-Dates/)                                                | Math, String | 🟢 Easy |
 | 1436 | [Destination City](solutions/1436---Destination-City/solution1436.go)                                                                 | Hash Table, String | 🟢 Easy |
