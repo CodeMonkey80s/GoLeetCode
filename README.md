@@ -147,6 +147,7 @@ My main focus is these tags: **Array, Hash Table, String**.
 | 2194 | [Cells in a Range on an Excel Sheet](solutions/2194---Cells-in-a-Range-on-an-Excell-Sheet/solution2194.go)                            | String | 🟢 Easy |
 | 2283 | [Check if Number Has Equal Digit Count and Digit Value](solutions/2283---Check-if-Number-Has-Equal-Digit-Count-and-Digit-Value/solution2283.go) | Counting, Hash Table, String | 🟢 Easy |
 | 2309 | [Greatest English Letter in Upper and Lower Case](solutions/2309---Greatest-English-Letter-in-Upper-and-Lower-Case/solution2309.go)   | Enumeration, Hash Table, String | 🟢 Easy |
+| 2315 | [Count Asterisks](solutions/2315---Count-Asterisks/solution2315.go)                                                                   | String | 🟢 Easy |
 | 2325 | [Decode the Message](solutions/2325---Decode-the-Message/solution2325.go)                                                             | Hash Table, String | 🟢 Easy |
 | 2418 | [Sort the People](solutions/2418---Sort-the-People/solution2418.go)                                                                   | Array, Hash Table, Sorting, String | 🟢 Easy |
 | 2446 | [Determine if Two Events Have Conflict](solutions/2446---Determine-if-Two-Events-Have-Conflict/solution2446.go)                       | Array, String | 🟢 Easy |
