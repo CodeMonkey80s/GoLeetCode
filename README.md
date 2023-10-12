@@ -116,6 +116,7 @@ My main focus is these tags: **Array, Hash Table, String**.
 | 1455 | [Check If a Word Occurs As a Prefix](solutions/1455---Check-If-a-Word-Occurs-As-a-Prefix-of-Any-Word-in-a-Sentence/solution1455.go)   | String Manipulation, String | 🟢 Easy |
 | 1496 | [Path Crossing](solutions/1496---Path-Crossing/solution1496.go)                                                                       | Hash Table, String | 🟢 Easy |
 | 1507 | [Reformat Date](solutions/1507---Reformat-Date/solution1507.go)                                                                       | String | 🟢 Easy |
+| 1512 | [Number of Good Pairs](solutions/1512---Number-of-Good-Pairs/solution1512.go)                                                         | Array, Counting, Hash Table, Math | 🟢 Easy |
 | 1528 | [Shuffle String](solutions/1528---Shuffle-String/solution1528.go)                                                                     | Array, String | 🟢 Easy |
 | 1556 | [Thousand Separator](solutions/1556---Thousand-Separator/solution1556.go)                                                             | String | 🟢 Easy |
 | 1592 | [Rearrange Spaces Between Words](solutions/1592---Rearrange-Spaces-Between-Words/solution1592.go)                                     | String | 🟢 Easy |
