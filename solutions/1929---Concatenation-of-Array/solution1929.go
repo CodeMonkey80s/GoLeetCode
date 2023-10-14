@@ -23,5 +23,4 @@ func getConcatenation(nums []int) []int {
 		ans[len(nums)+i] = nums[i]
 	}
 	return ans
-
 }
