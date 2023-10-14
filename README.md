@@ -126,6 +126,7 @@ My main focus is these tags: **Array, Hash Table, String**.
 | 1592 | [Rearrange Spaces Between Words](solutions/1592---Rearrange-Spaces-Between-Words/solution1592.go)                                     | String | 🟢 Easy |
 | 1624 | [Largest Substring Between Two Equal Characters](solutions/1624---Largest-Substring-Between-Two-Equal-Characters/solution1624.go)     | Hash Table, String | 🟢 Easy |
 | 1662 | [Check If Two String Arrays are Equivalent](solutions/1662---Check-If-Two-String-Arrays-are-Equivalent/solution1662.go)               | Array, String | 🟢 Easy |
+| 1670 | [Richest Customer Wealth](solutions/1670---Richest-Customer-Wealth/solution1670.go)                                                   | Array, Matrix | 🟢 Easy |
 | 1678 | [Goal Parser Interpretation](solutions/1678---Goal-Parser-Interpretation/solution1678.go)                                             | String | 🟢 Easy |
 | 1684 | [Count the Number of Consistent Strings](solutions/1684---Count-the-Number-of-Consistent-Strings/solution1684.go)                     | Array, Bit Manipulation, Hash Table, String | 🟢 Easy |
 | 1704 | [Determine if String Halves Are Alike](solutions/1704---Determine-if-String-Halves-Are-Alike/solution1704.go)                         | Counting, String | 🟢 Easy |
