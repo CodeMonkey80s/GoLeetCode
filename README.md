@@ -119,6 +119,7 @@ My main focus is these tags: **Array, Hash Table, String**.
 | 1436 | [Destination City](solutions/1436---Destination-City/solution1436.go)                                                                 | Hash Table, String | 🟢 Easy |
 | 1455 | [Check If a Word Occurs As a Prefix](solutions/1455---Check-If-a-Word-Occurs-As-a-Prefix-of-Any-Word-in-a-Sentence/solution1455.go)   | String Manipulation, String | 🟢 Easy |
 | 1470 | [Shuffle the Array](solutions/1470---Shuffle-the-Array/solution1470.go)                                                               | Array | 🟢 Easy |
+| 1480 | [Running Sum of 1d Array](solutions/1480---Running-Sum-of-1d-Array/solution1480.go)                                                   | Array, Prefix Sum | 🟢 Easy |
 | 1496 | [Path Crossing](solutions/1496---Path-Crossing/solution1496.go)                                                                       | Hash Table, String | 🟢 Easy |
 | 1507 | [Reformat Date](solutions/1507---Reformat-Date/solution1507.go)                                                                       | String | 🟢 Easy |
 | 1512 | [Number of Good Pairs](solutions/1512---Number-of-Good-Pairs/solution1512.go)                                                         | Array, Counting, Hash Table, Math | 🟢 Easy |
