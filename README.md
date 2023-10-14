@@ -167,6 +167,7 @@ My main focus is these tags: **Array, Hash Table, String**.
 | 2788 | [Split Strings by Separator](solutions/2788---Split-Strings-by-Separator/solution2788.go)                                             | Array, String | 🟢 Easy |
 | 2798 | [Number of Employees Who Met the Target](solutions/2798---Number-of-Employees-Who-Met-the-Target/solution2798.go)                     | Array, Enumeration | 🟢 Easy |
 | 2810 | [Faulty Keyboard](solutions/2810---Faulty-Keyboard/solution2810.go)                                                                   | Simulation, String | 🟢 Easy |
+| 2824 | [Count Pairs Whose Sum is Less than Target](solutions/2824---Count-Pairs-Whose-Sum-is-Less-than-Target/solution2824.go)               | Array, Sorting, Two Pointers | 🟢 Easy |
 | 2828 | [Check if a String Is an Acronym of Words](solutions/2828---Check-if-a-String-is-an-Acronym-of-Words/solution2828.go)                 | Array, String | 🟢 Easy |
 | 2864 | [Maximum Odd Binary Number](solutions/2864---Maximum-Odd-Binary-Number/solution2864.go)                                               | Greedy, Math, String | 🟢 Easy |
 
