@@ -56,7 +56,7 @@ My main focus is these tags: **Array, Hash Table, String**.
 | 190  | [Reverse Bits](solutions/190---Reverse-Bits/solution190.go)                                                                           | Bit Manipulation, Divide and Conquer | 🟢 Easy |
 | 191  | [Number of 1 Bits](solutions/191---Number-of-1-Bits/solution191.go)                                                                   | Bit Manipulation, Divide and Conquer | 🟢 Easy |
 | 198  | [House Robber](solutions/198---House-Robber/solution198.go)                                                                           | Array, Dynamic Programming | 🟡 Medium |
-| 205  | [Isomprphic Strings](solutions/205---Isomorphic-Strings/solution205.go)                                                               | Hash Table, String | 🟢 Easy |
+| 205  | [Isomorphic Strings](solutions/205---Isomorphic-Strings/solution205.go)                                                               | Hash Table, String | 🟢 Easy |
 | 206  | [Reverse Linked List](solutions/206---Reverse-Linked-List/solution206.go)                                                             | Linked List, Recursion | 🟢 Easy |
 | 217  | [Contains Duplicate](solutions/217---Contains-Duplicate/solution217.go)                                                               | Array, Hash Table, Sorting | 🟢 Easy |
 | 242  | [Valid Anagram](solutions/242---Valid-Anagram/solution242.go)                                                                         | Hash Table, Sorting, String | 🟢 Easy |
@@ -113,7 +113,8 @@ My main focus is these tags: **Array, Hash Table, String**.
 | 1207 | [Unique Number of Occurrences](solutions/1207---Unique-Number-of-Occurrences/solution1207.go)                                         | Array, Hash Table | 🟢 Easy |
 | 1221 | [Split a String in Balanced Strings](solutions/1221---Split-a-String-in-Balanced-Strings/solution1221.go)                             | Counting, Greedy, String | 🟢 Easy |
 | 1309 | [Decrypt String from Alphabet to Integer Mapping](solutions/1309---Decrypt-String-from-Alphabet-to-Integer-Mapping/solution1309.go)   | String | 🟢 Easy |
-| 1360 | [Number of Days Between Two Dates](solutions/1360---Number-of-Days-Between-Two-Dates/)                                                | Math, String | 🟢 Easy |
+| 1360 | [Number of Days Between Two Dates](solutions/1360---Number-of-Days-Between-Two-Dates/solution1360.go)                                 | Math, String | 🟢 Easy |
+| 1389 | [Create Target Array in the Given Order](solutions/1389---Create-Target-Array-in-the-Given-Order/solution1389.go)                     | Array, Simulation | 🟢 Easy |
 | 1436 | [Destination City](solutions/1436---Destination-City/solution1436.go)                                                                 | Hash Table, String | 🟢 Easy |
 | 1455 | [Check If a Word Occurs As a Prefix](solutions/1455---Check-If-a-Word-Occurs-As-a-Prefix-of-Any-Word-in-a-Sentence/solution1455.go)   | String Manipulation, String | 🟢 Easy |
 | 1496 | [Path Crossing](solutions/1496---Path-Crossing/solution1496.go)                                                                       | Hash Table, String | 🟢 Easy |
