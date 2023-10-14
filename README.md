@@ -117,6 +117,7 @@ My main focus is these tags: **Array, Hash Table, String**.
 | 1389 | [Create Target Array in the Given Order](solutions/1389---Create-Target-Array-in-the-Given-Order/solution1389.go)                     | Array, Simulation | 🟢 Easy |
 | 1436 | [Destination City](solutions/1436---Destination-City/solution1436.go)                                                                 | Hash Table, String | 🟢 Easy |
 | 1455 | [Check If a Word Occurs As a Prefix](solutions/1455---Check-If-a-Word-Occurs-As-a-Prefix-of-Any-Word-in-a-Sentence/solution1455.go)   | String Manipulation, String | 🟢 Easy |
+| 1470 | [Shuffle the Array](solutions/1470---Shuffle-the-Array/solution1470.go)                                                               | Array | 🟢 Easy |
 | 1496 | [Path Crossing](solutions/1496---Path-Crossing/solution1496.go)                                                                       | Hash Table, String | 🟢 Easy |
 | 1507 | [Reformat Date](solutions/1507---Reformat-Date/solution1507.go)                                                                       | String | 🟢 Easy |
 | 1512 | [Number of Good Pairs](solutions/1512---Number-of-Good-Pairs/solution1512.go)                                                         | Array, Counting, Hash Table, Math | 🟢 Easy |
