@@ -166,6 +166,7 @@ My main focus is these tags: **Array, Hash Table, String**.
 | 2696 | [Minimum String Length After Removing Substrings](solutions/2696---Minimum-String-Length-After-Removing-Substrings/solution2696.go)   | Simulation, Stack, String | 🟢 Easy |
 | 2716 | [Minimize String Length](solutions/2716---Minimize-String-Length/solution2716.go)                                                     | Hash Table, String | 🟢 Easy |
 | 2744 | [Find Maximum Number of String Pairs](solutions/2744---Find-Maximum-Number-of-String-Pairs/solution2744.go)                           | Array, Hash Table, Simulation, String | 🟢 Easy |
+| 2778 | [Sum of Squares of Special Elements](solutions/2778---Sum-of-Squares-of-Special-Elements/solution2778.go)                             | Array, Simulation | 🟢 Easy |
 | 2788 | [Split Strings by Separator](solutions/2788---Split-Strings-by-Separator/solution2788.go)                                             | Array, String | 🟢 Easy |
 | 2798 | [Number of Employees Who Met the Target](solutions/2798---Number-of-Employees-Who-Met-the-Target/solution2798.go)                     | Array, Enumeration | 🟢 Easy |
 | 2810 | [Faulty Keyboard](solutions/2810---Faulty-Keyboard/solution2810.go)                                                                   | Simulation, String | 🟢 Easy |
