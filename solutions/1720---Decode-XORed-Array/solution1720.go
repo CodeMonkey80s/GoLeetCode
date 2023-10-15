@@ -1,5 +1,10 @@
 package solution1720
 
+// ============================================================================
+// 1720. Decode XORed Array
+// URL: https://leetcode.com/problems/decode-xored-array/
+// ============================================================================
+
 /*
 
 	$ go test -bench=. -benchmem
