@@ -150,6 +150,7 @@ My main focus is these tags: **Array, Hash Table, String**.
 | 1929 | [Concatenation of Array](solutions/1929---Concatenation-of-Array/solution1929.go)                                                     | Array | 🟢 Easy |
 | 1941 | [Check if All Characters Have Equal Number of Occurrences](solutions/1941---Check-if-All-Characters-Have-Equal-Number-of-Occurrences/solution1941.go)                                 | Counting, Hash Table, String | 🟢 Easy |
 | 2000 | [Reverse Prefix of Word](solutions/2000---Reverse-Prefix-of-Word/solution2000.go)                                                     | String, Two Pointers | 🟢 Easy |
+| 2006 | [Count Number of Pairs With Absolute Difference K](solutions/2006---Count-Number-of-Pairs-with-Absolute-Difference-K/solution2006.go) | Array, Hash Table, Counting, | 🟢 Easy |
 | 2011 | [Final Value of Variable After Performing Operations](solutions/2011---Final-Value-of-Variable-After-Performing-Operations/solution2011.go) | Array, Simulation, String | 🟢 Easy |
 | 2085 | [Count Common Words With One Occurrence](solutions/2085---Count-Common-Words-With-One-Occurrence/solution2085.go)                     | Array, Counting, Hash Table, String | 🟢 Easy |
 | 2103 | [Rings and Rods](solutions/2103---Rigns-and-Rods/solution2103.go)                                                                     | Hash Table, String | 🟢 Easy |
