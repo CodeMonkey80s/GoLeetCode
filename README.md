@@ -114,6 +114,7 @@ My main focus is these tags: **Array, Hash Table, String**.
 | 1221 | [Split a String in Balanced Strings](solutions/1221---Split-a-String-in-Balanced-Strings/solution1221.go)                             | Counting, Greedy, String | 🟢 Easy |
 | 1309 | [Decrypt String from Alphabet to Integer Mapping](solutions/1309---Decrypt-String-from-Alphabet-to-Integer-Mapping/solution1309.go)   | String | 🟢 Easy |
 | 1360 | [Number of Days Between Two Dates](solutions/1360---Number-of-Days-Between-Two-Dates/solution1360.go)                                 | Math, String | 🟢 Easy |
+| 1365 | [How Many Numbers Are Smaller Than the Current Number](solutions/1365---How-Many-Numbers-Are-Smaller-Than-the-Current-Number/solution1365.go) | Array, Counting, Hash Table, Sorting | 🟢 Easy |
 | 1389 | [Create Target Array in the Given Order](solutions/1389---Create-Target-Array-in-the-Given-Order/solution1389.go)                     | Array, Simulation | 🟢 Easy |
 | 1431 | [Kids With the Greatest Number of Candies](solutions/1431---Kids-with-the-Greatest-Number-of-Candies/solution1431.go)                 | Array | 🟢 Easy |
 | 1436 | [Destination City](solutions/1436---Destination-City/solution1436.go)                                                                 | Hash Table, String | 🟢 Easy |
