@@ -19,9 +19,9 @@ package solution2778
 
 func sumOfSquares(nums []int) int {
 	ans := 0
-	for i := 0; i < len(nums); i++ {
+	for i, num := range nums {
 		if len(nums)%(i+1) == 0 {
-			ans += nums[i] * nums[i]
+			ans += num * num
 		}
 	}
 	return ans
