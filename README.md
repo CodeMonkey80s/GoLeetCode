@@ -165,6 +165,7 @@ My main focus is these tags: **Array, Hash Table, String**.
 | 2446 | [Determine if Two Events Have Conflict](solutions/2446---Determine-if-Two-Events-Have-Conflict/solution2446.go)                       | Array, String | 🟢 Easy |
 | 2451 | [Odd String Difference](solutions/2451---Odd-String-Difference/solution2451.go)                       | Array, Hash Table, String | 🟢 Easy |
 | 2496 | [Maximum Value of a String in an Array](solutions/2496---Maximum-Value-of-a-String-in-an-Array/solution2496.go)                       | Array, String | 🟢 Easy |
+| 2553 | [Separate the Digits in an Array](solutions/2553---Separate-the-Digits-in-an-Array/solution2553.go)                                   | Array, Simulation | 🟢 Easy |
 | 2574 | [Left and Right Sum Differences](solutions/2574---Left-and-Right-Sum-Differences/solution2574.go)             | Array, Prefix Sum | 🟢 Easy |
 | 2586 | [Count the Number of Vowel Strings in Range](solutions/2586---Count-the-Number-of-Vowel-Strings-in-Range/solution2586.go)             | Array, String | 🟢 Easy |
 | 2656 | [Maximum Sum With Exactly K Elements](solutions/2656---Maximum-Sum-With-Exactly-K-Elements/solution2656.go)                           | Array, Greedy | 🟢 Easy |
