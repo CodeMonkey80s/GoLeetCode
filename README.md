@@ -176,6 +176,7 @@ My main focus is these tags: **Array, Hash Table, String**.
 | 2810 | [Faulty Keyboard](solutions/2810---Faulty-Keyboard/solution2810.go)                                                                   | Simulation, String | 🟢 Easy |
 | 2824 | [Count Pairs Whose Sum is Less than Target](solutions/2824---Count-Pairs-Whose-Sum-is-Less-than-Target/solution2824.go)               | Array, Sorting, Two Pointers | 🟢 Easy |
 | 2828 | [Check if a String Is an Acronym of Words](solutions/2828---Check-if-a-String-is-an-Acronym-of-Words/solution2828.go)                 | Array, String | 🟢 Easy |
+| 2848 | [Points That Intersect With Cars](solutions/2848---Points-That-Intersect-With-Cars/solution2848.go)                                   | Hash Table, Math, Prefix Sum | 🟢 Easy |
 | 2859 | [Sum of Values at Indices With K Set Bits](solutions/2859---Sum-of-Values-at-Indices-With-K-Set-Bits/solution2859.go)                 | Array, Bit Manipulation | 🟢 Easy |
 | 2864 | [Maximum Odd Binary Number](solutions/2864---Maximum-Odd-Binary-Number/solution2864.go)                                               | Greedy, Math, String | 🟢 Easy |
 

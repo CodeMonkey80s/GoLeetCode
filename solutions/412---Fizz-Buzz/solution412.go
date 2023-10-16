@@ -8,7 +8,7 @@ import "strconv"
 // ============================================================================
 
 func fizzBuzz(n int) []string {
-	sl := []string{}
+	sl := make([]string, 0)
 	var i int
 	var s string
 	for j := 0; j < n; j++ {
