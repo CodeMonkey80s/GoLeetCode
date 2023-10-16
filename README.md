@@ -106,6 +106,7 @@ My main focus is these tags: **Array, Hash Table, String**.
 | 944  | [Delete Columns to Make Sorted](solutions/944---Delete-Columns-to-Make-Sorted/solution944.go)                                         | Array, String | 🟢 Easy |
 | 1002 | [Find Common Characters](solutions/1002---Find-Common-Characters/solution1002.go)                                                     | Array, Hash Table, String | 🟢 Easy |
 | 1047 | [Remove All Adjacent Duplicates In String](solutions/1047---Remove-All-Adjacent-Duplicates-In-String/solution1047.go)                 | Stack, String | 🟢 Easy |
+| 1051 | [Height Checker](solutions/1051---Height-Checker/solution1051.go)                                                                     | Array, Counting Sort, Sorting | 🟢 Easy |
 | 1078 | [Occurrences After Bigram](solutions/1078---Occurrences-After-Bigram/solution1078.go)                                                 | String | 🟢 Easy |
 | 1108 | [Defanging an IP Address](solutions/1108---Defanging-an-IP-Address/solution1108.go)                                                   | String | 🟢 Easy |
 | 1154 | [Day of the Year](solutions/1154---Day-of-the-Year/solution1154.go)                                                                   | Math, String | 🟢 Easy |
