@@ -13,6 +13,11 @@ To solve these problems I use functions from [Golang Standard Library](https://p
 
 My main focus is these tags: **Array, Hash Table, String**.
 
+
+# Tips & Tricks
+
+Read [this document](https://github.com/CodeMonkey80s/GoLeetCode/blob/main/tips-and-tricks.md) for all tips and tricks that are useful for solving these problems.
+
 <p align="left">
     <a href="https://github.com/CodeMonkey80s/GoLeetCode/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue.svg"></a>
 </p>
