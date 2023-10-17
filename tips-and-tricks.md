@@ -112,10 +112,22 @@ n |= (1 << pos)
 
 // Check if the bit at position "pos" is set in number "n"
 val := n & (1 << pos)
-
 ```
 
 Above snippets were taken from this answer at [Stack Overflow](https://stackoverflow.com/a/23192263/1449403).
+
+## Conversion between a digit and a character
+
+``` 
+num1 := '9'
+val := byte(num1) - '0'
+fmt.Printf("%d", val)
+// Output: 9
+
+num2 = byte(val) + '0'
+fmt.Printf("%q", num2)
+// Output: '9'
+```
 
 ## Package "math/bits"
 
