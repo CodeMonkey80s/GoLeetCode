@@ -12,7 +12,7 @@ package solution1812
 	goarch: amd64
 	pkg: GoLeetCode/solutions/1812---Determine-Color-of-a-Chessboard-Square
 	cpu: 13th Gen Intel(R) Core(TM) i7-13700K
-	Benchmark_squareIsWhite-24    	1000000000	         0.5246 ns/op	       0 B/op	       0 allocs/op
+	Benchmark_squareIsWhite-24    	1000000000	         0.3784 ns/op	       0 B/op	       0 allocs/op
 	PASS
 
 */
@@ -28,9 +28,5 @@ func squareIsWhite(coordinates string) bool {
 	} else {
 		row = r1
 	}
-	val := row & (1 << (8 - x))
-	if val > 0 {
-		return true
-	}
-	return false
+	return row&(1<<(8-x)) > 0
 }

@@ -17,7 +17,7 @@ import (
 	goarch: amd64
 	pkg: GoLeetCode/solutions/1859---Sorting-the-Sentence
 	cpu: 13th Gen Intel(R) Core(TM) i7-13700K
-	Benchmark_sortSentence-24    	 4906712	       269.0 ns/op	     256 B/op	       7 allocs/op
+	Benchmark_sortSentence-24    	 6317894	       197.8 ns/op	     208 B/op	       5 allocs/op
 	PASS
 
 */
@@ -25,9 +25,7 @@ import (
 func sortSentence(s string) string {
 	words := strings.Fields(s)
 	ans := make([]string, 0)
-	for _, word := range words {
-		ans = append(ans, word)
-	}
+	ans = append(ans, words...)
 	sort.Slice(ans, func(i, j int) bool {
 		return ans[i][len(ans[i])-1] < ans[j][len(ans[j])-1]
 	})
