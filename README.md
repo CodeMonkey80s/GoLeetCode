@@ -108,6 +108,7 @@ My main focus is these tags: **Array, Hash Table, String**.
 | 1047 | [Remove All Adjacent Duplicates In String](solutions/1047---Remove-All-Adjacent-Duplicates-In-String/solution1047.go)                 | Stack, String | 🟢 Easy |
 | 1051 | [Height Checker](solutions/1051---Height-Checker/solution1051.go)                                                                     | Array, Counting Sort, Sorting | 🟢 Easy |
 | 1078 | [Occurrences After Bigram](solutions/1078---Occurrences-After-Bigram/solution1078.go)                                                 | String | 🟢 Easy |
+| 1089 | [Duplicate Zeros](solutions/1089---Duplicate-Zeros/solution1089.go)                                                                   | Array, Two Pointers | 🟢 Easy |
 | 1108 | [Defanging an IP Address](solutions/1108---Defanging-an-IP-Address/solution1108.go)                                                   | String | 🟢 Easy |
 | 1154 | [Day of the Year](solutions/1154---Day-of-the-Year/solution1154.go)                                                                   | Math, String | 🟢 Easy |
 | 1189 | [Maximum Number of Balloons](solutions/1189---Maximum-Number-of-Balloons/solution1189.go)                                             | Counting, Hash Table, String | 🟢 Easy |
