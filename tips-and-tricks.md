@@ -67,7 +67,7 @@ if ok {
 
 We can initialize variables using multiple notations: decimal, binary, hexadecimal or octal.
 
-```
+```go
 // Initialize variable using binary notation (prefix "0b_")
 n := 0b_1001
 
@@ -82,7 +82,7 @@ Go has multiple build-in bit operators: AND, OR, XOR, NOT, AND NOT
 
 [Reference](https://yourbasic.org/golang/bitwise-operator-cheat-sheet/)
 
-```
+```go
 0011  & 0101     0001        AND
 0011  | 0101     0111        OR
 0011  ^ 0101     0110        XOR
@@ -92,7 +92,7 @@ Go has multiple build-in bit operators: AND, OR, XOR, NOT, AND NOT
 
 We can shift bits left and right:
 
-```
+```go
 00110101 << 2    11010100    Left shift
 00110101 << 100  00000000    No upper limit on shift count 
 00110101 >> 2    00001101    Right shift 
@@ -100,7 +100,7 @@ We can shift bits left and right:
 
 We can manipulate individual bits:
 
-```
+```go
 // Initialize variable of type uint
 n := uint(0)
 
@@ -118,7 +118,7 @@ Above snippets were taken from this answer at [Stack Overflow](https://stackover
 
 ## Conversion between a digit and a character
 
-``` 
+```go
 num1 := '9'
 val := byte(num1) - '0'
 fmt.Printf("%d", val)
@@ -129,6 +129,8 @@ fmt.Printf("%q", num2)
 // Output: '9'
 ```
 
+More complicated conversions are made with "strconv" package (see below).
+
 ## Package "math/bits"
 
 [Package Documentation](https://pkg.go.dev/math/bits)
@@ -137,7 +139,7 @@ Package bits implements bit counting and manipulation functions for the predecla
 
 Functions in this package may be implemented directly by the compiler, for better performance. For those functions the code in this package will not be used. Which functions are implemented by the compiler depends on the architecture and the Go release.
 
-``` 
+```go
 i := 0xf00
 
 // OnesCount returns the number of one bits ("population count") in "i".
@@ -150,7 +152,7 @@ v := bits.OnesCount(uint(i))
 
 Package sort provides primitives for sorting slices and user-defined collections.
 
-``` 
+```go
 sl := []int{3, 5, 6}
 
 // Ints sorts a slice of ints in increasing order.
@@ -169,7 +171,7 @@ sort.Slice(sl, func(i, j int) bool {
 
 Package strings implements simple functions to manipulate UTF-8 encoded strings.
 
-``` 
+```go
 // Contains reports whether substr is within s.
 ok := strings.Contains("seafood", "foo")
 
@@ -186,7 +188,7 @@ words := strings.Fields(str)
 
 Package strconv implements conversions to and from string representations of basic data types.
 
-``` 
+```go
 // Ascii to integer conversion
 i, err := strconv.Atoi("-42")
 
@@ -198,7 +200,7 @@ s := strconv.Itoa(-42)
 
 Package time provides functionality for measuring and displaying time.
 
-``` 
+```go
 // Parse parses a formatted string and returns the time value it represents.
 t, err := time.Parse(time.RFC3339, "2006-01-02T15:04:05Z")
 ```
