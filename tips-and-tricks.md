@@ -198,6 +198,8 @@ s := strconv.Itoa(-42)
 
 ## Package "time"
 
+[Package Documentation](https://pkg.go.dev/time)
+
 Package time provides functionality for measuring and displaying time.
 
 ```go
