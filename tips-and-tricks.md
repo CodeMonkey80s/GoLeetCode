@@ -2,7 +2,7 @@
 
 ## Arrays, Slices, Two Pointers, Iterations
 
-```
+```go
 // Create an array of 4 integers
 arr := [4]int{1, 2, 3, 4}
 
@@ -41,7 +41,7 @@ sl = append(sl, 5)
 
 ## Map (Hash Table)
 
-```
+```go
 // Create a hash map of key of type "string", and value of type "int"
 freq := make(map[string]int)
 
