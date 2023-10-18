@@ -43,3 +43,9 @@ func Benchmark_vowelStrings(b *testing.B) {
 		_ = vowelStrings(testCases[0].InputA, testCases[0].InputB, testCases[0].InputC)
 	}
 }
+
+func Benchmark_vowelStrings_bitmask(b *testing.B) {
+	for i := 0; i < b.N; i++ {
+		_ = vowelStrings_bitmask(testCases[0].InputA, testCases[0].InputB, testCases[0].InputC)
+	}
+}

@@ -37,3 +37,14 @@ func vowelStrings(words []string, left int, right int) int {
 	}
 	return ans
 }
+
+func vowelStrings_bitmask(words []string, left int, right int) int {
+	ans := 0
+	vowels := 0b_100000100000100010001
+	for i := left; i <= right; i++ {
+		if vowels&(1<<(words[i][0]-'a')) > 0 && vowels&(1<<(words[i][len(words[i])-1]-'a')) > 0 {
+			ans++
+		}
+	}
+	return ans
+}
