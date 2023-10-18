@@ -13,7 +13,6 @@ To solve these problems I use functions from [Golang Standard Library](https://p
 
 My main focus is these tags: **Array, Hash Table, String**.
 
-
 # Tips & Tricks
 
 Read [this document](https://github.com/CodeMonkey80s/GoLeetCode/blob/main/tips-and-tricks.md) for all tips and tricks that are useful for solving these problems.
@@ -137,6 +136,7 @@ Read [this document](https://github.com/CodeMonkey80s/GoLeetCode/blob/main/tips-
 | 1528 | [Shuffle String](solutions/1528---Shuffle-String/solution1528.go)                                                                     | Array, String | 🟢 Easy |
 | 1556 | [Thousand Separator](solutions/1556---Thousand-Separator/solution1556.go)                                                             | String | 🟢 Easy |
 | 1592 | [Rearrange Spaces Between Words](solutions/1592---Rearrange-Spaces-Between-Words/solution1592.go)                                     | String | 🟢 Easy |
+| 1614 | [Maximum Nesting Depth of the Parentheses](solutions/1614---Maximum-Nesting-Depth-of-the-Parentheses/solution1614.go)                 | Stack, String | 🟢 Easy |
 | 1624 | [Largest Substring Between Two Equal Characters](solutions/1624---Largest-Substring-Between-Two-Equal-Characters/solution1624.go)     | Hash Table, String | 🟢 Easy |
 | 1662 | [Check If Two String Arrays are Equivalent](solutions/1662---Check-If-Two-String-Arrays-are-Equivalent/solution1662.go)               | Array, String | 🟢 Easy |
 | 1670 | [Richest Customer Wealth](solutions/1670---Richest-Customer-Wealth/solution1670.go)                                                   | Array, Matrix | 🟢 Easy |
