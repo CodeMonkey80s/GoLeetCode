@@ -16,12 +16,27 @@ import (
 	goarch: amd64
 	pkg: GoLeetCode/solutions/2595---Number-of-Even-and-Odd-Bits
 	cpu: 13th Gen Intel(R) Core(TM) i7-13700K
-	Benchmark_evenOddBit-24    	45287874	        33.40 ns/op	      21 B/op	       2 allocs/op
+	Benchmark_evenOddBit-24                   	71339138	        16.52 ns/op	       0 B/op	       0 allocs/op
+	Benchmark_evenOddBit_first_approach-24    	41538038	        32.68 ns/op	      21 B/op	       2 allocs/op
 	PASS
 
 */
 
 func evenOddBit(n int) []int {
+	ans := []int{0, 0}
+	for i := 32; i >= 0; i-- {
+		if val := n & (1 << i); val > 0 {
+			if i%2 == 0 {
+				ans[0]++
+			} else {
+				ans[1]++
+			}
+		}
+	}
+	return ans
+}
+
+func evenOddBit_first_approach(n int) []int {
 	ans := make([]int, 2)
 	s := strconv.FormatInt(int64(n), 2)
 	for i := len(s) - 1; i >= 0; i-- {

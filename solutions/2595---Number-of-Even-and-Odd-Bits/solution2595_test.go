@@ -42,3 +42,9 @@ func Benchmark_evenOddBit(b *testing.B) {
 		_ = evenOddBit(testCases[0].Input)
 	}
 }
+
+func Benchmark_evenOddBit_first_approach(b *testing.B) {
+	for i := 0; i < b.N; i++ {
+		_ = evenOddBit_first_approach(testCases[0].Input)
+	}
+}
