@@ -5,6 +5,18 @@ package solution268
 // URL: https://leetcode.com/problems/missing-number/
 // ============================================================================
 
+/*
+
+	$ go test -bench=. -benchmem
+	goos: linux
+	goarch: amd64
+	pkg: GoLeetCode/solutions/268---Missing-Number
+	cpu: 13th Gen Intel(R) Core(TM) i7-13700K
+	Benchmark_missingNumber-24    	904036344	         1.326 ns/op	       0 B/op	       0 allocs/op
+	PASS
+
+*/
+
 func missingNumber(nums []int) int {
 	s1, s2 := 0, 0
 	size := len(nums)
