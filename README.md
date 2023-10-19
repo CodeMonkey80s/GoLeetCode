@@ -176,6 +176,7 @@ Read [this document](https://github.com/CodeMonkey80s/GoLeetCode/blob/main/tips-
 | 2553 | [Separate the Digits in an Array](solutions/2553---Separate-the-Digits-in-an-Array/solution2553.go)                                   | Array, Simulation | 🟢 Easy |
 | 2574 | [Left and Right Sum Differences](solutions/2574---Left-and-Right-Sum-Differences/solution2574.go)             | Array, Prefix Sum | 🟢 Easy |
 | 2586 | [Count the Number of Vowel Strings in Range](solutions/2586---Count-the-Number-of-Vowel-Strings-in-Range/solution2586.go)             | Array, String | 🟢 Easy |
+| 2595 | [Number of Even and Odd Bits](solutions/2595---Number-of-Even-and-Odd-Bits/solution2595.go)                                           | Bit Manipulation | 🟢 Easy |
 | 2656 | [Maximum Sum With Exactly K Elements](solutions/2656---Maximum-Sum-With-Exactly-K-Elements/solution2656.go)                           | Array, Greedy | 🟢 Easy |
 | 2696 | [Minimum String Length After Removing Substrings](solutions/2696---Minimum-String-Length-After-Removing-Substrings/solution2696.go)   | Simulation, Stack, String | 🟢 Easy |
 | 2716 | [Minimize String Length](solutions/2716---Minimize-String-Length/solution2716.go)                                                     | Hash Table, String | 🟢 Easy |
