@@ -144,6 +144,7 @@ Read [this document](https://github.com/CodeMonkey80s/GoLeetCode/blob/main/tips-
 | 1684 | [Count the Number of Consistent Strings](solutions/1684---Count-the-Number-of-Consistent-Strings/solution1684.go)                     | Array, Bit Manipulation, Hash Table, String | 🟢 Easy |
 | 1704 | [Determine if String Halves Are Alike](solutions/1704---Determine-if-String-Halves-Are-Alike/solution1704.go)                         | Counting, String | 🟢 Easy |
 | 1720 | [Decode XORed Array](solutions/1720---Decode-XORed-Array/solution1720.go)                                                             | Array, Bit Manipulation | 🟢 Easy |
+| 1742 | [Maximum Number of Balls in a Box](solutions/1742---Maximum-Number-of-Balls-in-a-Box/solution1742.go)                                 | Counting, Hash Table, Math | 🟢 Easy |
 | 1773 | [Count Items Matching a Rule](solutions/1773---Count-Items-Matching-a-Rule/solution1773.go)                                           | Array, String | 🟢 Easy |
 | 1796 | [Second Largest Digit in a String](solutions/1796---Second-Largest-Digit-in-a-String/solution1796.go)                                 | Hash Table, String | 🟢 Easy |
 | 1805 | [Number of Different Integers in a String](solutions/1805---Number-of-Different-Integers-in-a-String/solution1805.go)                 | Hash Table, String | 🟢 Easy |

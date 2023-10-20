@@ -131,6 +131,19 @@ fmt.Printf("%q", num2)
 
 More complicated conversions are made with "strconv" package (see below).
 
+Howto: count sum of all digits of a number:
+
+```go
+func sumOfDigits(num int) int {
+    sum := 0
+    for num>0 {
+        sum += num % 10
+        num /= 10
+    }
+    return sum
+}
+```
+
 ## Package "math/bits"
 
 [Package Documentation](https://pkg.go.dev/math/bits)
