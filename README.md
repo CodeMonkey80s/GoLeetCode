@@ -125,6 +125,7 @@ Read [this document](https://github.com/CodeMonkey80s/GoLeetCode/blob/main/tips-
 | 1360 | [Number of Days Between Two Dates](solutions/1360---Number-of-Days-Between-Two-Dates/solution1360.go)                                 | Math, String | 🟢 Easy |
 | 1365 | [How Many Numbers Are Smaller Than the Current Number](solutions/1365---How-Many-Numbers-Are-Smaller-Than-the-Current-Number/solution1365.go) | Array, Counting, Hash Table, Sorting | 🟢 Easy |
 | 1389 | [Create Target Array in the Given Order](solutions/1389---Create-Target-Array-in-the-Given-Order/solution1389.go)                     | Array, Simulation | 🟢 Easy |
+| 1408 | [String Matching in an Array](solutions/1408---String-Matching-in-an-Array/solution1408.go)                                           | Array, String, String Matching | 🟢 Easy |
 | 1431 | [Kids With the Greatest Number of Candies](solutions/1431---Kids-with-the-Greatest-Number-of-Candies/solution1431.go)                 | Array | 🟢 Easy |
 | 1436 | [Destination City](solutions/1436---Destination-City/solution1436.go)                                                                 | Hash Table, String | 🟢 Easy |
 | 1455 | [Check If a Word Occurs As a Prefix](solutions/1455---Check-If-a-Word-Occurs-As-a-Prefix-of-Any-Word-in-a-Sentence/solution1455.go)   | String Manipulation, String | 🟢 Easy |
