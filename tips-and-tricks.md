@@ -1,6 +1,6 @@
 # Tips & Tricks
 
-## Arrays, Slices, Two Pointers, Iterations
+## Arrays, Slices, Iterations
 
 ```go
 // Create an array of 4 integers
@@ -143,6 +143,17 @@ func sumOfDigits(num int) int {
         num /= 10
     }
     return sum
+}
+```
+
+### Reverse slice of bytes:
+
+```go
+func reverseSlice(s []byte, n int) []byte {
+    for i, j := 0, n; i < j; i, j = i+1, j-1 {
+        s[i], s[j] = s[j], s[i]
+    }
+    return s
 }
 ```
 
