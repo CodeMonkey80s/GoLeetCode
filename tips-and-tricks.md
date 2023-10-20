@@ -206,6 +206,11 @@ count := strings.Count("cheese", "e")
 
 // Fields splits the string s around each instance of one or more consecutive white space characters(...)
 words := strings.Fields(str)
+
+// Builder is used to efficiently build a string using Write methods.
+sb := strings.Builder{}
+sb.WriteString("add me")
+fmt.Println(sb.String())
 ```
 
 ## Package "strconv"
