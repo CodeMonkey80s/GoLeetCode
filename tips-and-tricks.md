@@ -133,7 +133,7 @@ More complicated conversions are made with "strconv" package (see below).
 
 ## Snippets
 
-### Count sum of all digits of a number:**
+### Count sum of all digits of a number:
 
 ```go
 func sumOfDigits(num int) int {
