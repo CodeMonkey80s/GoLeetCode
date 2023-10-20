@@ -131,7 +131,9 @@ fmt.Printf("%q", num2)
 
 More complicated conversions are made with "strconv" package (see below).
 
-**Howto: count sum of all digits of a number:**
+## Snippets
+
+### Count sum of all digits of a number:**
 
 ```go
 func sumOfDigits(num int) int {
