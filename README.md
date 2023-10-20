@@ -121,6 +121,7 @@ Read [this document](https://github.com/CodeMonkey80s/GoLeetCode/blob/main/tips-
 | 1275 | [Find Winner on a Tic Tac Toe Game](solutions/1275---Find-Winner-on-a-Tic-Tac-Toe-Game/solution1275.go)                               | Array, Hash Table, Matrix, Simulation | 🟢 Easy |
 | 1309 | [Decrypt String from Alphabet to Integer Mapping](solutions/1309---Decrypt-String-from-Alphabet-to-Integer-Mapping/solution1309.go)   | String | 🟢 Easy |
 | 1313 | [Decompress Run-Length Encoded List](solutions/1313---Decompress-Run-Length-Encoded-List/solution1313.go)                             | Array | 🟢 Easy |
+| 1351 | [Count Negative Numbers in a Sorted Matrix](solutions/1351---Count-Negative-Numbers-in-a-Sorted-Matrix/solution1351.go)               | Array, Binary Search, Matrix | 🟢 Easy |
 | 1360 | [Number of Days Between Two Dates](solutions/1360---Number-of-Days-Between-Two-Dates/solution1360.go)                                 | Math, String | 🟢 Easy |
 | 1365 | [How Many Numbers Are Smaller Than the Current Number](solutions/1365---How-Many-Numbers-Are-Smaller-Than-the-Current-Number/solution1365.go) | Array, Counting, Hash Table, Sorting | 🟢 Easy |
 | 1389 | [Create Target Array in the Given Order](solutions/1389---Create-Target-Array-in-the-Given-Order/solution1389.go)                     | Array, Simulation | 🟢 Easy |
