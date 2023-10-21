@@ -158,6 +158,7 @@ Read [this document](https://github.com/CodeMonkey80s/GoLeetCode/blob/main/tips-
 | 1859 | [Sorting the Sentence](solutions/1859---Sorting-the-Sentence/solution1859.go)                                                         | Sorting, String | 🟢 Easy |
 | 1876 | [Substrings of Size Three with Distinct Characters](solutions/1876--Substrings-of-Size-Three-with-Distinct-Characters/solution1876.go)   | Counting, Hash Table, Sliding Window, String | 🟢 Easy |
 | 1880 | [Check if Word Equals Summation of Two Words](solutions/1880---Check-if-Word-Equals-Summation-of-Two-Words/solution1880.go)           | String | 🟢 Easy |
+| 1913 | [Maximum Product Difference Between Two Pairs](solutions/1913---Maximum-Product-Difference-Between-Two-Pairs/solution1913.go)         | Array, Sorting | 🟢 Easy |
 | 1920 | [Build Array from Permutation](solutions/1920---Build-Array-from-Permutation/solution1920.go)                                         | Array, Simulation | 🟢 Easy |
 | 1929 | [Concatenation of Array](solutions/1929---Concatenation-of-Array/solution1929.go)                                                     | Array | 🟢 Easy |
 | 1941 | [Check if All Characters Have Equal Number of Occurrences](solutions/1941---Check-if-All-Characters-Have-Equal-Number-of-Occurrences/solution1941.go)                                 | Counting, Hash Table, String | 🟢 Easy |
