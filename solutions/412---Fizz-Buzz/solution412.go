@@ -7,23 +7,30 @@ import "strconv"
 // URL: https://leetcode.com/problems/fizz-buzz/
 // ============================================================================
 
+/*
+	$ go test -bench=. -benchmem
+	goos: linux
+	goarch: amd64
+	pkg: GoLeetCode/solutions/412---Fizz-Buzz
+	cpu: 13th Gen Intel(R) Core(TM) i7-13700K
+	Benchmark_fizzBuzz-24    	43119661	        28.05 ns/op	      48 B/op	       1 allocs/op
+	PASS
+
+*/
+
 func fizzBuzz(n int) []string {
-	sl := make([]string, 0)
-	var i int
-	var s string
-	for j := 0; j < n; j++ {
-		i = j + 1
+	sl := make([]string, 0, n)
+	for i := 1; i <= n; i++ {
 		switch {
 		case i%3 == 0 && i%5 == 0:
-			s = "FizzBuzz"
+			sl = append(sl, "FizzBuzz")
 		case i%3 == 0:
-			s = "Fizz"
+			sl = append(sl, "Fizz")
 		case i%5 == 0:
-			s = "Buzz"
+			sl = append(sl, "Buzz")
 		default:
-			s = strconv.Itoa(i)
+			sl = append(sl, strconv.Itoa(i))
 		}
-		sl = append(sl, s)
 	}
 	return sl
 }
