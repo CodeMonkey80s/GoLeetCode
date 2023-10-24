@@ -12,7 +12,8 @@ package solution2586
 	goarch: amd64
 	pkg: GoLeetCode/solutions/2586---Count-the-Number-of-Vowel-Strings-in-Range
 	cpu: 13th Gen Intel(R) Core(TM) i7-13700K
-	Benchmark_vowelStrings-24    	315818386	         3.803 ns/op	       0 B/op	       0 allocs/op
+	Benchmark_vowelStrings-24            	315741366	         3.793 ns/op	       0 B/op	       0 allocs/op
+	Benchmark_vowelStrings_bitmask-24    	745920466	         1.608 ns/op	       0 B/op	       0 allocs/op
 
 */
 
