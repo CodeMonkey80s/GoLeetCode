@@ -171,6 +171,7 @@ Read [this document](https://github.com/CodeMonkey80s/GoLeetCode/blob/main/tips-
 | 2085 | [Count Common Words With One Occurrence](solutions/2085---Count-Common-Words-With-One-Occurrence/solution2085.go)                     | Array, Counting, Hash Table, String | 🟢 Easy |
 | 2103 | [Rings and Rods](solutions/2103---Rigns-and-Rods/solution2103.go)                                                                     | Hash Table, String | 🟢 Easy |
 | 2114 | [Maximum Number of Words Found in Sentences](solutions/2114---Maximum-Number-of-Words-Found-in-Sentences/solution2114.go)             | Array, String | 🟢 Easy |
+| 2160 | [Minimum Sum of Four Digit Number After Splitting Digits](solutions/2160---Minimum-Sum-of-Four-Digit-Number-After-Splitting-Digits/solution2160.go)             | Greedy, Math, Sorting | 🟢 Easy |
 | 2185 | [Counting Words With a Given Prefix](solutions/2185---Counting-Words-With-a-Given-Prefix/solution2185.go)                             | Array, String | 🟢 Easy |
 | 2194 | [Cells in a Range on an Excel Sheet](solutions/2194---Cells-in-a-Range-on-an-Excell-Sheet/solution2194.go)                            | String | 🟢 Easy |
 | 2283 | [Check if Number Has Equal Digit Count and Digit Value](solutions/2283---Check-if-Number-Has-Equal-Digit-Count-and-Digit-Value/solution2283.go) | Counting, Hash Table, String | 🟢 Easy |
