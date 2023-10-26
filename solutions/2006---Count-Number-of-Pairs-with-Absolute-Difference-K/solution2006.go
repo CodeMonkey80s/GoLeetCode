@@ -1,7 +1,5 @@
 package solution2006
 
-import "math"
-
 // ============================================================================
 // 2006. Count Number of Pairs With Absolute Difference K
 // URL: https://leetcode.com/problems/count-number-of-pairs-with-absolute-difference-k/
@@ -21,9 +19,14 @@ import "math"
 
 func countKDifference(nums []int, k int) int {
 	ans := 0
+	val := 0
 	for i := 0; i < len(nums); i++ {
 		for j := i; j < len(nums); j++ {
-			if int(math.Abs(float64(nums[i]-nums[j]))) == k {
+			val = nums[i] - nums[j]
+			if val < 0 {
+				val = -val
+			}
+			if val == k {
 				ans++
 			}
 		}

@@ -1,7 +1,6 @@
 package solution228
 
 import (
-	"fmt"
 	"strconv"
 )
 
@@ -29,9 +28,8 @@ func summaryRanges(nums []int) []string {
 			b++
 		}
 		a++
-		fmt.Printf("%d %d, %q %q\n", a, b, sa, sb)
+		//fmt.Printf("%d %d, %q %q\n", a, b, sa, sb)
 	}
-
-	fmt.Printf("ANS: %s\n", ans)
+	//fmt.Printf("ANS: %s\n", ans)
 	return ans
 }
