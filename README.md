@@ -179,6 +179,7 @@ Read [this document](https://github.com/CodeMonkey80s/GoLeetCode/blob/main/tips-
 | 2451 | [Odd String Difference](solutions/2451---Odd-String-Difference/solution2451.go)                       | Array, Hash Table, String | 🟢 Easy |
 | 2496 | [Maximum Value of a String in an Array](solutions/2496---Maximum-Value-of-a-String-in-an-Array/solution2496.go)                       | Array, String | 🟢 Easy |
 | 2506 | [Count Pairs of Similar Strings](solutions/2506---Count-Pairs-of-Similar-Strings/solution2506.go)                                     | Array, Hash Table, String | 🟢 Easy |
+| 2540 | [Minimum Common Value](solutions/2540---Minimum-Common-Value/solution2540.go)                                                         | Array, Binary Search, Hash Table, Two Pointers | 🟢 Easy |
 | 2553 | [Separate the Digits in an Array](solutions/2553---Separate-the-Digits-in-an-Array/solution2553.go)                                   | Array, Simulation | 🟢 Easy |
 | 2574 | [Left and Right Sum Differences](solutions/2574---Left-and-Right-Sum-Differences/solution2574.go)             | Array, Prefix Sum | 🟢 Easy |
 | 2586 | [Count the Number of Vowel Strings in Range](solutions/2586---Count-the-Number-of-Vowel-Strings-in-Range/solution2586.go)             | Array, String | 🟢 Easy |
