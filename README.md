@@ -136,6 +136,7 @@ Read [this document](https://github.com/CodeMonkey80s/GoLeetCode/blob/main/tips-
 | 1507 | [Reformat Date](solutions/1507---Reformat-Date/solution1507.go)                                                                       | String | 🟢 Easy |
 | 1512 | [Number of Good Pairs](solutions/1512---Number-of-Good-Pairs/solution1512.go)                                                         | Array, Counting, Hash Table, Math | 🟢 Easy |
 | 1528 | [Shuffle String](solutions/1528---Shuffle-String/solution1528.go)                                                                     | Array, String | 🟢 Easy |
+| 1550 | [Three Consecutive Odds](solutions/1550---Three-Consecutive-Odds/solution1550.go)                                                     | Array | 🟢 Easy |
 | 1556 | [Thousand Separator](solutions/1556---Thousand-Separator/solution1556.go)                                                             | String | 🟢 Easy |
 | 1592 | [Rearrange Spaces Between Words](solutions/1592---Rearrange-Spaces-Between-Words/solution1592.go)                                     | String | 🟢 Easy |
 | 1614 | [Maximum Nesting Depth of the Parentheses](solutions/1614---Maximum-Nesting-Depth-of-the-Parentheses/solution1614.go)                 | Stack, String | 🟢 Easy |
