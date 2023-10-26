@@ -164,6 +164,7 @@ Read [this document](https://github.com/CodeMonkey80s/GoLeetCode/blob/main/tips-
 | 1920 | [Build Array from Permutation](solutions/1920---Build-Array-from-Permutation/solution1920.go)                                         | Array, Simulation | 🟢 Easy |
 | 1929 | [Concatenation of Array](solutions/1929---Concatenation-of-Array/solution1929.go)                                                     | Array | 🟢 Easy |
 | 1941 | [Check if All Characters Have Equal Number of Occurrences](solutions/1941---Check-if-All-Characters-Have-Equal-Number-of-Occurrences/solution1941.go)                                 | Counting, Hash Table, String | 🟢 Easy |
+| 1967 | [Number of Strings That Appear as Substrings in Word](solutions/1967---Number-of-Strings-That-Appear-as-Substrings-in-Word/solution1967.go)      | String | 🟢 Easy |
 | 2000 | [Reverse Prefix of Word](solutions/2000---Reverse-Prefix-of-Word/solution2000.go)                                                     | String, Two Pointers | 🟢 Easy |
 | 2006 | [Count Number of Pairs With Absolute Difference K](solutions/2006---Count-Number-of-Pairs-with-Absolute-Difference-K/solution2006.go) | Array, Hash Table, Counting, | 🟢 Easy |
 | 2011 | [Final Value of Variable After Performing Operations](solutions/2011---Final-Value-of-Variable-After-Performing-Operations/solution2011.go) | Array, Simulation, String | 🟢 Easy |
