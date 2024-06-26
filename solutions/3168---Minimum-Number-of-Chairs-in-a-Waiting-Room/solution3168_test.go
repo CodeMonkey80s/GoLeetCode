@@ -19,7 +19,7 @@ var testCases = []struct {
 	},
 }
 
-func Test_clearDigits(t *testing.T) {
+func Test_minimumChars(t *testing.T) {
 	var label string
 	for _, tc := range testCases {
 		label = fmt.Sprintf("Case: Input: %q, Output: %d\n", tc.Input, tc.Output)
