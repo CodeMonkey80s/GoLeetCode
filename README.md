@@ -201,6 +201,8 @@ Read [this document](https://github.com/CodeMonkey80s/GoLeetCode/blob/main/tips-
 | 2848 | [Points That Intersect With Cars](solutions/2848---Points-That-Intersect-With-Cars/solution2848.go)                                   | Hash Table, Math, Prefix Sum | 🟢 Easy |
 | 2859 | [Sum of Values at Indices With K Set Bits](solutions/2859---Sum-of-Values-at-Indices-With-K-Set-Bits/solution2859.go)                 | Array, Bit Manipulation | 🟢 Easy |
 | 2864 | [Maximum Odd Binary Number](solutions/2864---Maximum-Odd-Binary-Number/solution2864.go)                                               | Greedy, Math, String | 🟢 Easy |
+| 3168 | [Minimum Number of Chairs in a Waiting Room](solutions/3168---Minimum-Number-of-Chairs-in-a-Waiting-Room/solution3168.go)             | Simulation, String | 🟢 Easy |
+| 3174 | [Clear Digits](solutions/3174---Clear-Digits/solution3174.go)                                                                         | Hash Table, Simulation, String | 🟢 Easy |
 
 Legend:
 <ul>
