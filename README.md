@@ -206,6 +206,7 @@ Read [this document](https://github.com/CodeMonkey80s/GoLeetCode/blob/main/tips-
 | 3005 | [Count Elements With Maximum Frequency](solutions/3005---Count-Elements-With-Maximum-Frequency/solution3005.go)                       | Array, Counting, Hash Table | 🟢 Easy |
 | 3019 | [Number of Changing Keys](solutions/3019---Number-of-Changing-Keys/solution3019.go)                                                   | String | 🟢 Easy |
 | 3046 | [Split the Array](solutions/3046---Split-the-Array/solution3046.go)                                                                   | Array, Hash Table, Counting | 🟢 Easy |
+| 3099 | [Harshad Number](solutions/3099---Harshad-Number/solution3099.go)                                                                     | Math | 🟢 Easy |
 | 3110 | [Score of String](solutions/3110---Score-of-String/solution3110.go)                                                                   | String | 🟢 Easy |
 | 3120 | [Count the Number of Special Characters I](solutions/3120---Count-the-Number-of-Special-Characters-I/solution3120.go)                 | Hash Table, String | 🟢 Easy |
 | 3151 | [Special Array I](solutions/3151---Special-Array-I/solution3151.go)                                                                   | Array | 🟢 Easy |
