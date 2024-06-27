@@ -203,6 +203,7 @@ Read [this document](https://github.com/CodeMonkey80s/GoLeetCode/blob/main/tips-
 | 2859 | [Sum of Values at Indices With K Set Bits](solutions/2859---Sum-of-Values-at-Indices-With-K-Set-Bits/solution2859.go)                 | Array, Bit Manipulation | 🟢 Easy |
 | 2864 | [Maximum Odd Binary Number](solutions/2864---Maximum-Odd-Binary-Number/solution2864.go)                                               | Greedy, Math, String | 🟢 Easy |
 | 2894 | [Divisible and Non-divisible Sums Difference](solutions/2894---Divisible-and-Non-divisible-Sums-Difference/solution2894.go)           | Math | 🟢 Easy |
+| 3005 | [Count Elements With Maximum Frequency](solutions/3005---Count-Elements-With-Maximum-Frequency/solution3005.go)                       | Array, Counting, Hash Table | 🟢 Easy |
 | 3019 | [Number of Changing Keys](solutions/3019---Number-of-Changing-Keys/solution3019.go)                                                   | String | 🟢 Easy |
 | 3046 | [Split the Array](solutions/3046---Split-the-Array/solution3046.go)                                                                   | Array, Hash Table, Counting | 🟢 Easy |
 | 3110 | [Score of String](solutions/3110---Score-of-String/solution3110.go)                                                                   | String | 🟢 Easy |
