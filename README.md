@@ -201,6 +201,7 @@ Read [this document](https://github.com/CodeMonkey80s/GoLeetCode/blob/main/tips-
 | 2848 | [Points That Intersect With Cars](solutions/2848---Points-That-Intersect-With-Cars/solution2848.go)                                   | Hash Table, Math, Prefix Sum | 🟢 Easy |
 | 2859 | [Sum of Values at Indices With K Set Bits](solutions/2859---Sum-of-Values-at-Indices-With-K-Set-Bits/solution2859.go)                 | Array, Bit Manipulation | 🟢 Easy |
 | 2864 | [Maximum Odd Binary Number](solutions/2864---Maximum-Odd-Binary-Number/solution2864.go)                                               | Greedy, Math, String | 🟢 Easy |
+| 3019 | [Number of Changing Keys](solutions/3019---Number-of-Changing-Keys/solution3019.go)                                                   | String | 🟢 Easy |
 | 3046 | [Split the Array](solutions/3046---Split-the-Array/solution3046.go)                                                                   | Array, Hash Table, Counting | 🟢 Easy |
 | 3110 | [Score of String](solutions/3110---Score-of-String/solution3110.go)                                                                   | String | 🟢 Easy |
 | 3120 | [Count the Number of Special Characters I](solutions/3120---Count-the-Number-of-Special-Characters-I/solution3120.go)                 | Hash Table, String | 🟢 Easy |
