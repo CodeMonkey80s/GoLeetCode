@@ -22,6 +22,18 @@ var testCases = []struct {
 		Num:    10,
 		Output: false,
 	},
+	{
+		Num:    1,
+		Output: true,
+	},
+	{
+		Num:    12,
+		Output: false,
+	},
+	{
+		Num:    99,
+		Output: true,
+	},
 	// Additional my custom cases
 	{
 		Num:    12321,

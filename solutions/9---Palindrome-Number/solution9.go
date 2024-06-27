@@ -13,13 +13,9 @@ func isPalindrome(x int) bool {
 	if x < 0 {
 		return false
 	}
-	var a, b byte
 	s := strconv.Itoa(x)
-	length := len(s)
-	for i := 0; i < length; i++ {
-		a = s[i]
-		b = s[length-i-1]
-		if a != b {
+	for i := 0; i < len(s); i++ {
+		if s[i] != s[len(s)-i-1] {
 			return false
 		}
 	}
