@@ -20,9 +20,7 @@ func isArraySpecial(nums []int) bool {
 	}
 
 	for i := 0; i < len(nums)-1; i++ {
-		a := i
-		b := i + 1
-		if nums[a]%2 == 0 && nums[b]%2 == 0 || nums[a]%2 == 1 && nums[b]%2 == 1 {
+		if nums[i]%2 == 0 && nums[i+1]%2 == 0 || nums[i]%2 == 1 && nums[i+1]%2 == 1 {
 			return false
 		}
 	}

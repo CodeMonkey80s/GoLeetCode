@@ -26,8 +26,8 @@ func countSymmetricIntegers(low int, high int) int {
 				ans++
 			}
 		case len(s) == 4:
-			v1 := byte(s[0]) - '0' + byte(s[1]) - '0'
-			v2 := byte(s[2]) - '0' + byte(s[3]) - '0'
+			v1 := byte(s[0]) - '0' + s[1] - '0'
+			v2 := byte(s[2]) - '0' + s[3] - '0'
 			if v1 == v2 {
 				ans++
 			}

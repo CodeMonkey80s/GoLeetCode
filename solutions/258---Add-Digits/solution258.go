@@ -5,13 +5,23 @@ package solution258
 // URL: https://leetcode.com/problems/add-digits/
 // ============================================================================
 
+/*
+	goos: linux
+	goarch: amd64
+	pkg: GoLeetCode/solutions/258---Add-Digits
+	cpu: 13th Gen Intel(R) Core(TM) i7-13700K
+	Benchmark_addDigits
+	Benchmark_addDigits-24    	207767319	         5.789 ns/op	       0 B/op	       0 allocs/op
+	PASS
+*/
+
 func addDigits(num int) int {
+	i := 0
 	sum := 0
-	var i int = 0
 	for {
 		for num > 0 {
-			sum = sum + int(num%10)
-			num = int(num / 10)
+			sum = sum + num%10
+			num = num / 10
 			i++
 		}
 		num = sum
