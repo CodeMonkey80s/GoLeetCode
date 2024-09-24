@@ -5,14 +5,24 @@ package solution20
 // URL: https://leetcode.com/problems/valid-parentheses/
 // ============================================================================
 
+/*
+	goos: linux
+	goarch: amd64
+	pkg: GoLeetCode/solutions/20---Valid-Parentheses
+	cpu: 13th Gen Intel(R) Core(TM) i7-13700K
+	Benchmark_isValid
+	Benchmark_isValid-24    	100000000	        11.88 ns/op	       2 B/op	       1 allocs/op
+	PASS
+*/
+
 func isValid(s string) bool {
 	length := len(s)
 	if length <= 1 || length > 10_000 || length%2 == 1 {
 		return false
 	}
 	var a, b byte
-	var st []byte
 	var l int
+	st := make([]byte, 0, length)
 	for i := 0; i < length; i++ {
 		a = s[i]
 		if a == '(' || a == '[' || a == '{' {
@@ -24,7 +34,7 @@ func isValid(s string) bool {
 			return false
 		}
 		if l > 0 {
-			b = byte(st[l-1])
+			b = st[l-1]
 			switch {
 			case a == ')' && b == '(':
 				st = append(st[:l-1], st[l:]...)

@@ -4,6 +4,15 @@ package solution27
 // 27. Remove Element
 // URL: https://leetcode.com/problems/remove-element/
 // ============================================================================
+/*
+	goos: linux
+	goarch: amd64
+	pkg: GoLeetCode/solutions/27---Remove-Element
+	cpu: 13th Gen Intel(R) Core(TM) i7-13700K
+	Benchmark_removeElement
+	Benchmark_removeElement-24    	218235556	         5.494 ns/op	       0 B/op	       0 allocs/op
+	PASS
+*/
 
 func removeElement(nums []int, val int) int {
 	n := len(nums)
