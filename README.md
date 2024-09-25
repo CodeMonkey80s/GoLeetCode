@@ -139,7 +139,7 @@ Read [this document](https://github.com/CodeMonkey80s/GoLeetCode/blob/main/tips-
 | 1528 | [Shuffle String](solutions/1528---Shuffle-String/solution1528.go)                                                                                     | Array, String                                     | 🟢 Easy |
 | 1550 | [Three Consecutive Odds](solutions/1550---Three-Consecutive-Odds/solution1550.go)                                                                     | Array                                             | 🟢 Easy |
 | 1556 | [Thousand Separator](solutions/1556---Thousand-Separator/solution1556.go)                                                                             | String                                            | 🟢 Easy |
-| 1588  |[Sum of All Odd Length Subarrays](solutions/1588---Sum-of-All-Odd-Length-Subarrays/solution1588.go)                                                  | Array, Math, Prefix Sum                           | 🟢 Easy |
+| 1588 | [Sum of All Odd Length Subarrays](solutions/1588---Sum-of-All-Odd-Length-Subarrays/solution1588.go)                                                   | Array, Math, Prefix Sum                           | 🟢 Easy |
 | 1592 | [Rearrange Spaces Between Words](solutions/1592---Rearrange-Spaces-Between-Words/solution1592.go)                                                     | String                                            | 🟢 Easy |
 | 1614 | [Maximum Nesting Depth of the Parentheses](solutions/1614---Maximum-Nesting-Depth-of-the-Parentheses/solution1614.go)                                 | Stack, String                                     | 🟢 Easy |
 | 1624 | [Largest Substring Between Two Equal Characters](solutions/1624---Largest-Substring-Between-Two-Equal-Characters/solution1624.go)                     | Hash Table, String                                | 🟢 Easy |
@@ -218,6 +218,7 @@ Read [this document](https://github.com/CodeMonkey80s/GoLeetCode/blob/main/tips-
 | 3168 | [Minimum Number of Chairs in a Waiting Room](solutions/3168---Minimum-Number-of-Chairs-in-a-Waiting-Room/solution3168.go)                             | Simulation, String                                | 🟢 Easy |
 | 3174 | [Clear Digits](solutions/3174---Clear-Digits/solution3174.go)                                                                                         | Hash Table, Simulation, String                    | 🟢 Easy |
 | 3194 | [Minimum Average of Smallest and Largest Elements](solutions/3194---Minimum-Average-of-Smallest-and-Largest-Elements/solution3194.go)                 | Array, Sorting                                    | 🟢 Easy |
+| 3289 | [The Two Sneaky Numbers of Digitville](solution/3289---The-Two-Sneaky-Numbers-of-Digitville/solution3289.go)                                          | Array, Hash Table, Math                           | 🟢 Easy |
 
 Legend:
 <ul>
