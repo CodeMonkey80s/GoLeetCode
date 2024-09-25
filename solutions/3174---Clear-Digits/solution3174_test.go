@@ -39,3 +39,9 @@ func Test_clearDigits(t *testing.T) {
 		})
 	}
 }
+
+func Benchmark_ClearDigits(b *testing.B) {
+	for i := 0; i < b.N; i++ {
+		_ = clearDigits(testCases[0].Input)
+	}
+}

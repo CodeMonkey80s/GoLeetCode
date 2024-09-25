@@ -5,6 +5,16 @@ package solution3174
 // URL: https://leetcode.com/problems/clear-digits/description/
 // ============================================================================
 
+/*
+	goos: linux
+	goarch: amd64
+	pkg: GoLeetCode/solutions/3174---Clear-Digits
+	cpu: 13th Gen Intel(R) Core(TM) i7-13700K
+	Benchmark_ClearDigits
+	Benchmark_ClearDigits-24    	494588084	         2.484 ns/op	       0 B/op	       0 allocs/op
+	PASS
+*/
+
 func clearDigits(s string) string {
 loop:
 	for {
