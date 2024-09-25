@@ -15,18 +15,18 @@ package solution3120
 */
 
 func numberOfSpecialCharacters(word string) int {
+	idx := 0
 	result := 0
 	freq := make([]int, 52)
 	for _, ch := range word {
-		idx := ch
 		switch {
 		case ch >= 'a' && ch <= 'z':
-			idx = ch - 97 + 26
+			idx = int(ch - 97 + 26)
 			if freq[idx] == 0 {
 				freq[idx]++
 			}
 		case ch >= 'A' && ch <= 'Z':
-			idx = ch - 65
+			idx = int(ch - 65)
 			if freq[idx] == 0 {
 				freq[idx]++
 			}

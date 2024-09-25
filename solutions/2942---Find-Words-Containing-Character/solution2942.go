@@ -15,18 +15,20 @@ package solution2942
 */
 
 func findWordsContaining(words []string, x byte) []int {
-	ids := make([]int, 0, len(words))
+	idx := 0
+	ids := make([]int, len(words))
 outer:
 	for id, word := range words {
 		for i := 0; i < len(word); i++ {
 			j := len(word) - 1
 			if word[i] == x || word[j] == x {
-				ids = append(ids, id)
+				// ids = append(ids, id)
+				ids[idx] = id
+				idx++
 				continue outer
 			}
-			j--
 		}
 	}
 
-	return ids
+	return ids[:idx]
 }

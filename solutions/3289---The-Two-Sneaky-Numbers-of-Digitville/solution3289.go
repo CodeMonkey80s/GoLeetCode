@@ -30,13 +30,11 @@ func getSneakyNumbersV2(nums []int) []int {
 		case c == 0 && freq[n] == 2:
 			a = n
 			c++
-			continue
 		case c == 1 && freq[n] == 2:
 			b = n
 			if a > b {
 				a, b = b, a
 			}
-			break
 		}
 	}
 
