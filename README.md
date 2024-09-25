@@ -220,6 +220,7 @@ Read [this document](https://github.com/CodeMonkey80s/GoLeetCode/blob/main/tips-
 | 3194 | [Minimum Average of Smallest and Largest Elements](solutions/3194---Minimum-Average-of-Smallest-and-Largest-Elements/solution3194.go)                 | Array, Sorting                                    | 🟢 Easy |
 | 3289 | [The Two Sneaky Numbers of Digitville](solutions/3289---The-Two-Sneaky-Numbers-of-Digitville/solution3289.go)                                         | Array, Hash Table, Math                           | 🟢 Easy |
 | 3280 | [Convert Date to Binary](solutions/3280---Convert-Date-to-Binary/solution3280.go)                                                                     | Math, String                                      | 🟢 Easy |
+| 3285 | [Find Indices of Stable Mountains](solutions/3285--Find-Indices-of-Stable-Mountains/solution3285.go)                                                  | Array                                             | 🟢 Easy |
 
 Legend:
 <ul>
