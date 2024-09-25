@@ -3,6 +3,7 @@ package solution599
 import (
 	"fmt"
 	"reflect"
+	"slices"
 	"testing"
 )
 
@@ -41,6 +42,7 @@ func Test_findRestaurant(t *testing.T) {
 		label = fmt.Sprintf("Case: Input: %v, %v, Output: %v\n", tc.InputA, tc.InputB, tc.Output)
 		t.Run(label, func(t *testing.T) {
 			output := findRestaurant_first_attempt(tc.InputA, tc.InputB)
+			slices.Sort(output)
 			if !reflect.DeepEqual(output, tc.Output) {
 				t.Errorf("Expected output to be %v but we got %v", tc.Output, output)
 			}

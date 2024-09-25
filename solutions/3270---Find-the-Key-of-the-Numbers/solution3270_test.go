@@ -36,7 +36,7 @@ func Test_generateKey(t *testing.T) {
 	for _, tc := range testCases {
 		label := fmt.Sprintf("Case: Input: %v %v %v Output: %v\n", tc.InputA, tc.InputB, tc.InputC, tc.Output)
 		t.Run(label, func(t *testing.T) {
-			output := generateKey(tc.InputA, tc.InputB, tc.InputC)
+			output := generateKeyV2(tc.InputA, tc.InputB, tc.InputC)
 			if output != tc.Output {
 				t.Errorf("Expected output to be %v but we got %v", tc.Output, output)
 			}
@@ -44,8 +44,14 @@ func Test_generateKey(t *testing.T) {
 	}
 }
 
-func BenchmarkGenerateKey(b *testing.B) {
+func BenchmarkGenerateKeyV2(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		_ = generateKey(testCases[0].InputA, testCases[0].InputB, testCases[0].InputC)
+		_ = generateKeyV2(testCases[0].InputA, testCases[0].InputB, testCases[0].InputC)
+	}
+}
+
+func BenchmarkGenerateKeyV1(b *testing.B) {
+	for i := 0; i < b.N; i++ {
+		_ = generateKeyV1(testCases[0].InputA, testCases[0].InputB, testCases[0].InputC)
 	}
 }
