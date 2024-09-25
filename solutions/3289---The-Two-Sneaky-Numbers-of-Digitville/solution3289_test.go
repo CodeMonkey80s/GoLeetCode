@@ -30,7 +30,7 @@ func Test_getSneakyNumbers(t *testing.T) {
 	for _, tc := range testCases {
 		label := fmt.Sprintf("Case: Input: %v Output: %v\n", tc.Input, tc.Output)
 		t.Run(label, func(t *testing.T) {
-			output := getSneakyNumbers(tc.Input)
+			output := getSneakyNumbersV2(tc.Input)
 			if !reflect.DeepEqual(output, tc.Output) {
 				t.Errorf("Expected output to be %v but we got %v", tc.Output, output)
 			}
@@ -38,8 +38,14 @@ func Test_getSneakyNumbers(t *testing.T) {
 	}
 }
 
-func Benchmark_getSneakyNumbers(b *testing.B) {
+func Benchmark_getSneakyNumbersV2(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		_ = getSneakyNumbers(testCases[0].Input)
+		_ = getSneakyNumbersV2(testCases[0].Input)
+	}
+}
+
+func Benchmark_getSneakyNumbersV1(b *testing.B) {
+	for i := 0; i < b.N; i++ {
+		_ = getSneakyNumbersV1(testCases[0].Input)
 	}
 }
