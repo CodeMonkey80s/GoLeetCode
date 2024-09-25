@@ -21,8 +21,7 @@ var testCases = []struct {
 	{
 		Input:  "",
 		Output: true,
-	},
-	// Additional my custom cases
+	}, // Additional my custom cases
 	{
 		Input:  "0P",
 		Output: false,
@@ -37,7 +36,7 @@ func Test_isPalindrome(t *testing.T) {
 	for _, tc := range testCases {
 		label := fmt.Sprintf("Case: Input: %v Output: %v\n", tc.Input, tc.Output)
 		t.Run(label, func(t *testing.T) {
-			output := isPalindrome(tc.Input)
+			output := isPalindromeV2(tc.Input)
 			if output != tc.Output {
 				t.Errorf("Expected output to be %v but we got %v", tc.Output, output)
 			}
@@ -45,8 +44,14 @@ func Test_isPalindrome(t *testing.T) {
 	}
 }
 
-func Benchmark_isPalindrome(b *testing.B) {
+func Benchmark_isPalindromeV1(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		_ = isPalindrome(testCases[0].Input)
+		_ = isPalindromeV1(testCases[0].Input)
+	}
+}
+
+func Benchmark_isPalindromeV2(b *testing.B) {
+	for i := 0; i < b.N; i++ {
+		_ = isPalindromeV2(testCases[0].Input)
 	}
 }
