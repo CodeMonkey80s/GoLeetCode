@@ -222,7 +222,8 @@ that are useful for solving these problems.
 | 3289 | [The Two Sneaky Numbers of Digitville](solutions/3289---The-Two-Sneaky-Numbers-of-Digitville/solution3289.go)                                         | Array, Hash Table, Math                           | 🟢 Easy                                                            |
 | 3280 | [Convert Date to Binary](solutions/3280---Convert-Date-to-Binary/solution3280.go)                                                                     | Math, String                                      | 🟢 Easy                                                            |
 | 3285 | [Find Indices of Stable Mountains](solutions/3285--Find-Indices-of-Stable-Mountains/solution3285.go)                                                  | Array                                             | 🟢 Easy                                                            |
-| 3274 | [Check if Two Chessboard Squares Have the Same Color](solutions/3274---Check-If-Two-Chessboard-Squares-Have-the-Same-Color/solution3274.go)           | Math, String                                      | 🟢 Easy                                                            | 
+| 3270 | [Find the Key of the Numbers](solutions/3270---Find-the-Key-of-the-Numbers/solution3270.go)                                                           | Math, String                                      | 🟢 Easy                                                            | 
+| 3274 | [Check if Two Chessboard Squares Have the Same Color](solutions/3274---Check-If-Two-Chessboard-Squares-Have-the-Same-Color/solution3274.go)           | Math                                              | 🟢 Easy                                                            | 
 
 Legend:
 <ul>
