@@ -5,6 +5,16 @@ package solution3206
 // URL: https://leetcode.com/problems/alternating-groups-i/
 // ============================================================================
 
+/*
+	goos: linux
+	goarch: amd64
+	pkg: GoLeetCode/solutions/3206---Alternating-Groups-I
+	cpu: 13th Gen Intel(R) Core(TM) i7-13700K
+	BenchmarkNumberOfAlternatingGroups
+	BenchmarkNumberOfAlternatingGroups-24    	100000000	        15.05 ns/op	       0 B/op	       0 allocs/op
+	PASS
+*/
+
 func numberOfAlternatingGroups(colors []int) int {
 	var a, b, c, n int
 

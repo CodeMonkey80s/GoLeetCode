@@ -31,3 +31,9 @@ func Test_numberOfAlternatingGroups(t *testing.T) {
 		})
 	}
 }
+
+func BenchmarkNumberOfAlternatingGroups(b *testing.B) {
+	for i := 0; i < b.N; i++ {
+		_ = numberOfAlternatingGroups(testCases[0].Input)
+	}
+}
