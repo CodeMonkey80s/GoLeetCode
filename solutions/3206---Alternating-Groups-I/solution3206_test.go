@@ -1,4 +1,4 @@
-package solution3216
+package solution3206
 
 import (
 	"fmt"
@@ -6,33 +6,25 @@ import (
 )
 
 var testCases = []struct {
-	Input  string
-	Output string
+	Input  []int
+	Output int
 }{
 	{
-		Input:  "45320",
-		Output: "43520",
+		Input:  []int{0, 1, 0, 0, 1},
+		Output: 3,
 	},
 	{
-		Input:  "001",
-		Output: "001",
-	},
-	{
-		Input:  "13",
-		Output: "13",
-	},
-	{
-		Input:  "131",
-		Output: "113",
+		Input:  []int{1, 1, 1},
+		Output: 0,
 	},
 }
 
-func Test_getSmallestString(t *testing.T) {
+func Test_numberOfAlternatingGroups(t *testing.T) {
 	var label string
 	for _, tc := range testCases {
 		label = fmt.Sprintf("Case: Input: %v Output: %v\n", tc.Input, tc.Output)
 		t.Run(label, func(t *testing.T) {
-			output := getSmallestString(tc.Input)
+			output := numberOfAlternatingGroups(tc.Input)
 			if output != tc.Output {
 				t.Errorf("Expected output to be %v but we got %v", tc.Output, output)
 			}
