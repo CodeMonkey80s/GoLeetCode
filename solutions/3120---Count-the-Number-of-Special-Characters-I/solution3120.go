@@ -10,31 +10,30 @@ package solution3120
 	goarch: amd64
 	pkg: GoLeetCode/solutions/3120---Count-the-Number-of-Special-Characters-I
 	cpu: 13th Gen Intel(R) Core(TM) i7-13700K
-	Benchmark_isArraySpecial-24    	85115559	        29.59 ns/op	       0 B/op	       0 allocs/op
+	Benchmark_isArraySpecial
+	Benchmark_isArraySpecial-24    	58985012	        19.48 ns/op	       0 B/op	       0 allocs/op
 	PASS
 */
 
+const (
+	maxFreq  = 52
+	maxChars = 26
+)
+
 func numberOfSpecialCharacters(word string) int {
-	idx := 0
 	result := 0
-	freq := make([]int, 52)
+	freq := make([]bool, maxFreq)
 	for _, ch := range word {
 		switch {
 		case ch >= 'a' && ch <= 'z':
-			idx = int(ch - 97 + 26)
-			if freq[idx] == 0 {
-				freq[idx]++
-			}
+			freq[ch-'a'+maxChars] = true
 		case ch >= 'A' && ch <= 'Z':
-			idx = int(ch - 65)
-			if freq[idx] == 0 {
-				freq[idx]++
-			}
+			freq[ch-'A'] = true
 		}
 	}
 
-	for i := 0; i < 26; i++ {
-		if freq[i] >= 1 && freq[i+26] >= 1 {
+	for i := 0; i < maxChars; i++ {
+		if freq[i] && freq[i+maxChars] {
 			result++
 		}
 	}

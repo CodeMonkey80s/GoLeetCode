@@ -16,11 +16,11 @@ package solution3258
 */
 
 func countKConstraintSubstrings(s string, k int) int {
-	ans := 0
+	var ans, v1, v2 int
 	for i := 0; i < len(s); i++ {
 		for j := i + 1; j <= len(s); j++ {
-			v1 := 0
-			v2 := 0
+			v1 = 0
+			v2 = 0
 			for n := 0; n < j-i; n++ {
 				switch s[i+n] {
 				case '1':

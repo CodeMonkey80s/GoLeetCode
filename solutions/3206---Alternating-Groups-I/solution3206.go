@@ -26,6 +26,7 @@ func numberOfAlternatingGroups(colors []int) int {
 		if b >= len(colors) {
 			b = i - len(colors) + 1
 		}
+
 		if c >= len(colors) {
 			c = i - len(colors) + 2
 		}

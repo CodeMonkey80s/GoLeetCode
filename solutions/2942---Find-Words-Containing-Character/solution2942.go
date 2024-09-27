@@ -22,7 +22,6 @@ outer:
 		for i := 0; i < len(word); i++ {
 			j := len(word) - 1
 			if word[i] == x || word[j] == x {
-				// ids = append(ids, id)
 				ids[idx] = id
 				idx++
 				continue outer

@@ -28,7 +28,7 @@ var testCases = []struct {
 
 		Input:     []int{10, 1, 10, 1, 10},
 		Threshold: 10,
-		Output:    nil,
+		Output:    []int{},
 	}, // Additional my custom cases
 }
 
