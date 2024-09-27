@@ -10,12 +10,30 @@ package solution3232
 	goarch: amd64
 	pkg: GoLeetCode/solutions/3232---Find-if-Digit-Game-Can-Be-Won
 	cpu: 13th Gen Intel(R) Core(TM) i7-13700K
-	Benchmark_canAliceWing
-	Benchmark_canAliceWing-24    	629836612	         1.907 ns/op	       0 B/op	       0 allocs/op
+	Benchmark_canAliceWingV2
+	Benchmark_canAliceWingV2-24    	1000000000	         2.556 ns/op	       0 B/op	       0 allocs/op
+	Benchmark_canAliceWingV1
+	Benchmark_canAliceWingV1-24    	279003758	         4.297 ns/op	       0 B/op	       0 allocs/op
 	PASS
 */
 
-func canAliceWin(nums []int) bool {
+func canAliceWinV2(nums []int) bool {
+
+	var as, ad int
+
+	for _, v := range nums {
+		switch {
+		case v >= 1 && v <= 9:
+			as += v
+		default:
+			ad += v
+		}
+	}
+
+	return as-ad != 0
+}
+
+func canAliceWinV1(nums []int) bool {
 
 	var as, ad, bs, bd int
 
