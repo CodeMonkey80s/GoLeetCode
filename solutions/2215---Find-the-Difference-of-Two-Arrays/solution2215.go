@@ -4,6 +4,11 @@ import (
 	"slices"
 )
 
+// ============================================================================
+// 2215. Find the Difference of Two Arrays
+// URL: https://leetcode.com/problems/find-the-difference-of-two-arrays/
+// ============================================================================
+
 /*
 goos: linux
 goarch: amd64
@@ -13,6 +18,7 @@ Benchmark_findDifference
 Benchmark_findDifference-24    	 6763864	       177.0 ns/op	      96 B/op	       3 allocs/op
 PASS
 */
+
 func findDifference(nums1 []int, nums2 []int) [][]int {
 
 	freq1 := make(map[int]int, len(nums1))
