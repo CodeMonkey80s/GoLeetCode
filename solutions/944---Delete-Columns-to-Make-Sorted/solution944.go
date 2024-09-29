@@ -1,7 +1,7 @@
 package solution944
 
 import (
-	"sort"
+	"slices"
 )
 
 // ============================================================================
@@ -11,11 +11,12 @@ import (
 
 /*
 
-	$ go test -bench=. -benchmem
 	goos: linux
 	goarch: amd64
+	pkg: GoLeetCode/solutions/944---Delete-Columns-to-Make-Sorted
 	cpu: 13th Gen Intel(R) Core(TM) i7-13700K
-	Benchmark_minDeletionSize-24    	15351274	        83.11 ns/op	      96 B/op	       4 allocs/op
+	Benchmark_minDeletionSize
+	Benchmark_minDeletionSize-24    	32172034	        34.71 ns/op	      24 B/op	       1 allocs/op
 	PASS
 
 */
@@ -28,7 +29,7 @@ func minDeletionSize(strs []string) int {
 			val := int(strs[r][k] - 96)
 			st[r] = val
 		}
-		ok := sort.IntsAreSorted(st)
+		ok := slices.IsSorted(st)
 		if !ok {
 			ans++
 		}

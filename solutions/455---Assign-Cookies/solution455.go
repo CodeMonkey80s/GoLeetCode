@@ -1,6 +1,8 @@
 package solution455
 
-import "sort"
+import (
+	"slices"
+)
 
 // ============================================================================
 // 455. Assign Cookies
@@ -9,11 +11,12 @@ import "sort"
 
 /*
 
-	$ go test -bench=. -benchmem
 	goos: linux
 	goarch: amd64
+	pkg: GoLeetCode/solutions/455---Assign-Cookies
 	cpu: 13th Gen Intel(R) Core(TM) i7-13700K
-	Benchmark_findContentChildren-24    	23224447	        56.34 ns/op	      48 B/op	       2 allocs/op
+	Benchmark_findContentChildren
+	Benchmark_findContentChildren-24    	52557244	        22.56 ns/op	       0 B/op	       0 allocs/op
 	PASS
 
 */
@@ -22,8 +25,8 @@ func findContentChildren(g []int, s []int) int {
 	if len(s) == 0 {
 		return 0
 	}
-	sort.Ints(g)
-	sort.Ints(s)
+	slices.Sort(g)
+	slices.Sort(s)
 	ans := 0
 	for j := 0; j < len(s); j++ {
 		for i := 0; i < len(g); i++ {

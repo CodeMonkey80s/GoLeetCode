@@ -1,6 +1,8 @@
 package solution3194
 
-import "sort"
+import (
+	"slices"
+)
 
 // ============================================================================
 // 3194. Minimum Average of Smallest and Largest Elements
@@ -12,12 +14,13 @@ import "sort"
 	goarch: amd64
 	pkg: GoLeetCode/solutions/3194---Minimum-Average-of-Smallest-and-Largest-Elements
 	cpu: 13th Gen Intel(R) Core(TM) i7-13700K
-	Benchmark_minimumAverage-24    	100000000	        19.10 ns/op	       0 B/op	       0 allocs/op
+	Benchmark_minimumAverage
+	Benchmark_minimumAverage-24    	65249164	        15.82 ns/op	       0 B/op	       0 allocs/op
 	PASS
 */
 
 func minimumAverage(nums []int) float64 {
-	sort.Ints(nums)
+	slices.Sort(nums)
 	ans := 50.0
 	i := 0
 	for {

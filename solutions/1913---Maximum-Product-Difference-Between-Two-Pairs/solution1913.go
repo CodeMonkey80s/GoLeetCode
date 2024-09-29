@@ -1,6 +1,8 @@
 package solution1913
 
-import "sort"
+import (
+	"slices"
+)
 
 // ============================================================================
 // 1408. String Matching in an Array
@@ -9,18 +11,18 @@ import "sort"
 
 /*
 
-	$ go test -bench=. -benchmem
 	goos: linux
 	goarch: amd64
 	pkg: GoLeetCode/solutions/1913---Maximum-Product-Difference-Between-Two-Pairs
 	cpu: 13th Gen Intel(R) Core(TM) i7-13700K
-	Benchmark_maxProductDifference-24    	52369410	        26.55 ns/op	      24 B/op	       1 allocs/op
+	Benchmark_maxProductDifference
+	Benchmark_maxProductDifference-24    	100000000	        10.04 ns/op	       0 B/op	       0 allocs/op
 	PASS
 
 */
 
 func maxProductDifference(nums []int) int {
-	sort.Ints(nums)
+	slices.Sort(nums)
 	a := nums[0]
 	b := nums[1]
 	c := nums[len(nums)-1]
