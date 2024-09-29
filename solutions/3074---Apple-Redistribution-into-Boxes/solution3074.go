@@ -28,13 +28,12 @@ func minimumBoxes(apple []int, capacity []int) int {
 		apples += apple[i]
 	}
 
+	i := len(capacity) - 1
 	boxes := 0
-	for i := len(capacity) - 1; i >= 0; i-- {
+	for i >= 0 && apples > 0 {
 		apples -= capacity[i]
 		boxes++
-		if apples <= 0 {
-			break
-		}
+		i--
 	}
 
 	return boxes
