@@ -1,6 +1,7 @@
 package solution2119
 
 import (
+	"slices"
 	"strconv"
 	"strings"
 )
@@ -16,7 +17,7 @@ import (
 	pkg: GoLeetCode/solutions/2119---A-Number-After-a-Double-Reversal
 	cpu: 13th Gen Intel(R) Core(TM) i7-13700K
 	BenchmarkIsSameAfterReversals
-	BenchmarkIsSameAfterReversals-24    	 5862866	       177.8 ns/op	      56 B/op	       5 allocs/op
+	BenchmarkIsSameAfterReversals-24    	10276513	       117.0 ns/op	      19 B/op	       2 allocs/op
 	PASS
 */
 
@@ -25,19 +26,13 @@ func isSameAfterReversals(num int) bool {
 		return true
 	}
 
-	reverse := func(rns []rune) []rune {
-		var sb strings.Builder
-		for i := len(rns) - 1; i >= 0; i-- {
-			sb.WriteRune(rns[i])
-		}
-
-		return []rune(sb.String())
-	}
-
 	s := []rune(strconv.Itoa(num))
-	r1 := reverse(s)
-	r1 = []rune(strings.TrimLeft(string(r1), "0"))
-	r2 := reverse(r1)
+
+	r1 := slices.Clone(s)
+	slices.Reverse(r1)
+
+	r2 := []rune(strings.TrimLeft(string(r1), "0"))
+	slices.Reverse(r2)
 
 	return string(r2) == string(s)
 }
