@@ -255,6 +255,7 @@ that are useful for solving these problems.
 | 3285 | [Find Indices of Stable Mountains](solutions/3285--Find-Indices-of-Stable-Mountains/solution3285.go)                                                  | Array                                             | 🟢 Easy                                                            |
 | 3270 | [Find the Key of the Numbers](solutions/3270---Find-the-Key-of-the-Numbers/solution3270.go)                                                           | Math                                              | 🟢 Easy                                                            | 
 | 3274 | [Check if Two Chessboard Squares Have the Same Color](solutions/3274---Check-If-Two-Chessboard-Squares-Have-the-Same-Color/solution3274.go)           | Math, String                                      | 🟢 Easy                                                            | 
+| 3300 | [Minimum Element After Replacement With Digit Sum](solutions/3300---Minimum-Element-After-Replacement-With-Digit-Sum/solution3300.go)                 | Array, Math                                       | 🟢 Easy                                                            | 
 
 Legend:
 <ul>
