@@ -24,7 +24,7 @@ func Test_findComplement(t *testing.T) {
 	for _, tc := range testCases {
 		label = fmt.Sprintf("Case: Input: %v, Output: %v\n", tc.Input, tc.Output)
 		t.Run(label, func(t *testing.T) {
-			output := findComplement(tc.Input)
+			output := findComplementV2(tc.Input)
 			if output != tc.Output {
 				t.Errorf("Expected output to be %v but we got %v", tc.Output, output)
 			}
@@ -32,8 +32,14 @@ func Test_findComplement(t *testing.T) {
 	}
 }
 
-func Benchmark_findComplement(b *testing.B) {
+func Benchmark_findComplementV2(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		_ = findComplement(testCases[0].Input)
+		_ = findComplementV2(testCases[0].Input)
+	}
+}
+
+func Benchmark_findComplementV1(b *testing.B) {
+	for i := 0; i < b.N; i++ {
+		_ = findComplementV1(testCases[0].Input)
 	}
 }
