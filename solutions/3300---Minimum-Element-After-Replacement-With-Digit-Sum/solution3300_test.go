@@ -35,3 +35,9 @@ func Test_minElement(t *testing.T) {
 		})
 	}
 }
+
+func Benchmark_minElement(b *testing.B) {
+	for i := 0; i < b.N; i++ {
+		_ = minElement(testCases[0].Input)
+	}
+}
