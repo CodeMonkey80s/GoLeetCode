@@ -17,6 +17,10 @@ var testCases = []struct {
 		Input:  1,
 		Output: 0,
 	},
+	{
+		Input:  2,
+		Output: 1,
+	},
 }
 
 func Test_findComplement(t *testing.T) {
@@ -24,11 +28,17 @@ func Test_findComplement(t *testing.T) {
 	for _, tc := range testCases {
 		label = fmt.Sprintf("Case: Input: %v, Output: %v\n", tc.Input, tc.Output)
 		t.Run(label, func(t *testing.T) {
-			output := findComplementV2(tc.Input)
+			output := findComplementV3(tc.Input)
 			if output != tc.Output {
 				t.Errorf("Expected output to be %v but we got %v", tc.Output, output)
 			}
 		})
+	}
+}
+
+func Benchmark_findComplementV3(b *testing.B) {
+	for i := 0; i < b.N; i++ {
+		_ = findComplementV3(testCases[0].Input)
 	}
 }
 
