@@ -259,6 +259,7 @@ that are useful for solving these problems.
 | 3270 | [Find the Key of the Numbers](solutions/3270---Find-the-Key-of-the-Numbers/solution3270.go)                                                           | Math                                              | 🟢 Easy                                                            | 
 | 3274 | [Check if Two Chessboard Squares Have the Same Color](solutions/3274---Check-If-Two-Chessboard-Squares-Have-the-Same-Color/solution3274.go)           | Math, String                                      | 🟢 Easy                                                            | 
 | 3300 | [Minimum Element After Replacement With Digit Sum](solutions/3300---Minimum-Element-After-Replacement-With-Digit-Sum/solution3300.go)                 | Array, Math                                       | 🟢 Easy                                                            | 
+| 3304 | [Find the K-th Character in String Game I](solutions/3304---Find-the-K-th-Character-in-String-Game-I/solution3304.go)                                 | Bit Manipulation, Math, Simulation                | 🟢 Easy                                                            | 
 
 Legend:
 <ul>
