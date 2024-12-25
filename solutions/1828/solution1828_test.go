@@ -43,3 +43,9 @@ func Test_countPoints(t *testing.T) {
 		})
 	}
 }
+
+func Benchmark_countPoints(b *testing.B) {
+	for i := 0; i < b.N; i++ {
+		_ = countPoints(testCases[0].InputA, testCases[0].InputB)
+	}
+}
