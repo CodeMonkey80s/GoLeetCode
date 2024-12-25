@@ -45,8 +45,6 @@ func findMatrix(nums []int) [][]int {
 		}
 	}
 
-	output = slices.Clip(output)
-
 	return output
 }
 
