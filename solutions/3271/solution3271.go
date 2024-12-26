@@ -11,7 +11,7 @@ package solution3271
 	pkg: GoLeetCode/solutions/3271
 	cpu: 13th Gen Intel(R) Core(TM) i7-13700K
 	Benchmark_stringHashV1
-	Benchmark_stringHashV1-24    	45960301	        28.45 ns/op	       8 B/op	       1 allocs/op
+Benchmark_stringHashV1-24    	45960301	        28.45 ns/op	       8 B/op	       1 allocs/op
 	Benchmark_stringHashV2
 	Benchmark_stringHashV2-24    	50958140	        22.71 ns/op	       8 B/op	       1 allocs/op
 	PASS
