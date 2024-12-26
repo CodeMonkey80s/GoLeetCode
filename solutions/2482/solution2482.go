@@ -1,5 +1,10 @@
 package solution2482
 
+// ============================================================================
+// 2482. Difference Between Ones and Zeros in Row and Column
+// URL: https://leetcode.com/problems/difference-between-ones-and-zeros-in-row-and-column/
+// ============================================================================
+
 func onesMinusZeros(grid [][]int) [][]int {
 
 	onesRow := make([]int, len(grid))
