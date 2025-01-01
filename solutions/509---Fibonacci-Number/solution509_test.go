@@ -9,7 +9,6 @@ var testCases = []struct {
 	Input  int
 	Output int
 }{
-	// Mandatory Test Cases
 	{
 		Input:  2,
 		Output: 1,
@@ -22,7 +21,14 @@ var testCases = []struct {
 		Input:  4,
 		Output: 3,
 	},
-	// Additional my custom cases
+	{
+		Input:  13,
+		Output: 233,
+	},
+	{
+		Input:  19,
+		Output: 4181,
+	},
 }
 
 func Test_fib(t *testing.T) {
@@ -40,6 +46,6 @@ func Test_fib(t *testing.T) {
 
 func Benchmark_fib(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		_ = fib(testCases[0].Input)
+		_ = fib(testCases[3].Input)
 	}
 }
