@@ -18,14 +18,15 @@ import "math"
 */
 
 func smallestNumber(n int) int {
-	i := 0
+	var i int
+	var v int
 	for {
-		v := int(math.Pow(float64(2), float64(i)))
+		v = int(math.Pow(float64(2), float64(i)))
 		if v > n {
-			return v - 1
+			break
 		}
 		i++
 	}
 
-	return -1
+	return v - 1
 }

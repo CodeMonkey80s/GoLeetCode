@@ -40,10 +40,10 @@ func luckyNumbers(matrix [][]int) []int {
 		cols[maxNumber] = true
 	}
 
-	for rowval, _ := range rows {
-		for colval, _ := range cols {
-			if rowval == colval {
-				return []int{rowval}
+	for rowVal := range rows {
+		for colVal := range cols {
+			if rowVal == colVal {
+				return []int{rowVal}
 			}
 		}
 	}

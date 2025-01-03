@@ -27,6 +27,7 @@ func (c *Codec) encode(longUrl string) string {
 	hash := hex.EncodeToString(h.Sum(nil))
 	shortUrl := "http://tinyurl.com/" + string(hash)
 	c.urls[shortUrl] = longUrl
+
 	return shortUrl
 }
 
@@ -36,6 +37,6 @@ func (c *Codec) decode(shortUrl string) string {
 	if ok {
 		return url
 	}
-	panic("something went wrong...")
+
 	return ""
 }
