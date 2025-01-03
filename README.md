@@ -16,7 +16,7 @@ that are useful for solving these problems.
 | #    | Title                                                        | Solution                               | Level 
 |:-----|:-------------------------------------------------------------|:---------------------------------------|:-----------
 | 1    | Two Sum                                                      | [link](solutions/1/solution1.go)       | 🟩        
-| 3    | Longest Substring Without Repeating Characters               | [link](solutions/3/solution3.go)       | 🟨🟨       
+| 3    | Longest Substring Without Repeating Characters               | [link](solutions/3/solution3.go)       | 🟨       
 | 9    | Palindrome Number                                            | [link](solutions/9/solution9.go)       | 🟩       
 | 13   | Roman to Integer                                             | [link](solutions/13/solution13.go)     | 🟩       
 | 14   | Longest Common Prefix                                        | [link](solutions/14/solution14.go)     | 🟩       
@@ -32,7 +32,7 @@ that are useful for solving these problems.
 | 67   | Add Binary                                                   | [link](solutions/67/solution67.go)     | 🟩       
 | 69   | Sqrt(x)                                                      | [link](solutions/69/solution69.go)     | 🟩       
 | 70   | Climbing Stairs                                              | [link](solutions/70/solution70.go)     | 🟩       
-| 78   | Subsets                                                      | [link](solutions/78/solution78.go)     | 🟨🟨  
+| 78   | Subsets                                                      | [link](solutions/78/solution78.go)     | 🟨  
 | 83   | Remove Duplicates from Sorted List                           | [link](solutions/83/solution83.go)     | 🟩       
 | 88   | Merge Sorted Array                                           | [link](solutions/88/solution88.go)     | 🟩       
 | 94   | Binary Tree Inorder Traversal                                | [link](solutions/94/solution94.go)     | 🟩       
@@ -44,8 +44,8 @@ that are useful for solving these problems.
 | 121  | Best Time to Buy and Sell Stock                              | [link](solutions/121/solution121.go)   | 🟩       
 | 125  | Valid Palindrome                                             | [link](solutions/125/solution125.go)   | 🟩       
 | 136  | Single Number                                                | [link](solutions/136/solution136.go)   | 🟩       
-| 151  | Reverse Words in a String                                    | [link](solutions/151/solution151.go)   | 🟨🟨     
-| 167  | Two Sum II                                                   | [link](solutions/167/solution167.go)   | 🟨🟨     
+| 151  | Reverse Words in a String                                    | [link](solutions/151/solution151.go)   | 🟨     
+| 167  | Two Sum II                                                   | [link](solutions/167/solution167.go)   | 🟨     
 | 168  | Excel Sheet Column Title                                     | [link](solutions/168/solution168.go)   | 🟩       
 | 169  | Majority Element                                             | [link](solutions/169/solution169.go)   | 🟩       
 | 171  | Excel Sheet Column Number                                    | [link](solutions/171/solution171.go)   | 🟩       
@@ -79,7 +79,7 @@ that are useful for solving these problems.
 | 434  | Number of Segments in a String                               | [link](solutions/434/solution434.go)   | 🟩       
 | 442  | Find All Duplicates in an Array                              | [link](solutions/442/solution442.go)   | 🟩       
 | 448  | Find All Numbers Disappeared in an Array                     | [link](solutions/448/solution448.go)   | 🟩       
-| 451  | Sort Characters By Frequency                                 | [link](solutions/451/solution451.go)   | 🟨🟨     
+| 451  | Sort Characters By Frequency                                 | [link](solutions/451/solution451.go)   | 🟨     
 | 455  | Assign Cookies                                               | [link](solutions/455/solution455.go)   | 🟩       
 | 459  | Repeated Substring Pattern                                   | [link](solutions/459/solution459.go)   | 🟩       
 | 463  | Island Perimeter                                             | [link](solutions/463/solution463.go)   | 🟩       
@@ -90,7 +90,7 @@ that are useful for solving these problems.
 | 509  | Fibonacci Number                                             | [link](solutions/509/solution509.go)   | 🟩       
 | 520  | Detect Capital                                               | [link](solutions/520/solution520.go)   | 🟩       
 | 520  | Detect Capital                                               | [link](solutions/520/solution520.go)   | 🟩       
-| 535  | Encode and Decode TinyURL                                    | [link](solutions/535/solution535.go)   | 🟨🟨     
+| 535  | Encode and Decode TinyURL                                    | [link](solutions/535/solution535.go)   | 🟨     
 | 551  | Student Attendance Record I                                  | [link](solutions/551/solution551.go)   | 🟩       
 | 557  | Reverse Words in a String III                                | [link](solutions/557/solution557.go)   | 🟩       
 | 599  | Minimum Index Sum of Two Lists                               | [link](solutions/599/solution599.go)   | 🟩       
@@ -104,14 +104,14 @@ that are useful for solving these problems.
 | 796  | Rotate String                                                | [link](solutions/796/solution796.go)   | 🟩       
 | 804  | Unique Morse Code Words                                      | [link](solutions/804/solution804.go)   | 🟩       
 | 806  | Number of Lines To Write String                              | [link](solutions/806/solution806.go)   | 🟩       
-| 811  | Subdomain Visit Count                                        | [link](solutions/811/solution811.go)   | 🟨🟨     
+| 811  | Subdomain Visit Count                                        | [link](solutions/811/solution811.go)   | 🟨     
 | 819  | Most Common Word                                             | [link](solutions/819/solution819.go)   | 🟩       
 | 821  | Shortest Distance to a Character                             | [link](solutions/821/solution821.go)   | 🟩       
 | 824  | Goat Latin                                                   | [link](solutions/824/solution824.go)   | 🟩       
 | 830  | Positions of Large Groups                                    | [link](solutions/830/solution830.go)   | 🟩       
 | 832  | Flipping an Image                                            | [link](solutions/832/solution832.go)   | 🟩       
 | 844  | Backspace String Compare                                     | [link](solutions/844/solution844.go)   | 🟩       
-| 861  | Score After Flipping Matrix                                  | [link](solutions/861/solution861.go)   | 🟨🟨     
+| 861  | Score After Flipping Matrix                                  | [link](solutions/861/solution861.go)   | 🟨     
 | 868  | Binary Gap                                                   | [link](solutions/868/solution868.go)   | 🟩       
 | 884  | Uncommon Words from Two Sentences                            | [link](solutions/884/solution884.go)   | 🟩       
 | 944  | Delete Columns to Make Sorted                                | [link](solutions/944/solution944.go)   | 🟩       
@@ -137,14 +137,14 @@ that are useful for solving these problems.
 | 1360 | Number of Days Between Two Dates                             | [link](solutions/1360/solution1360.go) | 🟩       
 | 1365 | How Many Numbers Are Smaller Than the Current Number         | [link](solutions/1365/solution1365.go) | 🟩       
 | 1380 | Lucky Numbers in a Matrix                                    | [link](solutions/1380/solution1380.go) | 🟩       
-| 1381 | Design a Stack with Increment Operation                      | [link](solutions/1381/solution1381.go) | 🟨🟨     
+| 1381 | Design a Stack with Increment Operation                      | [link](solutions/1381/solution1381.go) | 🟨     
 | 1389 | Create Target Array in the Given Order                       | [link](solutions/1389/solution1389.go) | 🟩       
 | 1408 | String Matching in an Array                                  | [link](solutions/1408/solution1408.go) | 🟩       
 | 1431 | Kids With the Greatest Number of Candies                     | [link](solutions/1431/solution1431.go) | 🟩       
 | 1436 | Destination City                                             | [link](solutions/1436/solution1436.go) | 🟩       
 | 1455 | Check If a Word Occurs As a Prefix                           | [link](solutions/1455/solution1455.go) | 🟩       
 | 1470 | Shuffle the Array                                            | [link](solutions/1470/solution1470.go) | 🟩       
-| 1476 | Subrectangle Queries                                         | [link](solutions/1476/solution1476.go) | 🟨🟨     
+| 1476 | Subrectangle Queries                                         | [link](solutions/1476/solution1476.go) | 🟨     
 | 1480 | Running Sum of 1d Array                                      | [link](solutions/1480/solution1480.go) | 🟩       
 | 1486 | XOR Operation in an Array                                    | [link](solutions/1486/solution1486.go) | 🟩       
 | 1496 | Path Crossing                                                | [link](solutions/1496/solution1496.go) | 🟩       
@@ -174,15 +174,15 @@ that are useful for solving these problems.
 | 1812 | Determine Color of a Chessboard Square                       | [link](solutions/1812/solution1812.go) | 🟩       
 | 1816 | Truncate Sentence                                            | [link](solutions/1816/solution1816.go) | 🟩       
 | 1827 | Minimum Operations to Make the Array Increasing              | [link](solutions/1827/solution1827.go) | 🟩       
-| 1828 | Queries on Number of Points Inside a Circle                  | [link](solutions/1828/solution1828.go) | 🟨🟨     
+| 1828 | Queries on Number of Points Inside a Circle                  | [link](solutions/1828/solution1828.go) | 🟨     
 | 1832 | Check if the Sentence Is Pangram                             | [link](solutions/1832/solution1832.go) | 🟩       
 | 1844 | Replace All Digits with Characters                           | [link](solutions/1844/solution1844.go) | 🟩       
 | 1859 | Sorting the Sentence                                         | [link](solutions/1859/solution1859.go) | 🟩       
 | 1863 | Sum of All Subset XOR Totals                                 | [link](solutions/1863/solution1863.go) | 🟩       
 | 1876 | Substrings of Size Three with Distinct Characters            | [link](solutions/1876/solution1876.go) | 🟩       
-| 1877 | Minimize Maximum Pair Sum in Array                           | [link](solutions/1877/solution1877.go) | 🟨🟨     
+| 1877 | Minimize Maximum Pair Sum in Array                           | [link](solutions/1877/solution1877.go) | 🟨     
 | 1880 | Check if Word Equals Summation of Two Words                  | [link](solutions/1880/solution1880.go) | 🟩       
-| 1910 | Remove All Occurrences of a Substring                        | [link](solutions/1910/solution1910.go) | 🟨🟨     
+| 1910 | Remove All Occurrences of a Substring                        | [link](solutions/1910/solution1910.go) | 🟨     
 | 1913 | Maximum Product Difference Between Two Pairs                 | [link](solutions/1913/solution1913.go) | 🟩       
 | 1920 | Build Array from Permutation                                 | [link](solutions/1920/solution1920.go) | 🟩       
 | 1929 | Concatenation of Array                                       | [link](solutions/1929/solution1929.go) | 🟩       
@@ -195,7 +195,7 @@ that are useful for solving these problems.
 | 2103 | Rings and Rods                                               | [link](solutions/2103/solution2103.go) | 🟩       
 | 2114 | Maximum Number of Words Found in Sentences                   | [link](solutions/2114/solution2114.go) | 🟩       
 | 2119 | A Number After a Double Reversal                             | [link](solutions/2119/solution2119.go) | 🟩       
-| 2120 | Execution of All Suffix Instructions Staying in a Grid       | [link](solutions/2120/solution2120.go) | 🟨🟨     
+| 2120 | Execution of All Suffix Instructions Staying in a Grid       | [link](solutions/2120/solution2120.go) | 🟨     
 | 2129 | Capitalize the Title                                         | [link](solutions/2129/solution2129.go) | 🟩       
 | 2149 | Rearrange Array Elements by Sign                             | [link](solutions/2149/solution2149.go) | 🟩       
 | 2160 | Minimum Sum of Four Digit Number After Splitting Digits      | [link](solutions/2160/solution2160.go) | 🟩       
@@ -203,25 +203,25 @@ that are useful for solving these problems.
 | 2185 | Counting Words With a Given Prefix                           | [link](solutions/2185/solution2185.go) | 🟩       
 | 2194 | Cells in a Range on an Excel Sheet                           | [link](solutions/2194/solution2194.go) | 🟩       
 | 2215 | Find the Difference of Two Arrays                            | [link](solutions/2215/solution2215.go) | 🟩       
-| 2221 | Find Triangular Sum of an Array                              | [link](solutions/2221/solution2221.go) | 🟨🟨     
+| 2221 | Find Triangular Sum of an Array                              | [link](solutions/2221/solution2221.go) | 🟨     
 | 2283 | Check if Number Has Equal Digit Count and Digit Value        | [link](solutions/2283/solution2283.go) | 🟩       
 | 2309 | Greatest English Letter in Upper and Lower Case              | [link](solutions/2309/solution2309.go) | 🟩       
 | 2315 | Count Asterisks                                              | [link](solutions/2315/solution2315.go) | 🟩       
 | 2325 | Decode the Message                                           | [link](solutions/2325/solution2325.go) | 🟩       
-| 2390 | Removing Starts From a String                                | [link](solutions/2390/solution2390.go) | 🟨🟨     
+| 2390 | Removing Starts From a String                                | [link](solutions/2390/solution2390.go) | 🟨     
 | 2418 | Sort the People                                              | [link](solutions/2418/solution2418.go) | 🟩       
 | 2446 | Determine if Two Events Have Conflict                        | [link](solutions/2446/solution2446.go) | 🟩       
 | 2451 | Odd String Difference                                        | [link](solutions/2451/solution2451.go) | 🟩       
-| 2482 | Difference Between Ones and Zeros in Row and Column          | [link](solutions/2482/solution2482.go) | 🟨🟨     
+| 2482 | Difference Between Ones and Zeros in Row and Column          | [link](solutions/2482/solution2482.go) | 🟨     
 | 2496 | Maximum Value of a String in an Array                        | [link](solutions/2496/solution2496.go) | 🟩       
 | 2506 | Count Pairs of Similar Strings                               | [link](solutions/2506/solution2506.go) | 🟩       
 | 2540 | Minimum Common Value                                         | [link](solutions/2540/solution2540.go) | 🟩       
-| 2545 | Sort the Students by Their Kth Score                         | [link](solutions/2545/solution2545.go) | 🟨🟨     
+| 2545 | Sort the Students by Their Kth Score                         | [link](solutions/2545/solution2545.go) | 🟨     
 | 2553 | Separate the Digits in an Array                              | [link](solutions/2553/solution2553.go) | 🟩       
 | 2574 | Left and Right Sum Differences                               | [link](solutions/2574/solution2574.go) | 🟩       
 | 2586 | Count the Number of Vowel Strings in Range                   | [link](solutions/2586/solution2586.go) | 🟩       
 | 2595 | Number of Even and Odd Bits                                  | [link](solutions/2595/solution2595.go) | 🟩       
-| 2610 | Convert an Array Into a 2D Array With Conditions             | [link](solutions/2610/solution2610.go) | 🟨🟨     
+| 2610 | Convert an Array Into a 2D Array With Conditions             | [link](solutions/2610/solution2610.go) | 🟨     
 | 2656 | Maximum Sum With Exactly K Elements                          | [link](solutions/2656/solution2656.go) | 🟩       
 | 2696 | Minimum String Length After Removing Substrings              | [link](solutions/2696/solution2696.go) | 🟩       
 | 2716 | Minimize String Length                                       | [link](solutions/2716/solution2716.go) | 🟩       
@@ -237,7 +237,7 @@ that are useful for solving these problems.
 | 2859 | Sum of Values at Indices With K Set Bits                     | [link](solutions/2859/solution2859.go) | 🟩       
 | 2864 | Maximum Odd Binary Number                                    | [link](solutions/2864/solution2864.go) | 🟩       
 | 2894 | Divisible and Non-divisible Sums Difference                  | [link](solutions/2894/solution2894.go) | 🟩       
-| 2914 | Minimum Number of Changes to Make Binary String Beautiful    | [link](solutions/2914/solution2914.go) | 🟨🟨     
+| 2914 | Minimum Number of Changes to Make Binary String Beautiful    | [link](solutions/2914/solution2914.go) | 🟨     
 | 2917 | Find the K-or of an Array                                    | [link](solutions/2917/solution2917.go) | 🟩       
 | 2932 | Maximum Strong Pair XOR I                                    | [link](solutions/2932/solution2932.go) | 🟩       
 | 2942 | Find Words Containing Character                              | [link](solutions/2942/solution2942.go) | 🟩       
@@ -268,7 +268,7 @@ that are useful for solving these problems.
 | 3248 | Snake in Matrix                                              | [link](solutions/3248/solution3248.go) | 🟩       
 | 3258 | Count Substrings That Satisfy K-Constraint I                 | [link](solutions/3258/solution3258.go) | 🟩       
 | 3264 | Final Array State After K Multiplication Operations I        | [link](solutions/3264/solution3264.go) | 🟩       
-| 3271 | Hash Divided String                                          | [link](solutions/3271/solution3271.go) | 🟨🟨     
+| 3271 | Hash Divided String                                          | [link](solutions/3271/solution3271.go) | 🟨     
 | 3289 | The Two Sneaky Numbers of Digitville                         | [link](solutions/3289/solution3289.go) | 🟩       
 | 3280 | Convert Date to Binary                                       | [link](solutions/3280/solution3280.go) | 🟩       
 | 3285 | Find Indices of Stable Mountains                             | [link](solutions/3285/solution3285.go) | 🟩       
@@ -276,7 +276,7 @@ that are useful for solving these problems.
 | 3274 | Check if Two Chessboard Squares Have the Same Color          | [link](solutions/3274/solution3274.go) | 🟩       
 | 3300 | Minimum Element After Replacement With Digit Sum             | [link](solutions/3300/solution3300.go) | 🟩       
 | 3304 | Find the K-th Character in String Game I                     | [link](solutions/3304/solution3304.go) | 🟩       
-| 3324 | Find the Sequence of Strings Appeared on the Screen          | [link](solutions/3324/solution3324.go) | 🟨🟨     
+| 3324 | Find the Sequence of Strings Appeared on the Screen          | [link](solutions/3324/solution3324.go) | 🟨     
 | 3340 | Check Balanced String                                        | [link](solutions/3340/solution3340.go) | 🟩       
 | 3370 | Smallest Number With All Set Bits                            | [link](solutions/3370/solution3370.go) | 🟩       
 
