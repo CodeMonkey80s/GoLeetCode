@@ -259,6 +259,7 @@ that are useful for solving these problems.
 | 3168 | Minimum Number of Chairs in a Waiting Room                   | [link](solutions/3168/solution3168.go) | 🟩       
 | 3174 | Clear Digits                                                 | [link](solutions/3174/solution3174.go) | 🟩       
 | 3194 | Minimum Average of Smallest and Largest Elements             | [link](solutions/3194/solution3194.go) | 🟩       
+| 3195 | Find the Minimum Area to Cover All Ones I                    | [link](solutions/3195/solution3195.go) | 🟨       
 | 3206 | Alternating Groups I                                         | [link](solutions/3206/solution3206.go) | 🟩       
 | 3210 | Find the Encrypted String                                    | [link](solutions/3210/solution3210.go) | 🟩       
 | 3216 | Lexicographically Smallest String After a Swap               | [link](solutions/3216/solution3216.go) | 🟩       
