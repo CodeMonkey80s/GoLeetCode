@@ -256,6 +256,7 @@ that are useful for solving these problems.
 | 3151 | Special Array I                                              | [link](solutions/3151/solution3151.go) | 🟩       
 | 3158 | Find the XOR of Numbers Which Appear Twice                   | [link](solutions/3158/solution3158.go) | 🟩       
 | 3162 | Find the Number of Good Pairs I                              | [link](solutions/3162/solution3162.go) | 🟩       
+| 3163 | String Compression III                                       | [link](solutions/3163/solution3163.go) | 🟨       
 | 3168 | Minimum Number of Chairs in a Waiting Room                   | [link](solutions/3168/solution3168.go) | 🟩       
 | 3174 | Clear Digits                                                 | [link](solutions/3174/solution3174.go) | 🟩       
 | 3194 | Minimum Average of Smallest and Largest Elements             | [link](solutions/3194/solution3194.go) | 🟩       
