@@ -3,54 +3,62 @@ package solution1476
 import (
 	"fmt"
 	"reflect"
+	"strconv"
 	"testing"
 )
 
 var testCases = []struct {
-	InputA []string
-	InputB [][]int
-	Output []int
+	InputCommands []string
+	InputValues   [][][]int
+	Output        []string
 }{
 	{
-		InputA: []string{"SubrectangleQueries", "getValue", "updateSubrectangle", "getValue", "getValue", "updateSubrectangle", "getValue", "getValue"},
-		InputB: [][]int{{{{1, 2, 1}, {4, 3, 4}, {3, 2, 1}, {1, 1, 1}}}, {0, 2}, {0, 0, 3, 2, 5}, {0, 2}, {3, 1}, {3, 0, 3, 2, 10}, {3, 1}, {0, 2}},
-		Output: []int{6, 16, 16, 4},
-	},
-	{
-		InputA: []string{"adjacentSum", "diagonalSum"},
-		InputB: [][]int{{1, 2, 0, 3}, {4, 7, 15, 6}, {8, 9, 10, 11}, {12, 13, 14, 5}},
-		Output: []int{23, 45},
+		InputCommands: []string{
+			"SubrectangleQueries",
+			"getValue",
+			"updateSubrectangle",
+			"getValue",
+			"getValue",
+			"updateSubrectangle",
+			"getValue",
+			"getValue",
+		},
+		InputValues: [][][]int{
+			{{1, 2, 1}, {4, 3, 4}, {3, 2, 1}, {1, 1, 1}},
+			{{0, 2}},
+			{{0, 0, 3, 2, 5}},
+			{{0, 2}},
+			{{3, 1}},
+			{{3, 0, 3, 2, 10}},
+			{{3, 1}},
+			{{0, 2}},
+		},
+
+		Output: []string{"null", "1", "null", "5", "5", "null", "10", "5"},
 	},
 }
 
-func Test_getFinalState(t *testing.T) {
+func Test_SubrectangleQueries(t *testing.T) {
 	var label string
 	for _, tc := range testCases {
-		label = fmt.Sprintf("Case: Input: %v %v, Output: %v\n", tc.InputA, tc.InputB, tc.Output)
+		label = fmt.Sprintf("Case: Input: %v %v, Output: %v\n", tc.InputCommands, tc.InputValues, tc.Output)
 		t.Run(label, func(t *testing.T) {
-			var output []int
-			obj := Constructor(tc.InputB)
-			for i, cmd := range tc.InputA {
+			var output []string
+			obj := Constructor(tc.InputValues[0])
+			output = append(output, "null")
+			for i, cmd := range tc.InputCommands {
 				switch {
-				case cmd == "adjacentSum":
-					v := obj.AdjacentSum(tc.InputC[i])
-					output = append(output, v)
-				case cmd == "diagonalSum":
-					v := obj.DiagonalSum(tc.InputC[i])
-					output = append(output, v)
+				case cmd == "updateSubrectangle":
+					obj.UpdateSubrectangle(tc.InputValues[i][0][0], tc.InputValues[i][0][1], tc.InputValues[i][0][2], tc.InputValues[i][0][3], tc.InputValues[i][0][4])
+					output = append(output, "null")
+				case cmd == "getValue":
+					v := obj.GetValue(tc.InputValues[i][0][0], tc.InputValues[i][0][1])
+					output = append(output, strconv.Itoa(v))
 				}
 			}
 			if !reflect.DeepEqual(output, tc.Output) {
 				t.Errorf("Expected output to be %v but we got %v", tc.Output, output)
 			}
 		})
-	}
-}
-
-func BenchmarkGetFinalState(b *testing.B) {
-	for i := 0; i < b.N; i++ {
-		obj := Constructor(testCases[0].InputB)
-		_ = obj.AdjacentSum(testCases[0].InputC[0])
-		_ = obj.DiagonalSum(testCases[0].InputC[1])
 	}
 }
