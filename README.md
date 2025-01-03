@@ -127,6 +127,7 @@ that are useful for solving these problems.
 | 1207 | Unique Number of Occurrences                                 | [link](solutions/1207/solution1207.go) | 🟩       
 | 1221 | Split a String in Balanced Strings                           | [link](solutions/1221/solution1221.go) | 🟩       
 | 1275 | Find Winner on a Tic Tac Toe Game                            | [link](solutions/1275/solution1275.go) | 🟩       
+| 1282 | Group the People Given the Group Size They Belong To         | [link](solutions/1282/solution1282.go) | 🟨       
 | 1287 | Element Appearing More Than 25% In Sorted Array              | [link](solutions/1287/solution1287.go) | 🟩       
 | 1304 | Find N Unique Integers Sum up to Zero                        | [link](solutions/1304/solution1304.go) | 🟩       
 | 1309 | Decrypt String from Alphabet to Integer Mapping              | [link](solutions/1309/solution1309.go) | 🟩       
