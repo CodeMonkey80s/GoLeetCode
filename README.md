@@ -229,6 +229,7 @@ that are useful for solving these problems.
 | 2716 | Minimize String Length                                       | [link](solutions/2716/solution2716.go) | 🟩       
 | 2744 | Find Maximum Number of String Pairs                          | [link](solutions/2744/solution2744.go) | 🟩       
 | 2778 | Sum of Squares of Special Elements                           | [link](solutions/2778/solution2778.go) | 🟩       
+| 2785 | Sort Vowels in a String                                      | [link](solutions/2785/solution2785.go) | 🟨       
 | 2788 | Split Strings by Separator                                   | [link](solutions/2788/solution2788.go) | 🟩       
 | 2798 | Number of Employees Who Met the Target                       | [link](solutions/2798/solution2798.go) | 🟩       
 | 2810 | Faulty Keyboard                                              | [link](solutions/2810/solution2810.go) | 🟩       
