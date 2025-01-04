@@ -216,6 +216,7 @@ that are useful for solving these problems.
 | 2446 | Determine if Two Events Have Conflict                        | [link](solutions/2446/solution2446.go) | 🟩    
 | 2451 | Odd String Difference                                        | [link](solutions/2451/solution2451.go) | 🟩    
 | 2482 | Difference Between Ones and Zeros in Row and Column          | [link](solutions/2482/solution2482.go) | 🟨    
+| 2485 | Find the Pivot Integer                                       | [link](solutions/2485/solution2485.go) | 🟩    
 | 2496 | Maximum Value of a String in an Array                        | [link](solutions/2496/solution2496.go) | 🟩    
 | 2506 | Count Pairs of Similar Strings                               | [link](solutions/2506/solution2506.go) | 🟩    
 | 2540 | Minimum Common Value                                         | [link](solutions/2540/solution2540.go) | 🟩    
