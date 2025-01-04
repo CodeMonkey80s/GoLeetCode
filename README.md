@@ -179,6 +179,7 @@ that are useful for solving these problems.
 | 1828 | Queries on Number of Points Inside a Circle                  | [link](solutions/1828/solution1828.go) | 🟨    
 | 1832 | Check if the Sentence Is Pangram                             | [link](solutions/1832/solution1832.go) | 🟩    
 | 1844 | Replace All Digits with Characters                           | [link](solutions/1844/solution1844.go) | 🟩    
+| 1854 | Maximum Population Year                                      | [link](solutions/1854/solution1854.go) | 🟩    
 | 1859 | Sorting the Sentence                                         | [link](solutions/1859/solution1859.go) | 🟩    
 | 1863 | Sum of All Subset XOR Totals                                 | [link](solutions/1863/solution1863.go) | 🟩    
 | 1876 | Substrings of Size Three with Distinct Characters            | [link](solutions/1876/solution1876.go) | 🟩    
