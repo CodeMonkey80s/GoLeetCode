@@ -63,6 +63,7 @@ that are useful for solving these problems.
 | 268  | Missing Number                                               | [link](solutions/268/solution268.go)   | 🟩    
 | 283  | Move Zeroes                                                  | [link](solutions/283/solution283.go)   | 🟩    
 | 290  | Word Pattern                                                 | [link](solutions/290/solution290.go)   | 🟩    
+| 303  | Range Sum Query - Immutable                                  | [link](solutions/303/solution303.go)   | 🟩    
 | 338  | Counting Bits                                                | [link](solutions/338/solution338.go)   | 🟩    
 | 344  | Reverse String                                               | [link](solutions/344/solution344.go)   | 🟩    
 | 345  | Reverse Vowels of a String                                   | [link](solutions/345/solution345.go)   | 🟩    
