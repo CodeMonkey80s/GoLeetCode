@@ -99,6 +99,7 @@ that are useful for solving these problems.
 | 682  | Baseball Game                                                | [link](solutions/682/solution682.go)   | 🟩    
 | 693  | Binary Number with Alternating Bits                          | [link](solutions/693/solution693.go)   | 🟩    
 | 709  | To Lower Case                                                | [link](solutions/709/solution709.go)   | 🟩    
+| 724  | Find Pivot Index                                             | [link](solutions/724/solution724.go)   | 🟩    
 | 746  | Min Cost Climbing Stairs                                     | [link](solutions/746/solution746.go)   | 🟩    
 | 762  | Prime Number of Set Bits in Binary Representation            | [link](solutions/762/solution762.go)   | 🟩    
 | 771  | Jewels and Stones                                            | [link](solutions/771/solution771.go)   | 🟩    
