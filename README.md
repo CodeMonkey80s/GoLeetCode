@@ -133,6 +133,7 @@ that are useful for solving these problems.
 | 1287 | Element Appearing More Than 25% In Sorted Array              | [link](solutions/1287/solution1287.go) | 🟩    
 | 1304 | Find N Unique Integers Sum up to Zero                        | [link](solutions/1304/solution1304.go) | 🟩    
 | 1309 | Decrypt String from Alphabet to Integer Mapping              | [link](solutions/1309/solution1309.go) | 🟩    
+| 1310 | XOR Queries of a Subarray                                    | [link](solutions/1310/solution1310.go) | 🟨    
 | 1313 | Decompress Run-Length Encoded List                           | [link](solutions/1313/solution1313.go) | 🟩    
 | 1331 | Rank Transform of an Array                                   | [link](solutions/1331/solution1331.go) | 🟩    
 | 1346 | Check If N and Its Double Exist                              | [link](solutions/1346/solution1346.go) | 🟩    
