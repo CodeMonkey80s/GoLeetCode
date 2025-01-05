@@ -5,6 +5,24 @@ package solution724
 // URL: https://leetcode.com/problems/find-pivot-index/
 // ============================================================================
 
+func pivotIndexV2(nums []int) int {
+	var total int
+	var leftSum int
+
+	for _, num := range nums {
+		total += num
+	}
+
+	for i, num := range nums {
+		if leftSum == total-leftSum-num {
+			return i
+		}
+		leftSum += num
+	}
+
+	return -1
+}
+
 func pivotIndex(nums []int) int {
 
 	if len(nums) <= 1 {
