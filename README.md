@@ -187,6 +187,7 @@ that are useful for solving these problems.
 | 1876 | Substrings of Size Three with Distinct Characters            | [link](solutions/1876/solution1876.go) | 🟩    
 | 1877 | Minimize Maximum Pair Sum in Array                           | [link](solutions/1877/solution1877.go) | 🟨    
 | 1880 | Check if Word Equals Summation of Two Words                  | [link](solutions/1880/solution1880.go) | 🟩    
+| 1893 | Check if All the Integers in a Range Are Covered             | [link](solutions/1893/solution1893.go) | 🟩    
 | 1910 | Remove All Occurrences of a Substring                        | [link](solutions/1910/solution1910.go) | 🟨    
 | 1913 | Maximum Product Difference Between Two Pairs                 | [link](solutions/1913/solution1913.go) | 🟩    
 | 1920 | Build Array from Permutation                                 | [link](solutions/1920/solution1920.go) | 🟩    
