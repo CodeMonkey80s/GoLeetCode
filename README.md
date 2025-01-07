@@ -158,6 +158,7 @@ that are useful for solving these problems.
 | 1528 | Shuffle String                                               | [link](solutions/1528/solution1528.go) | 🟩    
 | 1550 | Three Consecutive Odds                                       | [link](solutions/1550/solution1550.go) | 🟩    
 | 1556 | Thousand Separator                                           | [link](solutions/1556/solution1556.go) | 🟩    
+| 1561 | Maximum Number of Coins You Can Get                          | [link](solutions/1561/solution1561.go) | 🟨    
 | 1572 | Matrix Diagonal Sum                                          | [link](solutions/1572/solution1572.go) | 🟩    
 | 1588 | Sum of All Odd Length Subarrays                              | [link](solutions/1588/solution1588.go) | 🟩    
 | 1592 | Rearrange Spaces Between Words                               | [link](solutions/1592/solution1592.go) | 🟩    
