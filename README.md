@@ -32,6 +32,7 @@ that are useful for solving these problems.
 | 67   | Add Binary                                                   | [link](solutions/67/solution67.go)     | 🟩    
 | 69   | Sqrt(x)                                                      | [link](solutions/69/solution69.go)     | 🟩    
 | 70   | Climbing Stairs                                              | [link](solutions/70/solution70.go)     | 🟩    
+| 75   | Sort Colors                                                  | [link](solutions/75/solution75.go)     | 🟨    
 | 78   | Subsets                                                      | [link](solutions/78/solution78.go)     | 🟨    
 | 83   | Remove Duplicates from Sorted List                           | [link](solutions/83/solution83.go)     | 🟩    
 | 88   | Merge Sorted Array                                           | [link](solutions/88/solution88.go)     | 🟩    
