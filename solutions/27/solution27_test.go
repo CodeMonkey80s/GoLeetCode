@@ -10,7 +10,6 @@ var testCases = []struct {
 	InputB int
 	Output int
 }{
-	// Mandatory Test Cases
 	{
 		InputA: []int{3, 2, 2, 3},
 		InputB: 3,
@@ -21,11 +20,15 @@ var testCases = []struct {
 		InputB: 2,
 		Output: 5,
 	},
-	// Additional my custom cases
 	{
 		InputA: []int{4, 4, 0, 1, 0, 2},
 		InputB: 0,
 		Output: 4,
+	},
+	{
+		InputA: []int{},
+		InputB: 0,
+		Output: 0,
 	},
 }
 
@@ -44,6 +47,12 @@ func Test_removeElement(t *testing.T) {
 func Benchmark_removeElement(b *testing.B) {
 	for i := 0; i < b.N; i++ {
 		_ = removeElement(testCases[0].InputA, testCases[0].InputB)
+	}
+}
+
+func Benchmark_removeElementV1(b *testing.B) {
+	for i := 0; i < b.N; i++ {
+		_ = removeElementV1(testCases[0].InputA, testCases[0].InputB)
 	}
 }
 
