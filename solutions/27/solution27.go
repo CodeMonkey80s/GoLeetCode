@@ -26,20 +26,17 @@ func removeElement(nums []int, val int) int {
 	a := 0
 	b := len(nums) - 1
 	k := 0
-loop:
-	for {
-		if nums[a] == val {
-			nums[a] = nums[b]
-			nums[b] = -1
-			b--
-			k++
-			continue loop
+
+	for a <= b && b >= a {
+		if nums[a] != val {
+			a++
+			continue
 		}
 
-		a++
-		if a > b || b < a {
-			break
-		}
+		nums[a] = nums[b]
+		nums[b] = -1
+		b--
+		k++
 	}
 
 	return len(nums) - k
