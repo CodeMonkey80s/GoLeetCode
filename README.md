@@ -175,6 +175,7 @@ that are useful for solving these problems.
 | 1720 | Decode XORed Array                                              | [link](solutions/1720/solution1720.go) | 🟩    
 | 1742 | Maximum Number of Balls in a Box                                | [link](solutions/1742/solution1742.go) | 🟩    
 | 1768 | Merge Strings Alternately                                       | [link](solutions/1768/solution1768.go) | 🟩    
+| 1769 | Minimum Number of Operations to Move All Balls to Each Box      | [link](solutions/1769/solution1769.go) | 🟨    
 | 1773 | Count Items Matching a Rule                                     | [link](solutions/1773/solution1773.go) | 🟩    
 | 1796 | Second Largest Digit in a String                                | [link](solutions/1796/solution1796.go) | 🟩    
 | 1805 | Number of Different Integers in a String                        | [link](solutions/1805/solution1805.go) | 🟩    
