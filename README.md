@@ -297,6 +297,7 @@ that are useful for solving these problems.
 | 3340 | Check Balanced String                                           | [link](solutions/3340/solution3340.go) | 🟩    
 | 3354 | Make Array Elements Equal to Zero                               | [link](solutions/3354/solution3354.go) | 🟩    
 | 3370 | Smallest Number With All Set Bits                               | [link](solutions/3370/solution3370.go) | 🟩    
+| 3386 | Button with Longest Push Time                                   | [link](solutions/3386/solution3386.go) | 🟩    
 | 3392 | Count Subarrays of Length Three With a Condition                | [link](solutions/3392/solution3392.go) | 🟩    
 | 3396 | Minimum Number of Operations to Make Elements in Array Distinct | [link](solutions/3396/solution3396.go) | 🟩    
 | 3407 | Substring Matching Pattern                                      | [link](solutions/3407/solution3407.go) | 🟩    
