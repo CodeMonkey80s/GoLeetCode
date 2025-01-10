@@ -181,6 +181,7 @@ that are useful for solving these problems.
 | 1805 | Number of Different Integers in a String                        | [link](solutions/1805/solution1805.go) | 🟩    
 | 1812 | Determine Color of a Chessboard Square                          | [link](solutions/1812/solution1812.go) | 🟩    
 | 1816 | Truncate Sentence                                               | [link](solutions/1816/solution1816.go) | 🟩    
+| 1817 | Finidng the Users Active Minutes                                | [link](solutions/1817/solution1817.go) | 🟨    
 | 1827 | Minimum Operations to Make the Array Increasing                 | [link](solutions/1827/solution1827.go) | 🟩    
 | 1828 | Queries on Number of Points Inside a Circle                     | [link](solutions/1828/solution1828.go) | 🟨    
 | 1832 | Check if the Sentence Is Pangram                                | [link](solutions/1832/solution1832.go) | 🟩    
