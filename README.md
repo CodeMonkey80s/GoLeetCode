@@ -262,6 +262,7 @@ that are useful for solving these problems.
 | 3005 | Count Elements With Maximum Frequency                           | [link](solutions/3005/solution3005.go) | 🟩    
 | 3019 | Number of Changing Keys                                         | [link](solutions/3019/solution3019.go) | 🟩    
 | 3028 | Ant on the Boundary                                             | [link](solutions/3028/solution3028.go) | 🟩    
+| 3033 | Modify the Matrix                                               | [link](solutions/3033/solution3033.go) | 🟩    
 | 3046 | Split the Array                                                 | [link](solutions/3046/solution3046.go) | 🟩    
 | 3065 | Minimum Operations to Exceed Threshold Value I                  | [link](solutions/3065/solution3065.go) | 🟩    
 | 3074 | Apple Redistribution into Boxes                                 | [link](solutions/3074/solution3074.go) | 🟩    
