@@ -13,6 +13,10 @@ that are useful for solving these problems.
 
 ### Solutions
 
+🟩 Easy: **257**
+
+🟨 Medium: **34**
+
 | #    | Title                                                           | Solution                               | Level 
 |:-----|:----------------------------------------------------------------|:---------------------------------------|:------
 | 1    | Two Sum                                                         | [link](solutions/1/solution1.go)       | 🟩    
