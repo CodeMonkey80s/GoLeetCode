@@ -1,0 +1,38 @@
+package solution7
+
+import (
+	"fmt"
+	"reflect"
+	"testing"
+)
+
+var testCases = []struct {
+	Input  int
+	Output int
+}{
+	{
+		Input:  123,
+		Output: 321,
+	},
+	{
+		Input:  -123,
+		Output: -321,
+	},
+	{
+		Input:  120,
+		Output: 21,
+	},
+}
+
+func Test_reverse(t *testing.T) {
+	var label string
+	for _, tc := range testCases {
+		label = fmt.Sprintf("Case: Input: %v, Output: %v\n", tc.Input, tc.Output)
+		t.Run(label, func(t *testing.T) {
+			output := reverse(tc.Input)
+			if !reflect.DeepEqual(output, tc.Output) {
+				t.Errorf("Expected output to be %v but we got %v", tc.Output, output)
+			}
+		})
+	}
+}

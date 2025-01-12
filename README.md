@@ -15,12 +15,13 @@ that are useful for solving these problems.
 
 🟩 Easy: **257**
 
-🟨 Medium: **36**
+🟨 Medium: **37**
 
 | #    | Title                                                           | Solution                               | Level 
 |:-----|:----------------------------------------------------------------|:---------------------------------------|:------
 | 1    | Two Sum                                                         | [link](solutions/1/solution1.go)       | 🟩    
 | 3    | Longest Substring Without Repeating Characters                  | [link](solutions/3/solution3.go)       | 🟨    
+| 7    | Reverse Integer                                                 | [link](solutions/7/solution7.go)       | 🟨    
 | 9    | Palindrome Number                                               | [link](solutions/9/solution9.go)       | 🟩    
 | 13   | Roman to Integer                                                | [link](solutions/13/solution13.go)     | 🟩    
 | 14   | Longest Common Prefix                                           | [link](solutions/14/solution14.go)     | 🟩    
