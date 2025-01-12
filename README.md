@@ -15,7 +15,7 @@ that are useful for solving these problems.
 
 🟩 Easy: **257**
 
-🟨 Medium: **35**
+🟨 Medium: **36**
 
 | #    | Title                                                           | Solution                               | Level 
 |:-----|:----------------------------------------------------------------|:---------------------------------------|:------
@@ -311,6 +311,7 @@ that are useful for solving these problems.
 | 3396 | Minimum Number of Operations to Make Elements in Array Distinct | [link](solutions/3396/solution3396.go) | 🟩    
 | 3402 | Minimum Operations to Make Columns Strictly Increasing          | [link](solutions/3402/solution3402.go) | 🟩    
 | 3407 | Substring Matching Pattern                                      | [link](solutions/3407/solution3407.go) | 🟩    
+| 3412 | Find Mirror Score of a String                                   | [link](solutions/3412/solution3412.go) | 🟨    
 
 ### Static Analysis
 
