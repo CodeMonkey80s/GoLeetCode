@@ -15,7 +15,7 @@ that are useful for solving these problems.
 
 🟩 Easy: **257**
 
-🟨 Medium: **34**
+🟨 Medium: **35**
 
 | #    | Title                                                           | Solution                               | Level 
 |:-----|:----------------------------------------------------------------|:---------------------------------------|:------
@@ -227,6 +227,7 @@ that are useful for solving these problems.
 | 2390 | Removing Starts From a String                                   | [link](solutions/2390/solution2390.go) | 🟨    
 | 2391 | Minimum Amount of Time to Collect Garbage                       | [link](solutions/2391/solution2391.go) | 🟨    
 | 2418 | Sort the People                                                 | [link](solutions/2418/solution2418.go) | 🟩    
+| 2433 | Find The Original Array of Prefix                               | [link](solutions/2433/solution2433.go) | 🟨    
 | 2446 | Determine if Two Events Have Conflict                           | [link](solutions/2446/solution2446.go) | 🟩    
 | 2451 | Odd String Difference                                           | [link](solutions/2451/solution2451.go) | 🟩    
 | 2482 | Difference Between Ones and Zeros in Row and Column             | [link](solutions/2482/solution2482.go) | 🟨    
