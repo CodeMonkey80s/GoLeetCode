@@ -32,7 +32,7 @@ func Test_scoreOfScreens(t *testing.T) {
 	}
 }
 
-func Benchmark_isArraySpecial(b *testing.B) {
+func Benchmark_scoreOfString(b *testing.B) {
 	for i := 0; i < b.N; i++ {
 		_ = scoreOfString(testCases[0].Input)
 	}
