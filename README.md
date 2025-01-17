@@ -13,7 +13,7 @@ that are useful for solving these problems.
 
 ### Solutions
 
-🟩 Easy: **260**
+🟩 Easy: **261**
 
 🟨 Medium: **37**
 
@@ -262,6 +262,7 @@ that are useful for solving these problems.
 | 2864 | Maximum Odd Binary Number                                       | [link](solutions/2864/solution2864.go) | 🟩    
 | 2894 | Divisible and Non-divisible Sums Difference                     | [link](solutions/2894/solution2894.go) | 🟩    
 | 2903 | Find Indices With Index and Value Difference I                  | [link](solutions/2903/solution2903.go) | 🟩    
+| 2908 | Minimum Sum of Mountain Triplets I                              | [link](solutions/2908/solution2908.go) | 🟩    
 | 2914 | Minimum Number of Changes to Make Binary String Beautiful       | [link](solutions/2914/solution2914.go) | 🟨    
 | 2917 | Find the K-or of an Array                                       | [link](solutions/2917/solution2917.go) | 🟩    
 | 2932 | Maximum Strong Pair XOR I                                       | [link](solutions/2932/solution2932.go) | 🟩    
