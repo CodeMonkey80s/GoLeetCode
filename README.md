@@ -308,6 +308,7 @@ that are useful for solving these problems.
 | 3324 | Find the Sequence of Strings Appeared on the Screen             | [link](solutions/3324/solution3324.go) | 🟨    
 | 3340 | Check Balanced String                                           | [link](solutions/3340/solution3340.go) | 🟩    
 | 3354 | Make Array Elements Equal to Zero                               | [link](solutions/3354/solution3354.go) | 🟩    
+| 3360 | Stone Removal Game                                              | [link](solutions/3360/solution3360.go) | 🟩    
 | 3370 | Smallest Number With All Set Bits                               | [link](solutions/3370/solution3370.go) | 🟩    
 | 3379 | Transformet Array                                               | [link](solutions/3379/solution3379.go) | 🟩    
 | 3386 | Button with Longest Push Time                                   | [link](solutions/3386/solution3386.go) | 🟩    
