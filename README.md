@@ -13,7 +13,7 @@ that are useful for solving these problems.
 
 ### Solutions
 
-🟩 Easy: **259**
+🟩 Easy: **260**
 
 🟨 Medium: **37**
 
@@ -226,6 +226,7 @@ that are useful for solving these problems.
 | 2309 | Greatest English Letter in Upper and Lower Case                 | [link](solutions/2309/solution2309.go) | 🟩    
 | 2315 | Count Asterisks                                                 | [link](solutions/2315/solution2315.go) | 🟩    
 | 2325 | Decode the Message                                              | [link](solutions/2325/solution2325.go) | 🟩    
+| 2373 | Largest Local Values in a Matrix                                | [link](solutions/2373/solution2373.go) | 🟩    
 | 2390 | Removing Starts From a String                                   | [link](solutions/2390/solution2390.go) | 🟨    
 | 2391 | Minimum Amount of Time to Collect Garbage                       | [link](solutions/2391/solution2391.go) | 🟨    
 | 2418 | Sort the People                                                 | [link](solutions/2418/solution2418.go) | 🟩    
