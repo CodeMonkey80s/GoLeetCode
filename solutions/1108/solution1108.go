@@ -15,12 +15,13 @@ import "strings"
 	Benchmark_defang_stdlib
 	Benchmark_defang_stdlib-24    	24414080	        50.09 ns/op	      16 B/op	       1 allocs/op
 	Benchmark_defangV2
-	Benchmark_defangV2-24    		21272322	        52.10 ns/op	      24 B/op	       2 allocs/op
+	Benchmark_defangV2-24   	  	32616260	        30.80 ns/op	      16 B/op	       1 allocs/op
 	PASS
 */
 
 func defangIPaddrV2(address string) string {
 	var sb strings.Builder
+	sb.Grow(len(address) + 6)
 	for _, ch := range []byte(address) {
 		switch {
 		case ch == '.':
