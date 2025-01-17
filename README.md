@@ -13,7 +13,7 @@ that are useful for solving these problems.
 
 ### Solutions
 
-🟩 Easy: **258**
+🟩 Easy: **259**
 
 🟨 Medium: **37**
 
@@ -207,6 +207,7 @@ that are useful for solving these problems.
 | 2000 | Reverse Prefix of Word                                          | [link](solutions/2000/solution2000.go) | 🟩    
 | 2006 | Count Number of Pairs With Absolute Difference K                | [link](solutions/2006/solution2006.go) | 🟩    
 | 2011 | Final Value of Variable After Performing Operations             | [link](solutions/2011/solution2011.go) | 🟩    
+| 2037 | Minimum Number of Moves to Seat Everyone                        | [link](solutions/2037/solution2037.go) | 🟩    
 | 2079 | Watering Plants                                                 | [link](solutions/2079/solution2079.go) | 🟨    
 | 2085 | Count Common Words With One Occurrence                          | [link](solutions/2085/solution2085.go) | 🟩    
 | 2103 | Rings and Rods                                                  | [link](solutions/2103/solution2103.go) | 🟩    
