@@ -26,7 +26,7 @@ func Test_defang(t *testing.T) {
 	for _, tc := range testCases {
 		label = fmt.Sprintf("Case: Input: %v Output: %v\n", tc.Input, tc.Output)
 		t.Run(label, func(t *testing.T) {
-			output := defangIPaddr(tc.Input)
+			output := defangIPaddrV2(tc.Input)
 			if output != tc.Output {
 				t.Errorf("Expected output to be %v but we got %v", tc.Output, output)
 			}
@@ -34,8 +34,14 @@ func Test_defang(t *testing.T) {
 	}
 }
 
-func Benchmark_defang(b *testing.B) {
+func Benchmark_defangV2(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		_ = defangIPaddr(testCases[0].Input)
+		_ = defangIPaddrV2(testCases[0].Input)
+	}
+}
+
+func Benchmark_defang_stdlib(b *testing.B) {
+	for i := 0; i < b.N; i++ {
+		_ = defangIPaddrV1(testCases[0].Input)
 	}
 }
