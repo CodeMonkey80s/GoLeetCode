@@ -15,7 +15,7 @@ that are useful for solving these problems.
 
 🟩 Easy: **261**
 
-🟨 Medium: **37**
+🟨 Medium: **38**
 
 | #    | Title                                                           | Solution                               | Level 
 |:-----|:----------------------------------------------------------------|:---------------------------------------|:------
@@ -171,6 +171,7 @@ that are useful for solving these problems.
 | 1592 | Rearrange Spaces Between Words                                  | [link](solutions/1592/solution1592.go) | 🟩    
 | 1614 | Maximum Nesting Depth of the Parentheses                        | [link](solutions/1614/solution1614.go) | 🟩    
 | 1624 | Largest Substring Between Two Equal Characters                  | [link](solutions/1624/solution1624.go) | 🟩    
+| 1630 | Arithmetic Subarrays                                            | [link](solutions/1630/solution1630.go) | 🟨    
 | 1637 | Widest Vertical Area Between Two Points Containing No Points    | [link](solutions/1637/solution1637.go) | 🟩    
 | 1662 | Check If Two String Arrays are Equivalent                       | [link](solutions/1662/solution1662.go) | 🟩    
 | 1670 | Richest Customer Wealth                                         | [link](solutions/1670/solution1670.go) | 🟩    
