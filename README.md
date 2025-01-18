@@ -13,7 +13,7 @@ that are useful for solving these problems.
 
 ### Solutions
 
-🟩 Easy: **262**
+🟩 Easy: **263**
 
 🟨 Medium: **38**
 
@@ -319,6 +319,7 @@ that are useful for solving these problems.
 | 3402 | Minimum Operations to Make Columns Strictly Increasing           | [link](solutions/3402/solution3402.go) | 🟩    
 | 3407 | Substring Matching Pattern                                       | [link](solutions/3407/solution3407.go) | 🟩    
 | 3412 | Find Mirror Score of a String                                    | [link](solutions/3412/solution3412.go) | 🟨    
+| 3417 | Zigzag Grid Traversal With Skip                                  | [link](solutions/3417/solution3417.go) | 🟩    
 | 3423 | Maximum Difference Between Adjacent Elements in a Circular Array | [link](solutions/3423/solution3423.go) | 🟩    
 
 ### Static Analysis
