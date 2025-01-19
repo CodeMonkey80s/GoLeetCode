@@ -28,10 +28,22 @@ func Test_countDistinctIntegers(t *testing.T) {
 	for _, tc := range testCases {
 		label = fmt.Sprintf("Case: Input: %v, Output: %v\n", tc.Input, tc.Output)
 		t.Run(label, func(t *testing.T) {
-			output := countDistinctIntegers(tc.Input)
+			output := countDistinctIntegersV2(tc.Input)
 			if output != tc.Output {
 				t.Errorf("Expected output to be %v but we got %v", tc.Output, output)
 			}
 		})
+	}
+}
+
+func Benchmark_countDistinctIntegersV2(b *testing.B) {
+	for i := 0; i < b.N; i++ {
+		_ = countDistinctIntegersV2(testCases[2].Input)
+	}
+}
+
+func Benchmark_countDistinctIntegersV1(b *testing.B) {
+	for i := 0; i < b.N; i++ {
+		_ = countDistinctIntegersV1(testCases[2].Input)
 	}
 }
