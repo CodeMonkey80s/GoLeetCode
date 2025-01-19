@@ -15,7 +15,7 @@ that are useful for solving these problems.
 
 🟩 Easy: **263**
 
-🟨 Medium: **41**
+🟨 Medium: **42**
 
 | #    | Title                                                            | Solution                               | Level 
 |:-----|:-----------------------------------------------------------------|:---------------------------------------|:------
@@ -195,6 +195,7 @@ that are useful for solving these problems.
 | 1844 | Replace All Digits with Characters                               | [link](solutions/1844/solution1844.go) | 🟩    
 | 1854 | Maximum Population Year                                          | [link](solutions/1854/solution1854.go) | 🟩    
 | 1859 | Sorting the Sentence                                             | [link](solutions/1859/solution1859.go) | 🟩    
+| 1860 | Incremental Memory Leak                                          | [link](solutions/1860/solution1860.go) | 🟨    
 | 1863 | Sum of All Subset XOR Totals                                     | [link](solutions/1863/solution1863.go) | 🟩    
 | 1876 | Substrings of Size Three with Distinct Characters                | [link](solutions/1876/solution1876.go) | 🟩    
 | 1877 | Minimize Maximum Pair Sum in Array                               | [link](solutions/1877/solution1877.go) | 🟨    
