@@ -15,7 +15,7 @@ that are useful for solving these problems.
 
 🟩 Easy: **263**
 
-🟨 Medium: **40**
+🟨 Medium: **41**
 
 | #    | Title                                                            | Solution                               | Level 
 |:-----|:-----------------------------------------------------------------|:---------------------------------------|:------
@@ -32,6 +32,7 @@ that are useful for solving these problems.
 | 28   | Find the Index of the First Occurrence in a String               | [link](solutions/28/solution28.go)     | 🟩    
 | 35   | Search Insert Position                                           | [link](solutions/35/solution35.go)     | 🟩    
 | 46   | Permutations                                                     | [link](solutions/46/solution46.go)     | 🟩    
+| 48   | Rotate Image                                                     | [link](solutions/48/solution48.go)     | 🟨    
 | 58   | Length of Last Word                                              | [link](solutions/58/solution58.go)     | 🟩    
 | 66   | Plus One                                                         | [link](solutions/66/solution66.go)     | 🟩    
 | 67   | Add Binary                                                       | [link](solutions/67/solution67.go)     | 🟩    
