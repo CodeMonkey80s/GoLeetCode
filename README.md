@@ -13,7 +13,7 @@ that are useful for solving these problems.
 
 ### Solutions
 
-🟩 Easy: **263**
+🟩 Easy: **264**
 
 🟨 Medium: **42**
 
@@ -59,6 +59,7 @@ that are useful for solving these problems.
 | 190  | Reverse Bits                                                     | [link](solutions/190/solution190.go)   | 🟩    
 | 191  | Number of 1 Bits                                                 | [link](solutions/191/solution191.go)   | 🟩    
 | 198  | House Robber                                                     | [link](solutions/198/solution198.go)   | 🟩    
+| 202  | Happy Number                                                     | [link](solutions/202/solution202.go)   | 🟩    
 | 205  | Isomorphic Strings                                               | [link](solutions/205/solution205.go)   | 🟩    
 | 206  | Reverse Linked List                                              | [link](solutions/206/solution206.go)   | 🟩    
 | 217  | Contains Duplicate                                               | [link](solutions/217/solution217.go)   | 🟩    
