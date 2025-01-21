@@ -13,7 +13,7 @@ that are useful for solving these problems.
 
 ### Solutions
 
-🟩 Easy: **265**
+🟩 Easy: **267**
 
 🟨 Medium: **42**
 
@@ -85,6 +85,7 @@ that are useful for solving these problems.
 | 405  | Convert a Number to Hexadecimal                                  | [link](solutions/405/solution405.go)   | 🟩    
 | 409  | Longest Palindrome                                               | [link](solutions/409/solution409.go)   | 🟩    
 | 412  | Fizz Buzz                                                        | [link](solutions/412/solution412.go)   | 🟩    
+| 414  | Third Maximum Number                                             | [link](solutions/414/solution414.go)   | 🟩    
 | 415  | Add Strings                                                      | [link](solutions/415/solution415.go)   | 🟩    
 | 434  | Number of Segments in a String                                   | [link](solutions/434/solution434.go)   | 🟩    
 | 442  | Find All Duplicates in an Array                                  | [link](solutions/442/solution442.go)   | 🟩    
