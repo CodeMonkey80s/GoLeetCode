@@ -13,7 +13,7 @@ that are useful for solving these problems.
 
 ### Solutions
 
-🟩 Easy: **264**
+🟩 Easy: **265**
 
 🟨 Medium: **42**
 
@@ -83,6 +83,7 @@ that are useful for solving these problems.
 | 392  | Is Subsequence                                                   | [link](solutions/392/solution392.go)   | 🟩    
 | 401  | Binary Watch                                                     | [link](solutions/401/solution401.go)   | 🟩    
 | 405  | Convert a Number to Hexadecimal                                  | [link](solutions/405/solution405.go)   | 🟩    
+| 409  | Longest Palindrome                                               | [link](solutions/409/solution409.go)   | 🟩    
 | 412  | Fizz Buzz                                                        | [link](solutions/412/solution412.go)   | 🟩    
 | 415  | Add Strings                                                      | [link](solutions/415/solution415.go)   | 🟩    
 | 434  | Number of Segments in a String                                   | [link](solutions/434/solution434.go)   | 🟩    
