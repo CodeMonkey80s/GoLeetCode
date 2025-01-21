@@ -24,7 +24,7 @@ func Test_isHappy(t *testing.T) {
 	for _, tc := range testCases {
 		label = fmt.Sprintf("Case: Input: %v, Output: %v\n", tc.Input, tc.Output)
 		t.Run(label, func(t *testing.T) {
-			output := isHappy(tc.Input)
+			output := isHappyV2(tc.Input)
 			if output != tc.Output {
 				t.Errorf("Expected output to be %v but we got %v", tc.Output, tc.Input)
 			}

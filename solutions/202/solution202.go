@@ -5,6 +5,34 @@ import (
 	"strconv"
 )
 
+func isHappyV2(n int) bool {
+
+	sum := func(n int) int {
+		var sum int
+		for n > 0 {
+			d := n % 10
+			sum += d * d
+			n /= 10
+		}
+
+		return sum
+	}
+
+	seen := make(map[int]struct{})
+
+	for {
+		n = sum(n)
+		switch {
+		case n == 1:
+			return true
+		case func() bool { _, ok := seen[n]; return ok }():
+			return false
+		default:
+			seen[n] = struct{}{}
+		}
+	}
+}
+
 func isHappy(n int) bool {
 
 	hash := make(map[int]int)
