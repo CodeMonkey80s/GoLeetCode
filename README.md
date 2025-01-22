@@ -13,7 +13,7 @@ that are useful for solving these problems.
 
 ### Solutions
 
-🟩 Easy: **272**
+🟩 Easy: **273**
 
 🟨 Medium: **42**
 
@@ -124,6 +124,7 @@ that are useful for solving these problems.
 | 832  | Flipping an Image                                                | [link](solutions/832/solution832.go)   | 🟩    
 | 836  | Rectangle Overlap                                                | [link](solutions/836/solution836.go)   | 🟩    
 | 844  | Backspace String Compare                                         | [link](solutions/844/solution844.go)   | 🟩    
+| 860  | Lemondae Change                                                  | [link](solutions/860/solution860.go)   | 🟩    
 | 861  | Score After Flipping Matrix                                      | [link](solutions/861/solution861.go)   | 🟨    
 | 867  | Transpose Matrix                                                 | [link](solutions/867/solution867.go)   | 🟩    
 | 868  | Binary Gap                                                       | [link](solutions/868/solution868.go)   | 🟩    
