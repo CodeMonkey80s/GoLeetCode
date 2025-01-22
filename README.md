@@ -13,7 +13,7 @@ that are useful for solving these problems.
 
 ### Solutions
 
-🟩 Easy: **268**
+🟩 Easy: **269**
 
 🟨 Medium: **42**
 
@@ -329,6 +329,7 @@ that are useful for solving these problems.
 | 3412 | Find Mirror Score of a String                                    | [link](solutions/3412/solution3412.go) | 🟨    
 | 3417 | Zigzag Grid Traversal With Skip                                  | [link](solutions/3417/solution3417.go) | 🟩    
 | 3423 | Maximum Difference Between Adjacent Elements in a Circular Array | [link](solutions/3423/solution3423.go) | 🟩    
+| 3427 | Sum of Variable Length Subarrays                                 | [link](solutions/3427/solution3427.go) | 🟩    
 
 ### Static Analysis
 
