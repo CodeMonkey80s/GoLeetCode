@@ -15,7 +15,7 @@ that are useful for solving these problems.
 
 🟩 Easy: **273**
 
-🟨 Medium: **42**
+🟨 Medium: **43**
 
 | #    | Title                                                            | Solution                               | Level 
 |:-----|:-----------------------------------------------------------------|:---------------------------------------|:------
@@ -100,7 +100,7 @@ that are useful for solving these problems.
 | 500  | Keyboard Row                                                     | [link](solutions/500/solution500.go)   | 🟩    
 | 509  | Fibonacci Number                                                 | [link](solutions/509/solution509.go)   | 🟩    
 | 520  | Detect Capital                                                   | [link](solutions/520/solution520.go)   | 🟩    
-| 520  | Detect Capital                                                   | [link](solutions/520/solution520.go)   | 🟩    
+| 523  | Continuous Subarray Sum                                          | [link](solutions/523/solution523.go)   | 🟨    
 | 535  | Encode and Decode TinyURL                                        | [link](solutions/535/solution535.go)   | 🟨    
 | 551  | Student Attendance Record I                                      | [link](solutions/551/solution551.go)   | 🟩    
 | 557  | Reverse Words in a String III                                    | [link](solutions/557/solution557.go)   | 🟩    
