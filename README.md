@@ -13,7 +13,7 @@ that are useful for solving these problems.
 
 ### Solutions
 
-🟩 Easy: **269**
+🟩 Easy: **270**
 
 🟨 Medium: **42**
 
@@ -135,6 +135,7 @@ that are useful for solving these problems.
 | 1089 | Duplicate Zeros                                                  | [link](solutions/1089/solution1089.go) | 🟩    
 | 1108 | Defanging an IP Address                                          | [link](solutions/1108/solution1108.go) | 🟩    
 | 1154 | Day of the Year                                                  | [link](solutions/1154/solution1154.go) | 🟩    
+| 1184 | Distance Between Bus Stops                                       | [link](solutions/1184/solution1184.go) | 🟩    
 | 1189 | Maximum Number of Balloons                                       | [link](solutions/1189/solution1189.go) | 🟩    
 | 1207 | Unique Number of Occurrences                                     | [link](solutions/1207/solution1207.go) | 🟩    
 | 1221 | Split a String in Balanced Strings                               | [link](solutions/1221/solution1221.go) | 🟩    

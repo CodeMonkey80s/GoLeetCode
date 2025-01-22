@@ -29,6 +29,12 @@ var testCases = []struct {
 		InputC: 3,
 		Output: 4,
 	},
+	{
+		InputA: []int{7, 10, 1, 12, 11, 14, 5, 0},
+		InputB: 7,
+		InputC: 2,
+		Output: 17,
+	},
 }
 
 func Test_distance(t *testing.T) {
@@ -36,7 +42,7 @@ func Test_distance(t *testing.T) {
 	for _, tc := range testCases {
 		label = fmt.Sprintf("Case: Input: %v %v %v, Output: %v\n", tc.InputA, tc.InputB, tc.InputC, tc.Output)
 		t.Run(label, func(t *testing.T) {
-			output := distanceBetweenBusStops(tc.InputA, tc.InputB, tc.InputC)
+			output := distanceBetweenBusStopsV2(tc.InputA, tc.InputB, tc.InputC)
 			if output != tc.Output {
 				t.Errorf("Expected output to be %v but we got %v", tc.Output, output)
 			}
@@ -46,6 +52,6 @@ func Test_distance(t *testing.T) {
 
 func Benchmark_distance(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		_ = distanceBetweenBusStops(testCases[0].InputA, testCases[0].InputB, testCases[0].InputC)
+		_ = distanceBetweenBusStopsV2(testCases[0].InputA, testCases[0].InputB, testCases[0].InputC)
 	}
 }
