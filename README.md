@@ -13,7 +13,7 @@ that are useful for solving these problems.
 
 ### Solutions
 
-🟩 Easy: **270**
+🟩 Easy: **271**
 
 🟨 Medium: **42**
 
@@ -124,6 +124,7 @@ that are useful for solving these problems.
 | 832  | Flipping an Image                                                | [link](solutions/832/solution832.go)   | 🟩    
 | 844  | Backspace String Compare                                         | [link](solutions/844/solution844.go)   | 🟩    
 | 861  | Score After Flipping Matrix                                      | [link](solutions/861/solution861.go)   | 🟨    
+| 867  | Transpose Matrix                                                 | [link](solutions/867/solution867.go)   | 🟩    
 | 868  | Binary Gap                                                       | [link](solutions/868/solution868.go)   | 🟩    
 | 884  | Uncommon Words from Two Sentences                                | [link](solutions/884/solution884.go)   | 🟩    
 | 944  | Delete Columns to Make Sorted                                    | [link](solutions/944/solution944.go)   | 🟩    
