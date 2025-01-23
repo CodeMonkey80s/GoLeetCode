@@ -35,3 +35,9 @@ func Test_distributeCandies(t *testing.T) {
 		})
 	}
 }
+
+func Benchmark_distributeCandies(b *testing.B) {
+	for i := 0; i < b.N; i++ {
+		_ = distributeCandies(testCases[0].Input)
+	}
+}
