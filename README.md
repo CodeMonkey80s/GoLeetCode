@@ -13,7 +13,7 @@ that are useful for solving these problems.
 
 ### Solutions
 
-🟩 Easy: **273**
+🟩 Easy: **274**
 
 🟨 Medium: **43**
 
@@ -97,6 +97,7 @@ that are useful for solving these problems.
 | 476  | Number Complement                                                | [link](solutions/476/solution476.go)   | 🟩    
 | 482  | License Key Formatting                                           | [link](solutions/482/solution482.go)   | 🟩    
 | 485  | Max Consecutive Ones                                             | [link](solutions/485/solution485.go)   | 🟩    
+| 496  | Next Greater Element I                                           | [link](solutions/496/solution496.go)   | 🟩    
 | 500  | Keyboard Row                                                     | [link](solutions/500/solution500.go)   | 🟩    
 | 509  | Fibonacci Number                                                 | [link](solutions/509/solution509.go)   | 🟩    
 | 520  | Detect Capital                                                   | [link](solutions/520/solution520.go)   | 🟩    
