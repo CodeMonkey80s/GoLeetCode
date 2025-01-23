@@ -106,6 +106,7 @@ that are useful for solving these problems.
 | 551  | Student Attendance Record I                                      | [link](solutions/551/solution551.go)   | 🟩    
 | 557  | Reverse Words in a String III                                    | [link](solutions/557/solution557.go)   | 🟩    
 | 599  | Minimum Index Sum of Two Lists                                   | [link](solutions/599/solution599.go)   | 🟩    
+| 575  | Distribute Candies                                               | [link](solutions/575/solution575.go)   | 🟩    
 | 657  | Robot Return to Origin                                           | [link](solutions/657/solution657.go)   | 🟩    
 | 682  | Baseball Game                                                    | [link](solutions/682/solution682.go)   | 🟩    
 | 693  | Binary Number with Alternating Bits                              | [link](solutions/693/solution693.go)   | 🟩    
