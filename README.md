@@ -248,6 +248,7 @@ that are useful for solving these problems.
 | 2418 | Sort the People                                                  | [link](solutions/2418/solution2418.go) | 🟩    
 | 2428 | Maximum Sum of an Hourglass                                      | [link](solutions/2428/solution2428.go) | 🟨    
 | 2433 | Find The Original Array of Prefix                                | [link](solutions/2433/solution2433.go) | 🟨    
+| 2441 | Largest Positive Integer That Exists With Its Negative           | [link](solutions/2441/solution2441.go) | 🟩    
 | 2442 | Count Number of Distinct Integer After Reverse Operations        | [link](solutions/2442/solution2442.go) | 🟨    
 | 2446 | Determine if Two Events Have Conflict                            | [link](solutions/2446/solution2446.go) | 🟩    
 | 2451 | Odd String Difference                                            | [link](solutions/2451/solution2451.go) | 🟩    
