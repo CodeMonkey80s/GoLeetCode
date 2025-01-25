@@ -235,6 +235,7 @@ that are useful for solving these problems.
 | 2169 | Count Operations to Obtain Zero                                  | [link](solutions/2169/solution2169.go) | 🟩    
 | 2185 | Counting Words With a Given Prefix                               | [link](solutions/2185/solution2185.go) | 🟩    
 | 2194 | Cells in a Range on an Excel Sheet                               | [link](solutions/2194/solution2194.go) | 🟩    
+| 2206 | Divide Array Into Equal Pairs                                    | [link](solutions/2206/solution2206.go) | 🟩    
 | 2215 | Find the Difference of Two Arrays                                | [link](solutions/2215/solution2215.go) | 🟩    
 | 2221 | Find Triangular Sum of an Array                                  | [link](solutions/2221/solution2221.go) | 🟨    
 | 2283 | Check if Number Has Equal Digit Count and Digit Value            | [link](solutions/2283/solution2283.go) | 🟩    
