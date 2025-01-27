@@ -13,7 +13,7 @@ that are useful for solving these problems.
 
 ### Solutions
 
-🟩 Easy: **282**
+🟩 Easy: **283**
 
 🟨 Medium: **43**
 
@@ -132,6 +132,7 @@ that are useful for solving these problems.
 | 867  | Transpose Matrix                                                 | [link](solutions/867/solution867.go)   | 🟩    
 | 868  | Binary Gap                                                       | [link](solutions/868/solution868.go)   | 🟩    
 | 884  | Uncommon Words from Two Sentences                                | [link](solutions/884/solution884.go)   | 🟩    
+| 929  | Unique Email Address                                             | [link](solutions/929/solution929.go)   | 🟩    
 | 944  | Delete Columns to Make Sorted                                    | [link](solutions/944/solution944.go)   | 🟩    
 | 961  | N-Repeated Element in Size 2N Array                              | [link](solutions/961/solution961.go)   | 🟩    
 | 1002 | Find Common Characters                                           | [link](solutions/1002/solution1002.go) | 🟩    
