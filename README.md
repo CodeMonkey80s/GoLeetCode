@@ -13,7 +13,7 @@ that are useful for solving these problems.
 
 ### Solutions
 
-🟩 Easy: **284**
+🟩 Easy: **285**
 
 🟨 Medium: **43**
 
@@ -234,6 +234,7 @@ that are useful for solving these problems.
 | 2120 | Execution of All Suffix Instructions Staying in a Grid           | [link](solutions/2120/solution2120.go) | 🟨    
 | 2129 | Capitalize the Title                                             | [link](solutions/2129/solution2129.go) | 🟩    
 | 2149 | Rearrange Array Elements by Sign                                 | [link](solutions/2149/solution2149.go) | 🟩    
+| 2154 | Keep Multiplying Found Values by Two                             | [link](solutions/2154/solution2154.go) | 🟩    
 | 2160 | Minimum Sum of Four Digit Number After Splitting Digits          | [link](solutions/2160/solution2160.go) | 🟩    
 | 2169 | Count Operations to Obtain Zero                                  | [link](solutions/2169/solution2169.go) | 🟩    
 | 2185 | Counting Words With a Given Prefix                               | [link](solutions/2185/solution2185.go) | 🟩    
