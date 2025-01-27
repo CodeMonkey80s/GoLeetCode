@@ -13,7 +13,7 @@ that are useful for solving these problems.
 
 ### Solutions
 
-🟩 Easy: **283**
+🟩 Easy: **284**
 
 🟨 Medium: **43**
 
@@ -246,6 +246,7 @@ that are useful for solving these problems.
 | 2315 | Count Asterisks                                                  | [link](solutions/2315/solution2315.go) | 🟩    
 | 2325 | Decode the Message                                               | [link](solutions/2325/solution2325.go) | 🟩    
 | 2341 | Maximum Number of Pairs in Array                                 | [link](solutions/2341/solution2341.go) | 🟩    
+| 2357 | Make Array Zero by Substracting Equal Amounts                    | [link](solutions/2357/solution2357.go) | 🟩    
 | 2363 | Merge Similar Items                                              | [link](solutions/2363/solution2363.go) | 🟩    
 | 2373 | Largest Local Values in a Matrix                                 | [link](solutions/2373/solution2373.go) | 🟩    
 | 2390 | Removing Starts From a String                                    | [link](solutions/2390/solution2390.go) | 🟨    
