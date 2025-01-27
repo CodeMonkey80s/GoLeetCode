@@ -13,7 +13,7 @@ that are useful for solving these problems.
 
 ### Solutions
 
-🟩 Easy: **280**
+🟩 Easy: **281**
 
 🟨 Medium: **43**
 
@@ -157,6 +157,7 @@ that are useful for solving these problems.
 | 1346 | Check If N and Its Double Exist                                  | [link](solutions/1346/solution1346.go) | 🟩    
 | 1351 | Count Negative Numbers in a Sorted Matrix                        | [link](solutions/1351/solution1351.go) | 🟩    
 | 1360 | Number of Days Between Two Dates                                 | [link](solutions/1360/solution1360.go) | 🟩    
+| 1370 | Increasing Decreasing String                                     | [link](solutions/1370/solution1370.go) | 🟩    
 | 1365 | How Many Numbers Are Smaller Than the Current Number             | [link](solutions/1365/solution1365.go) | 🟩    
 | 1380 | Lucky Numbers in a Matrix                                        | [link](solutions/1380/solution1380.go) | 🟩    
 | 1381 | Design a Stack with Increment Operation                          | [link](solutions/1381/solution1381.go) | 🟨    
