@@ -3,45 +3,59 @@ package solution349
 import (
 	"fmt"
 	"reflect"
+	"slices"
 	"testing"
 )
 
 var testCases = []struct {
-	InputA  []int
-	InputB  []int
-	OutputA []int
-	OutputB []int
+	InputA []int
+	InputB []int
+	Output []int
 }{
-	// Mandatory Test Cases
 	{
-		InputA:  []int{1, 2, 2, 1},
-		InputB:  []int{2, 2},
-		OutputA: []int{2},
-		OutputB: []int{},
+		InputA: []int{1, 2, 2, 1},
+		InputB: []int{2, 2},
+		Output: []int{2},
 	},
 	{
-		InputA:  []int{4, 9, 5},
-		InputB:  []int{9, 4, 9, 8, 3},
-		OutputA: []int{4, 9},
-		OutputB: []int{9, 4},
+		InputA: []int{4, 9, 5},
+		InputB: []int{9, 4, 9, 8, 4},
+		Output: []int{4, 9},
+	},
+	{
+		InputA: []int{8, 0, 3},
+		InputB: []int{0, 0},
+		Output: []int{0},
+	},
+	{
+		InputA: []int{4, 7, 9, 7, 6, 7},
+		InputB: []int{5, 0, 0, 6, 1, 6, 2, 2, 4},
+		Output: []int{4, 6},
 	},
 }
 
 func Test_intersection(t *testing.T) {
 	var label string
 	for _, tc := range testCases {
-		label = fmt.Sprintf("Case: Input: %v %v Output: %v\n", tc.InputA, tc.InputB, tc.OutputA)
+		label = fmt.Sprintf("Case: Input: %v %v Output: %v\n", tc.InputA, tc.InputB, tc.Output)
 		t.Run(label, func(t *testing.T) {
-			output := intersection(tc.InputA, tc.InputB)
-			if !reflect.DeepEqual(output, tc.OutputA) && !reflect.DeepEqual(output, tc.OutputB) {
-				t.Errorf("Expected output to be %v or %v but we got %v", tc.OutputA, tc.OutputB, output)
+			output := intersectionV2(tc.InputA, tc.InputB)
+			slices.Sort(output)
+			if !reflect.DeepEqual(output, tc.Output) {
+				t.Errorf("Expected output to be %v but we got %v", tc.Output, output)
 			}
 		})
 	}
 }
 
-func Benchmark_intersection(b *testing.B) {
+func Benchmark_intersectionV2(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		_ = intersection(testCases[0].InputA, testCases[0].InputB)
+		_ = intersectionV2(testCases[0].InputA, testCases[0].InputB)
+	}
+}
+
+func Benchmark_intersectionV1(b *testing.B) {
+	for i := 0; i < b.N; i++ {
+		_ = intersectionV1(testCases[0].InputA, testCases[0].InputB)
 	}
 }
