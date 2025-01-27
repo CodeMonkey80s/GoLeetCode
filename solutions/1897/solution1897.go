@@ -6,15 +6,15 @@ func makeEqual(words []string) bool {
 		maxLetters = 26
 	)
 
-	freq := make([]byte, maxLetters)
+	freq := make([]int, maxLetters)
 	for _, word := range words {
 		for i := 0; i < len(word); i++ {
-			freq[byte(word[i])-'a']++
+			freq[word[i]-'a']++
 		}
 	}
 
-	for _, c := range freq {
-		if int(c)%len(words) != 0 {
+	for i := 0; i < maxLetters; i++ {
+		if freq[i]%len(words) != 0 {
 			return false
 		}
 	}
