@@ -21,7 +21,8 @@ package solution349
 
 func intersectionV2(nums1 []int, nums2 []int) []int {
 
-	freq := make(map[int]int)
+	m := max(len(nums1), len(nums2))
+	freq := make(map[int]int, m)
 	for i := 0; i < len(nums1); i++ {
 		freq[nums1[i]] = 0
 	}
@@ -33,7 +34,7 @@ func intersectionV2(nums1 []int, nums2 []int) []int {
 		}
 	}
 
-	var output []int
+	output := make([]int, 0, m)
 	for k, c := range freq {
 		if c == 1 {
 			output = append(output, k)
