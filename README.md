@@ -105,6 +105,7 @@ that are useful for solving these problems.
 | 535  | Encode and Decode TinyURL                                        | [link](solutions/535/solution535.go)   | 🟨    
 | 551  | Student Attendance Record I                                      | [link](solutions/551/solution551.go)   | 🟩    
 | 557  | Reverse Words in a String III                                    | [link](solutions/557/solution557.go)   | 🟩    
+| 561  | Array Partition                                                  | [link](solutions/561/solution561.go)   | 🟩    
 | 599  | Minimum Index Sum of Two Lists                                   | [link](solutions/599/solution599.go)   | 🟩    
 | 575  | Distribute Candies                                               | [link](solutions/575/solution575.go)   | 🟩    
 | 645  | Set Mismatch                                                     | [link](solutions/645/solution645.go)   | 🟩    
