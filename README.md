@@ -13,7 +13,7 @@ that are useful for solving these problems.
 
 ### Solutions
 
-🟩 Easy: **286**
+🟩 Easy: **287**
 
 🟨 Medium: **43**
 
@@ -274,6 +274,7 @@ that are useful for solving these problems.
 | 2610 | Convert an Array Into a 2D Array With Conditions                 | [link](solutions/2610/solution2610.go) | 🟨    
 | 2656 | Maximum Sum With Exactly K Elements                              | [link](solutions/2656/solution2656.go) | 🟩    
 | 2696 | Minimum String Length After Removing Substrings                  | [link](solutions/2696/solution2696.go) | 🟩    
+| 2697 | Lexicographically Smallest Palindrome                            | [link](solutions/2697/solution2697.go) | 🟩    
 | 2716 | Minimize String Length                                           | [link](solutions/2716/solution2716.go) | 🟩    
 | 2744 | Find Maximum Number of String Pairs                              | [link](solutions/2744/solution2744.go) | 🟩    
 | 2778 | Sum of Squares of Special Elements                               | [link](solutions/2778/solution2778.go) | 🟩    
