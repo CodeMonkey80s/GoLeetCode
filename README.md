@@ -13,7 +13,7 @@ that are useful for solving these problems.
 
 ### Solutions
 
-🟩 Easy: **287**
+🟩 Easy: **288**
 
 🟨 Medium: **43**
 
@@ -196,6 +196,7 @@ that are useful for solving these problems.
 | 1684 | Count the Number of Consistent Strings                           | [link](solutions/1684/solution1684.go) | 🟩    
 | 1704 | Determine if String Halves Are Alike                             | [link](solutions/1704/solution1704.go) | 🟩    
 | 1720 | Decode XORed Array                                               | [link](solutions/1720/solution1720.go) | 🟩    
+| 1725 | Number Of Rectangles That Can Form The Largest Square            | [link](solutions/1725/solution1725.go) | 🟩    
 | 1742 | Maximum Number of Balls in a Box                                 | [link](solutions/1742/solution1742.go) | 🟩    
 | 1768 | Merge Strings Alternately                                        | [link](solutions/1768/solution1768.go) | 🟩    
 | 1769 | Minimum Number of Operations to Move All Balls to Each Box       | [link](solutions/1769/solution1769.go) | 🟨    
