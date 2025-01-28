@@ -13,7 +13,7 @@ that are useful for solving these problems.
 
 ### Solutions
 
-🟩 Easy: **288**
+🟩 Easy: **289**
 
 🟨 Medium: **43**
 
