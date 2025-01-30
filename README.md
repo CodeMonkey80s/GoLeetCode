@@ -265,6 +265,7 @@ that are useful for solving these problems.
 | 2482 | Difference Between Ones and Zeros in Row and Column              | [link](solutions/2482/solution2482.go) | 🟨    
 | 2485 | Find the Pivot Integer                                           | [link](solutions/2485/solution2485.go) | 🟩    
 | 2496 | Maximum Value of a String in an Array                            | [link](solutions/2496/solution2496.go) | 🟩    
+| 2500 | Delete Greatest Value in Each Row                                | [link](solutions/2500/solution2500.go) | 🟩    
 | 2506 | Count Pairs of Similar Strings                                   | [link](solutions/2506/solution2506.go) | 🟩    
 | 2540 | Minimum Common Value                                             | [link](solutions/2540/solution2540.go) | 🟩    
 | 2545 | Sort the Students by Their Kth Score                             | [link](solutions/2545/solution2545.go) | 🟨    
