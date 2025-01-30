@@ -13,7 +13,7 @@ that are useful for solving these problems.
 
 ### Solutions
 
-🟩 Easy: **290**
+🟩 Easy: **291**
 
 🟨 Medium: **43**
 
@@ -101,6 +101,7 @@ that are useful for solving these problems.
 | 500  | Keyboard Row                                                     | [link](solutions/500/solution500.go)   | 🟩    
 | 509  | Fibonacci Number                                                 | [link](solutions/509/solution509.go)   | 🟩    
 | 520  | Detect Capital                                                   | [link](solutions/520/solution520.go)   | 🟩    
+| 521  | Longest Uncommon Subsequence I                                   | [link](solutions/521/solution521.go)   | 🟩    
 | 523  | Continuous Subarray Sum                                          | [link](solutions/523/solution523.go)   | 🟨    
 | 535  | Encode and Decode TinyURL                                        | [link](solutions/535/solution535.go)   | 🟨    
 | 551  | Student Attendance Record I                                      | [link](solutions/551/solution551.go)   | 🟩    
