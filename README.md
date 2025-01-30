@@ -13,7 +13,7 @@ that are useful for solving these problems.
 
 ### Solutions
 
-🟩 Easy: **291**
+🟩 Easy: **292**
 
 🟨 Medium: **43**
 
@@ -138,6 +138,7 @@ that are useful for solving these problems.
 | 944  | Delete Columns to Make Sorted                                    | [link](solutions/944/solution944.go)   | 🟩    
 | 961  | N-Repeated Element in Size 2N Array                              | [link](solutions/961/solution961.go)   | 🟩    
 | 1002 | Find Common Characters                                           | [link](solutions/1002/solution1002.go) | 🟩    
+| 1009 | Complement of Base 10 Integer                                    | [link](solutions/1009/solution1009.go) | 🟩    
 | 1047 | Remove All Adjacent Duplicates In String                         | [link](solutions/1047/solution1047.go) | 🟩    
 | 1051 | Height Checker                                                   | [link](solutions/1051/solution1051.go) | 🟩    
 | 1078 | Occurrences After Bigram                                         | [link](solutions/1078/solution1078.go) | 🟩    
