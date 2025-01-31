@@ -13,7 +13,7 @@ that are useful for solving these problems.
 
 ### Solutions
 
-🟩 Easy: **292**
+🟩 Easy: **294**
 
 🟨 Medium: **43**
 
@@ -264,6 +264,7 @@ that are useful for solving these problems.
 | 2442 | Count Number of Distinct Integer After Reverse Operations        | [link](solutions/2442/solution2442.go) | 🟨    
 | 2446 | Determine if Two Events Have Conflict                            | [link](solutions/2446/solution2446.go) | 🟩    
 | 2451 | Odd String Difference                                            | [link](solutions/2451/solution2451.go) | 🟩    
+| 2475 | Number of Unequal Triplets in Array                              | [link](solutions/2475/solution2475.go) | 🟩    
 | 2482 | Difference Between Ones and Zeros in Row and Column              | [link](solutions/2482/solution2482.go) | 🟨    
 | 2485 | Find the Pivot Integer                                           | [link](solutions/2485/solution2485.go) | 🟩    
 | 2496 | Maximum Value of a String in an Array                            | [link](solutions/2496/solution2496.go) | 🟩    
