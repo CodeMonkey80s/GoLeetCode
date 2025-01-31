@@ -13,7 +13,7 @@ that are useful for solving these problems.
 
 ### Solutions
 
-🟩 Easy: **294**
+🟩 Easy: **295**
 
 🟨 Medium: **43**
 
@@ -167,6 +167,7 @@ that are useful for solving these problems.
 | 1380 | Lucky Numbers in a Matrix                                        | [link](solutions/1380/solution1380.go) | 🟩    
 | 1381 | Design a Stack with Increment Operation                          | [link](solutions/1381/solution1381.go) | 🟨    
 | 1389 | Create Target Array in the Given Order                           | [link](solutions/1389/solution1389.go) | 🟩    
+| 1394 | Find Lucky Integer in an Array                                   | [link](solutions/1394/solution1394.go) | 🟩    
 | 1408 | String Matching in an Array                                      | [link](solutions/1408/solution1408.go) | 🟩    
 | 1413 | Minimum Value to Get Positive Step by Step Sum                   | [link](solutions/1413/solution1413.go) | 🟩    
 | 1431 | Kids With the Greatest Number of Candies                         | [link](solutions/1431/solution1431.go) | 🟩    
