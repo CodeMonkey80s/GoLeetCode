@@ -13,7 +13,7 @@ that are useful for solving these problems.
 
 ### Solutions
 
-🟩 Easy: **295**
+🟩 Easy: **296**
 
 🟨 Medium: **43**
 
@@ -248,6 +248,7 @@ that are useful for solving these problems.
 | 2206 | Divide Array Into Equal Pairs                                    | [link](solutions/2206/solution2206.go) | 🟩    
 | 2215 | Find the Difference of Two Arrays                                | [link](solutions/2215/solution2215.go) | 🟩    
 | 2221 | Find Triangular Sum of an Array                                  | [link](solutions/2221/solution2221.go) | 🟨    
+| 2248 | Intersection of Multiple Arrays                                  | [link](solutions/2248/solution2248.go) | 🟩    
 | 2283 | Check if Number Has Equal Digit Count and Digit Value            | [link](solutions/2283/solution2283.go) | 🟩    
 | 2309 | Greatest English Letter in Upper and Lower Case                  | [link](solutions/2309/solution2309.go) | 🟩    
 | 2315 | Count Asterisks                                                  | [link](solutions/2315/solution2315.go) | 🟩    
