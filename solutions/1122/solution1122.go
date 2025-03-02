@@ -24,8 +24,8 @@ func relativeSortArray(arr1 []int, arr2 []int) []int {
 	}
 
 	slices.SortFunc(part1, func(a, b int) int {
-		pos1, _ := freq[a]
-		pos2, _ := freq[b]
+		pos1 := freq[a]
+		pos2 := freq[b]
 		switch {
 		case pos1 < pos2:
 			return -1
