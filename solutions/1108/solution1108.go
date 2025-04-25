@@ -23,8 +23,8 @@ func defangIPaddrV2(address string) string {
 	var sb strings.Builder
 	sb.Grow(len(address) + 6)
 	for _, ch := range []byte(address) {
-		switch {
-		case ch == '.':
+		switch ch {
+		case '.':
 			sb.WriteString("[.]")
 		default:
 			sb.WriteByte(ch)

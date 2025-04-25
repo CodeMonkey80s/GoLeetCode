@@ -35,7 +35,7 @@ func addBinary_my(a string, b string) string {
 	var va int
 	var vb int
 	var carry int
-	var i int = 1
+	var i = 1
 	var sum int
 	for {
 		va = 0
@@ -47,17 +47,17 @@ func addBinary_my(a string, b string) string {
 			vb = int(b[sb-i]) - 48
 		}
 		sum = va + vb + carry
-		switch {
-		case sum == 0:
+		switch sum {
+		case 0:
 			s[m] = '0'
 			carry = 0
-		case sum == 1:
+		case 1:
 			s[m] = '1'
 			carry = 0
-		case sum == 2:
+		case 2:
 			s[m] = '0'
 			carry = 1
-		case sum == 3:
+		case 3:
 			s[m] = '1'
 			carry = 1
 		}

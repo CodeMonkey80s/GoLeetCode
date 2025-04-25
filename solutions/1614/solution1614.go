@@ -21,10 +21,10 @@ func maxDepth(s string) int {
 	d := 0
 	ans := 0
 	for _, v := range s {
-		switch {
-		case v == '(':
+		switch v {
+		case '(':
 			d++
-		case v == ')':
+		case ')':
 			d--
 		}
 		if d > ans {

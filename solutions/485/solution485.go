@@ -18,10 +18,10 @@ package solution485
 func findMaxConsecutiveOnes(nums []int) int {
 	var c, n int
 	for _, v := range nums {
-		switch {
-		case v == 0:
+		switch v {
+		case 0:
 			c = 0
-		case v == 1:
+		case 1:
 			c++
 			if c > n {
 				n = c

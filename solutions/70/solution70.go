@@ -7,7 +7,7 @@ package solution70
 
 func climbStairs(n int) int {
 	a, b := 0, 1
-	var v int = 0
+	var v = 0
 	for i := 0; i <= n; i++ {
 		a, b = b, a+b
 		v = a

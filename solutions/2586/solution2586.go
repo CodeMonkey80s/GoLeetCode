@@ -19,8 +19,8 @@ package solution2586
 
 func vowelStrings(words []string, left int, right int) int {
 	isVowel := func(ch byte) bool {
-		switch {
-		case ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u':
+		switch ch {
+		case 'a', 'e', 'i', 'o', 'u':
 			return true
 		}
 		return false

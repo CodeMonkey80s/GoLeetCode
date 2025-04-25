@@ -22,10 +22,10 @@ import (
 */
 
 func addStrings(num1 string, num2 string) string {
-	if !(1 <= len(num1) && len(num1) <= 10_000) {
+	if 1 > len(num1) || len(num1) > 10_000 {
 		return "0"
 	}
-	if !(1 <= len(num2) && len(num2) <= 10_000) {
+	if 1 > len(num2) || len(num2) > 10_000 {
 		return "0"
 	}
 	if num1 == "0" && num2 == "0" {

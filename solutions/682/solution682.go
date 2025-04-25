@@ -24,12 +24,12 @@ func calPoints(operations []string) int {
 	scores := make([]int, 0, len(operations))
 
 	for _, op := range operations {
-		switch {
-		case op == "C":
+		switch op {
+		case "C":
 			scores = scores[:len(scores)-1]
-		case op == "D":
+		case "D":
 			scores = append(scores, scores[len(scores)-1]*2)
-		case op == "+":
+		case "+":
 			scores = append(scores, scores[len(scores)-2]+scores[len(scores)-1])
 		default:
 			v, _ := strconv.Atoi(op)

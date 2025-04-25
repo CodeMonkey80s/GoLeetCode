@@ -13,7 +13,7 @@ type ListNode struct {
 func reverseList(head *ListNode) *ListNode {
 	var next *ListNode
 	var prev *ListNode
-	var cur *ListNode = head
+	var cur = head
 	for cur != nil {
 		next = cur.Next
 		cur.Next = prev

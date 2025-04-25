@@ -40,10 +40,8 @@ func isPalindromeV2(s string) bool {
 	}
 	a := 0
 	b := len(s) - 1
-	for {
-		if b <= a {
-			break
-		}
+	for b > a {
+
 		ch1, ok1 := isValidChar(rune(s[a]))
 		ch2, ok2 := isValidChar(rune(s[b]))
 		if ok1 && ok2 {

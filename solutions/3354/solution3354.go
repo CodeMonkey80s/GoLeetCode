@@ -86,10 +86,7 @@ func countValidSelectionsV2(nums []int) int {
 		numsCurrent := make([]int, len(nums))
 		copy(numsCurrent, nums)
 
-		for {
-			if curr < 0 || curr >= len(nums) {
-				break
-			}
+		for curr >= 0 && curr < len(nums) {
 
 			switch {
 			case numsCurrent[curr] == 0:

@@ -50,8 +50,8 @@ func firstUniqChar_first_approach(s string) int {
 			m2[ch1] = -1
 		}
 	}
-	var mval int = 1<<63 - 1
-	var found bool = false
+	var mval = 1<<63 - 1
+	var found = false
 	for k, v := range m1 {
 		if v == 1 && m2[k] != -1 {
 			if m2[k] < mval {

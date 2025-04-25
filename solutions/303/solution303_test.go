@@ -28,8 +28,8 @@ func Test_sumRange(t *testing.T) {
 			obj := Constructor(tc.InputB[0])
 			output = append(output, "null")
 			for i, cmd := range tc.InputA {
-				switch {
-				case cmd == "sumRange":
+				switch cmd {
+				case "sumRange":
 					v := obj.SumRange(tc.InputB[i][0], tc.InputB[i][1])
 					output = append(output, strconv.Itoa(v))
 				}

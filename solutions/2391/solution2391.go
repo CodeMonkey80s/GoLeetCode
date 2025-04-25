@@ -60,12 +60,12 @@ func garbageCollectionV1(garbage []string, travel []int) int {
 
 	for i := len(garbage) - 1; i >= 0; i-- {
 		for j := 0; j < len(garbage[i]); j++ {
-			switch {
-			case garbage[i][j] == 'P':
+			switch garbage[i][j] {
+			case 'P':
 				p += 1
-			case garbage[i][j] == 'G':
+			case 'G':
 				g += 1
-			case garbage[i][j] == 'M':
+			case 'M':
 				m += 1
 			}
 		}

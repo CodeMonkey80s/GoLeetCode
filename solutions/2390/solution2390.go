@@ -19,8 +19,8 @@ func removeStars(s string) string {
 
 	stack := make([]byte, 0, len(s))
 	for i := 0; i < len(s); i++ {
-		switch {
-		case s[i] == '*':
+		switch s[i] {
+		case '*':
 			stack = stack[:len(stack)-1]
 		default:
 			stack = append(stack, s[i])

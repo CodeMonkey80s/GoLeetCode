@@ -32,8 +32,8 @@ func rearrangeArray(nums []int) []int {
 	var b int
 	out := make([]int, 0, len(nums))
 	for i := 0; i < len(nums); i++ {
-		switch {
-		case i%2 == 0:
+		switch i % 2 {
+		case 0:
 			out = append(out, pos[a])
 			a++
 		default:

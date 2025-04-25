@@ -47,11 +47,11 @@ func Test_SubrectangleQueries(t *testing.T) {
 			obj := Constructor(tc.InputValues[0])
 			output = append(output, "null")
 			for i, cmd := range tc.InputCommands {
-				switch {
-				case cmd == "updateSubrectangle":
+				switch cmd {
+				case "updateSubrectangle":
 					obj.UpdateSubrectangle(tc.InputValues[i][0][0], tc.InputValues[i][0][1], tc.InputValues[i][0][2], tc.InputValues[i][0][3], tc.InputValues[i][0][4])
 					output = append(output, "null")
-				case cmd == "getValue":
+				case "getValue":
 					v := obj.GetValue(tc.InputValues[i][0][0], tc.InputValues[i][0][1])
 					output = append(output, strconv.Itoa(v))
 				}

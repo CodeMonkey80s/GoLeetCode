@@ -7,12 +7,12 @@ func sortColors(nums []int) {
 	var zerosCount int
 
 	for i := 0; i < len(nums); i++ {
-		switch {
-		case nums[i] == 0:
+		switch nums[i] {
+		case 0:
 			zerosCount++
-		case nums[i] == 1:
+		case 1:
 			onesCount++
-		case nums[i] == 2:
+		case 2:
 			twosCount++
 		}
 	}

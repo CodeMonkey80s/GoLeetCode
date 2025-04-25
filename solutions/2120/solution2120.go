@@ -44,26 +44,26 @@ loop:
 		rob.y = startPos[0]
 
 		for _, dir := range instructions {
-			switch {
-			case dir == 'U':
+			switch dir {
+			case 'U':
 				if rob.y == 0 {
 					continue loop
 				}
 				rob.y--
 				count++
-			case dir == 'D':
+			case 'D':
 				if rob.y == n-1 {
 					continue loop
 				}
 				rob.y++
 				count++
-			case dir == 'R':
+			case 'R':
 				if rob.x == n-1 {
 					continue loop
 				}
 				rob.x++
 				count++
-			case dir == 'L':
+			case 'L':
 				if rob.x == 0 {
 					continue loop
 				}

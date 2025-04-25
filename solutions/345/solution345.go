@@ -32,11 +32,11 @@ func reverseVowels(s string) string {
 		if a > b {
 			return string(buf)
 		}
-		if !(ch1 >= 'A' && ch1 <= 'Z') && !(ch1 >= 'a' && ch1 <= 'z') {
+		if (ch1 < 'A' || ch1 > 'Z') && (ch1 < 'a' || ch1 > 'z') {
 			a++
 			continue
 		}
-		if !(ch2 >= 'A' && ch2 <= 'Z') && !(ch2 >= 'a' && ch2 <= 'z') {
+		if (ch2 < 'A' || ch2 > 'Z') && (ch2 < 'a' || ch2 > 'z') {
 			b--
 			continue
 		}

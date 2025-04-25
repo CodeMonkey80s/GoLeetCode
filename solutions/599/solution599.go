@@ -40,15 +40,15 @@ func findRestaurant_first_attempt(list1 []string, list2 []string) []string {
 	}
 	m := make(map[string]int, count)
 	output := make([]string, 0, count)
-	var minval int = 1<<63 - 1
+	var minval = 1<<63 - 1
 	for i, s1 := range list1 {
 		_, ok1 := m[s1]
 		if !ok1 {
 			m[s1] = -1
 		}
 		for j, s2 := range list2 {
-			switch {
-			case s1 == s2:
+			switch s1 {
+			case s2:
 				m[s1] = 0
 				m[s1] += i
 				m[s2] += j

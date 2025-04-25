@@ -21,10 +21,8 @@ func removeDuplicates(s string) string {
 	var a, b byte
 	i := 0
 	m := len(stack)
-	for {
-		if i+1 > m-1 {
-			break
-		}
+	for i+1 <= m-1 {
+
 		a = stack[i]
 		b = stack[i+1]
 		if a == b {

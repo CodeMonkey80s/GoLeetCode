@@ -34,11 +34,11 @@ func Test_getFinalState(t *testing.T) {
 			var output []int
 			obj := Constructor(tc.InputB)
 			for i, cmd := range tc.InputA {
-				switch {
-				case cmd == "adjacentSum":
+				switch cmd {
+				case "adjacentSum":
 					v := obj.AdjacentSum(tc.InputC[i])
 					output = append(output, v)
-				case cmd == "diagonalSum":
+				case "diagonalSum":
 					v := obj.DiagonalSum(tc.InputC[i])
 					output = append(output, v)
 				}

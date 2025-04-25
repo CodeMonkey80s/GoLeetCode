@@ -16,10 +16,10 @@ func bitwiseComplement(n int) int {
 
 	num := []byte(fmt.Sprintf("%b", n))
 	for i := 0; i < len(num); i++ {
-		switch {
-		case num[i] == '0':
+		switch num[i] {
+		case '0':
 			num[i] = '1'
-		case num[i] == '1':
+		case '1':
 			num[i] = '0'
 		}
 	}

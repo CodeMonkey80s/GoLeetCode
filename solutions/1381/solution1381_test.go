@@ -28,14 +28,14 @@ func Test_customStack(t *testing.T) {
 			obj := Constructor(tc.InputB[0][0])
 			output = append(output, "null")
 			for i, cmd := range tc.InputA {
-				switch {
-				case cmd == "push":
+				switch cmd {
+				case "push":
 					obj.Push(tc.InputB[i][0])
 					output = append(output, "null")
-				case cmd == "pop":
+				case "pop":
 					n := obj.Pop()
 					output = append(output, strconv.Itoa(n))
-				case cmd == "increment":
+				case "increment":
 					obj.Increment(tc.InputB[i][0], tc.InputB[i][1])
 					output = append(output, "null")
 				}
