@@ -358,6 +358,7 @@ that are useful for solving these problems.
 | 3423 | Maximum Difference Between Adjacent Elements in a Circular Array | [link](solutions/3423/solution3423.go) | 🟩    
 | 3427 | Sum of Variable Length Subarrays                                 | [link](solutions/3427/solution3427.go) | 🟩    
 | 3467 | Transform Array by Parity                                        | [link](solutions/3467/solution3467.go) | 🟩    
+| 3498 | Reverse Degree of a String                                       | [link](solutions/3498/solution3498.go) | 🟩    
 | 3516 | Find Closest Person                                              | [link](solutions/3516/solution3516.go) | 🟩    
 
 ### Static Analysis
