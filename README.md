@@ -13,7 +13,7 @@ that are useful for solving these problems.
 
 ### Solutions
 
-🟩 Easy: **298**
+🟩 Easy: **299**
 
 🟨 Medium: **43**
 
@@ -360,6 +360,7 @@ that are useful for solving these problems.
 | 3467 | Transform Array by Parity                                        | [link](solutions/3467/solution3467.go) | 🟩    
 | 3498 | Reverse Degree of a String                                       | [link](solutions/3498/solution3498.go) | 🟩    
 | 3516 | Find Closest Person                                              | [link](solutions/3516/solution3516.go) | 🟩    
+| 3541 | Find Most Frequent Vowel and Consonant                           | [link](solutions/3516/solution3541.go) | 🟩    
 | 3658 | GCD of Odd and Even Sums                                         | [link](solutions/3658/solution3658.go) | 🟩    
 | 3668 | Restore Finish Order                                             | [link](solutions/3668/solution3668.go) | 🟩    
 
