@@ -23,6 +23,7 @@ func largestInteger(nums []int, k int) int {
 	for i := 0; i < len(nums); i++ {
 		n := nums[i]
 		freq[n] += min(i+1, len(nums)-i, k)
+		m = max(m, n)
 	}
 
 	if k == len(nums) {
