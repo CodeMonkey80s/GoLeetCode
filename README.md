@@ -13,7 +13,7 @@ that are useful for solving these problems.
 
 ### Solutions
 
-🟩 Easy: **300**
+🟩 Easy: **301**
 
 🟨 Medium: **43**
 
@@ -139,6 +139,7 @@ that are useful for solving these problems.
 | 961  | N-Repeated Element in Size 2N Array                              | [link](solutions/961/solution961.go)   | 🟩    
 | 1002 | Find Common Characters                                           | [link](solutions/1002/solution1002.go) | 🟩    
 | 1009 | Complement of Base 10 Integer                                    | [link](solutions/1009/solution1009.go) | 🟩    
+| 1021 | Remove Outermost Parentheses                                     | [link](solutions/1021/solution1021.go) | 🟩    
 | 1047 | Remove All Adjacent Duplicates In String                         | [link](solutions/1047/solution1047.go) | 🟩    
 | 1051 | Height Checker                                                   | [link](solutions/1051/solution1051.go) | 🟩    
 | 1078 | Occurrences After Bigram                                         | [link](solutions/1078/solution1078.go) | 🟩    
@@ -388,7 +389,7 @@ $ go test -v ./...
 Many solutions also contain benchmarks.
 
 ```
-$ go test -bench=. -benchmem ./1---Two-Sum
+$ go test -bench=. -benchmem ./1
 goos: linux
 goarch: amd64
 cpu: 13th Gen Intel(solutions/R) Core(solutions/TM) i7-13700K
