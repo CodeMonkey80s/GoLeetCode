@@ -26,6 +26,11 @@ var testCases = []struct {
 		InputB: 1,
 		Output: -1,
 	},
+	{
+		InputA: []int{0, 0},
+		InputB: 2,
+		Output: 0,
+	},
 }
 
 func Test_maxFreqSum(t *testing.T) {

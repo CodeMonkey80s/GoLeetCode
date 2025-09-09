@@ -17,24 +17,20 @@ package solution3471
 
 func largestInteger(nums []int, k int) int {
 
-	const (
-		maxNumbers = 50
-	)
+	var freq [51]int
+	var m int
 
-	freq := make([]int, maxNumbers)
-
-	for i := 0; i <= len(nums)-k; i++ {
-		for j := 0; j < k; j++ {
-			n := nums[i+j]
-			freq[n]++
-		}
+	for i := 0; i < len(nums); i++ {
+		n := nums[i]
+		freq[n] += min(i+1, len(nums)-i, k)
 	}
 
-	for i := maxNumbers - 1; i >= 0; i-- {
-		switch {
-		case freq[i] == 0:
-			continue
-		case freq[i] == 1:
+	if k == len(nums) {
+		return m
+	}
+
+	for i := 50; i >= 0; i-- {
+		if freq[i] == 1 {
 			return i
 		}
 	}
