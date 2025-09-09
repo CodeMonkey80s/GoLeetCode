@@ -13,7 +13,7 @@ that are useful for solving these problems.
 
 ### Solutions
 
-🟩 Easy: **302**
+🟩 Easy: **303**
 
 🟨 Medium: **43**
 
@@ -115,6 +115,7 @@ that are useful for solving these problems.
 | 693  | Binary Number with Alternating Bits                              | [link](solutions/693/solution693.go)   | 🟩    
 | 709  | To Lower Case                                                    | [link](solutions/709/solution709.go)   | 🟩    
 | 724  | Find Pivot Index                                                 | [link](solutions/724/solution724.go)   | 🟩    
+| 728  | Self Dividing Number                                             | [link](solutions/728/solution728.go)   | 🟩    
 | 746  | Min Cost Climbing Stairs                                         | [link](solutions/746/solution746.go)   | 🟩    
 | 762  | Prime Number of Set Bits in Binary Representation                | [link](solutions/762/solution762.go)   | 🟩    
 | 771  | Jewels and Stones                                                | [link](solutions/771/solution771.go)   | 🟩    
