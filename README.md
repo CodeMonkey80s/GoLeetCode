@@ -13,7 +13,7 @@ that are useful for solving these problems.
 
 ### Solutions
 
-🟩 Easy: **304**
+🟩 Easy: **305**
 
 🟨 Medium: **43**
 
@@ -162,6 +162,7 @@ that are useful for solving these problems.
 | 1313 | Decompress Run-Length Encoded List                               | [link](solutions/1313/solution1313.go) | 🟩    
 | 1317 | Convert Integers to The Sum of Two No-Zero Integers              | [link](solutions/1317/solution1317.go) | 🟩    
 | 1331 | Rank Transform of an Array                                       | [link](solutions/1331/solution1331.go) | 🟩    
+| 1337 | The K Weakest Rows in Matrix                                     | [link](solutions/1337/solution1337.go) | 🟩    
 | 1346 | Check If N and Its Double Exist                                  | [link](solutions/1346/solution1346.go) | 🟩    
 | 1351 | Count Negative Numbers in a Sorted Matrix                        | [link](solutions/1351/solution1351.go) | 🟩    
 | 1360 | Number of Days Between Two Dates                                 | [link](solutions/1360/solution1360.go) | 🟩    
