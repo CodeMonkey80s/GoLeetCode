@@ -13,7 +13,7 @@ that are useful for solving these problems.
 
 ### Solutions
 
-🟩 Easy: **307**
+🟩 Easy: **308**
 
 🟨 Medium: **43**
 
@@ -189,6 +189,7 @@ that are useful for solving these problems.
 | 1518 | Water Bottles                                                    | [link](solutions/1518/solution1518.go) | 🟩    
 | 1528 | Shuffle String                                                   | [link](solutions/1528/solution1528.go) | 🟩    
 | 1539 | Kth Missing Positive Number                                      | [link](solutions/1539/solution1539.go) | 🟩    
+| 1544 | Make The String Great                                            | [link](solutions/1544/solution1544.go) | 🟩    
 | 1550 | Three Consecutive Odds                                           | [link](solutions/1550/solution1550.go) | 🟩    
 | 1556 | Thousand Separator                                               | [link](solutions/1556/solution1556.go) | 🟩    
 | 1561 | Maximum Number of Coins You Can Get                              | [link](solutions/1561/solution1561.go) | 🟨    
