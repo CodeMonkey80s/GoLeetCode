@@ -13,7 +13,7 @@ that are useful for solving these problems.
 
 ### Solutions
 
-🟩 Easy: **308**
+🟩 Easy: **309**
 
 🟨 Medium: **43**
 
@@ -368,6 +368,7 @@ that are useful for solving these problems.
 | 3471 | Find the Largest Almost Missing Integer                          | [link](solutions/3471/solution3471.go) | 🟩    
 | 3498 | Reverse Degree of a String                                       | [link](solutions/3498/solution3498.go) | 🟩    
 | 3516 | Find Closest Person                                              | [link](solutions/3516/solution3516.go) | 🟩    
+| 3536 | Check If Digits Are Equal in String After Operations I           | [link](solutions/3536/solution3536.go) | 🟩    
 | 3541 | Find Most Frequent Vowel and Consonant                           | [link](solutions/3516/solution3541.go) | 🟩    
 | 3550 | Smallest Index With Digit Sum Equal to Index                     | [link](solutions/3550/solution3550.go) | 🟩    
 | 3658 | GCD of Odd and Even Sums                                         | [link](solutions/3658/solution3658.go) | 🟩    
