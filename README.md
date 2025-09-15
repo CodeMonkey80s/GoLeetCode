@@ -13,7 +13,7 @@ that are useful for solving these problems.
 
 ### Solutions
 
-🟩 Easy: **309**
+🟩 Easy: **310**
 
 🟨 Medium: **43**
 
@@ -364,6 +364,7 @@ that are useful for solving these problems.
 | 3417 | Zigzag Grid Traversal With Skip                                  | [link](solutions/3417/solution3417.go) | 🟩    
 | 3423 | Maximum Difference Between Adjacent Elements in a Circular Array | [link](solutions/3423/solution3423.go) | 🟩    
 | 3427 | Sum of Variable Length Subarrays                                 | [link](solutions/3427/solution3427.go) | 🟩    
+| 3461 | Check If Digits Are Equal in String After Operations I           | [link](solutions/3461/solution3461.go) | 🟩    
 | 3467 | Transform Array by Parity                                        | [link](solutions/3467/solution3467.go) | 🟩    
 | 3471 | Find the Largest Almost Missing Integer                          | [link](solutions/3471/solution3471.go) | 🟩    
 | 3498 | Reverse Degree of a String                                       | [link](solutions/3498/solution3498.go) | 🟩    
