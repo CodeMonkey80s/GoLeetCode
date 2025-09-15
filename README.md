@@ -13,7 +13,7 @@ that are useful for solving these problems.
 
 ### Solutions
 
-🟩 Easy: **311**
+🟩 Easy: **312**
 
 🟨 Medium: **43**
 
@@ -351,6 +351,7 @@ that are useful for solving these problems.
 | 3304 | Find the K-th Character in String Game I                         | [link](solutions/3304/solution3304.go) | 🟩    
 | 3324 | Find the Sequence of Strings Appeared on the Screen              | [link](solutions/3324/solution3324.go) | 🟨    
 | 3340 | Check Balanced String                                            | [link](solutions/3340/solution3340.go) | 🟩    
+| 3345 | Smallest Divisible Digit Product I                               | [link](solutions/3345/solution3345.go) | 🟩    
 | 3354 | Make Array Elements Equal to Zero                                | [link](solutions/3354/solution3354.go) | 🟩    
 | 3360 | Stone Removal Game                                               | [link](solutions/3360/solution3360.go) | 🟩    
 | 3370 | Smallest Number With All Set Bits                                | [link](solutions/3370/solution3370.go) | 🟩    
