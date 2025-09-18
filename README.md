@@ -13,7 +13,7 @@ that are useful for solving these problems.
 
 ### Solutions
 
-🟩 Easy: **312**
+🟩 Easy: **313**
 
 🟨 Medium: **43**
 
@@ -374,6 +374,7 @@ that are useful for solving these problems.
 | 3536 | Check If Digits Are Equal in String After Operations I           | [link](solutions/3536/solution3536.go) | 🟩    
 | 3541 | Find Most Frequent Vowel and Consonant                           | [link](solutions/3516/solution3541.go) | 🟩    
 | 3550 | Smallest Index With Digit Sum Equal to Index                     | [link](solutions/3550/solution3550.go) | 🟩    
+| 3602 | Hexadecimal and Hexatrigesimal Conversion                        | [link](solutions/3602/solution3602.go) | 🟩    
 | 3658 | GCD of Odd and Even Sums                                         | [link](solutions/3658/solution3658.go) | 🟩    
 | 3668 | Restore Finish Order                                             | [link](solutions/3668/solution3668.go) | 🟩    
 
