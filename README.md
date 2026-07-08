@@ -13,7 +13,7 @@ that are useful for solving these problems.
 
 ### Solutions
 
-🟩 Easy: **318*
+🟩 Easy: **319*
 
 🟨 Medium: **43**
 
@@ -379,6 +379,7 @@ that are useful for solving these problems.
 | 3668 | Restore Finish Order                                             | [link](solutions/3668/solution3668.go) | 🟩    
 | 3701 | Compute Alternating Sum                                          | [link](solutions/3701/solution3701.go) | 🟩    
 | 3783 | Mirror Distance of an Integer                                    | [link](solutions/3783/solution3783.go) | 🟩    
+| 3794 | Reverse String Prefix                                            | [link](solutions/3794/solution3794.go) | 🟩    
 | 3838 | Weighted Word Mapping                                            | [link](solutions/3838/solution3838.go) | 🟩    
 | 3925 | Concatenate Array With Reverse                                   | [link](solutions/3925/solution3925.go) | 🟩    
 | 3945 | Digit Frequency Score                                            | [link](solutions/3945/solution3945.go) | 🟩    
