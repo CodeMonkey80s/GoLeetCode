@@ -13,7 +13,7 @@ that are useful for solving these problems.
 
 ### Solutions
 
-🟩 Easy: **319*
+🟩 Easy: **320*
 
 🟨 Medium: **43**
 
@@ -381,6 +381,7 @@ that are useful for solving these problems.
 | 3783 | Mirror Distance of an Integer                                    | [link](solutions/3783/solution3783.go) | 🟩    
 | 3794 | Reverse String Prefix                                            | [link](solutions/3794/solution3794.go) | 🟩    
 | 3838 | Weighted Word Mapping                                            | [link](solutions/3838/solution3838.go) | 🟩    
+| 3894 | Traffic Signal Color                                             | [link](solutions/3894/solution3894.go) | 🟩    
 | 3925 | Concatenate Array With Reverse                                   | [link](solutions/3925/solution3925.go) | 🟩    
 | 3945 | Digit Frequency Score                                            | [link](solutions/3945/solution3945.go) | 🟩    
 
