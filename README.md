@@ -13,7 +13,7 @@ that are useful for solving these problems.
 
 ### Solutions
 
-🟩 Easy: **314*
+🟩 Easy: **315*
 
 🟨 Medium: **43**
 
@@ -378,6 +378,7 @@ that are useful for solving these problems.
 | 3658 | GCD of Odd and Even Sums                                         | [link](solutions/3658/solution3658.go) | 🟩    
 | 3668 | Restore Finish Order                                             | [link](solutions/3668/solution3668.go) | 🟩    
 | 3925 | Concatenate Array With Reverse                                   | [link](solutions/3925/solution3925.go) | 🟩    
+| 3945 | Digit Frequency Score                                            | [link](solutions/3945/solution3945.go) | 🟩    
 
 ### Static Analysis
 
