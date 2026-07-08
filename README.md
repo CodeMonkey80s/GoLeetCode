@@ -13,7 +13,7 @@ that are useful for solving these problems.
 
 ### Solutions
 
-🟩 Easy: **317*
+🟩 Easy: **318*
 
 🟨 Medium: **43**
 
@@ -377,6 +377,7 @@ that are useful for solving these problems.
 | 3602 | Hexadecimal and Hexatrigesimal Conversion                        | [link](solutions/3602/solution3602.go) | 🟩    
 | 3658 | GCD of Odd and Even Sums                                         | [link](solutions/3658/solution3658.go) | 🟩    
 | 3668 | Restore Finish Order                                             | [link](solutions/3668/solution3668.go) | 🟩    
+| 3701 | Compute Alternating Sum                                          | [link](solutions/3701/solution3701.go) | 🟩    
 | 3783 | Mirror Distance of an Integer                                    | [link](solutions/3783/solution3783.go) | 🟩    
 | 3838 | Weighted Word Mapping                                            | [link](solutions/3838/solution3838.go) | 🟩    
 | 3925 | Concatenate Array With Reverse                                   | [link](solutions/3925/solution3925.go) | 🟩    
