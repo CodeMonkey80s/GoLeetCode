@@ -13,7 +13,7 @@ that are useful for solving these problems.
 
 ### Solutions
 
-🟩 Easy: **313**
+🟩 Easy: **314*
 
 🟨 Medium: **43**
 
@@ -377,6 +377,7 @@ that are useful for solving these problems.
 | 3602 | Hexadecimal and Hexatrigesimal Conversion                        | [link](solutions/3602/solution3602.go) | 🟩    
 | 3658 | GCD of Odd and Even Sums                                         | [link](solutions/3658/solution3658.go) | 🟩    
 | 3668 | Restore Finish Order                                             | [link](solutions/3668/solution3668.go) | 🟩    
+| 3925 | Concatenate Array With Reverse                                   | [link](solutions/3925/solution3925.go) | 🟩    
 
 ### Static Analysis
 
