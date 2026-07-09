@@ -13,7 +13,7 @@ that are useful for solving these problems.
 
 ### Solutions
 
-🟩 Easy: **323*
+🟩 Easy: **324*
 
 🟨 Medium: **43**
 
@@ -386,6 +386,7 @@ that are useful for solving these problems.
 | 3838 | Weighted Word Mapping                                            | [link](solutions/3838/solution3838.go) | 🟩    
 | 3894 | Traffic Signal Color                                             | [link](solutions/3894/solution3894.go) | 🟩    
 | 3925 | Concatenate Array With Reverse                                   | [link](solutions/3925/solution3925.go) | 🟩    
+| 3931  | Check Adjacent Digits Differences                                | [link](solutions/3931/solution3931.go) | 🟩    
 | 3945 | Digit Frequency Score                                            | [link](solutions/3945/solution3945.go) | 🟩    
 
 ### Static Analysis

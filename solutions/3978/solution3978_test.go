@@ -18,6 +18,10 @@ var testCases = []struct {
 		Input:  []int{1, 2, 2},
 		Output: false,
 	},
+	{
+		Input:  []int{1},
+		Output: true,
+	},
 }
 
 func Test_isMiddleElementUnique(t *testing.T) {
