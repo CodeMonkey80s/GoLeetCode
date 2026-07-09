@@ -13,7 +13,7 @@ that are useful for solving these problems.
 
 ### Solutions
 
-🟩 Easy: **326**
+🟩 Easy: **327**
 
 🟨 Medium: **43**
 
@@ -381,14 +381,15 @@ that are useful for solving these problems.
 | 3668 | Restore Finish Order                                             | [link](solutions/3668/solution3668.go) | 🟩    
 | 3688 | Bitwise OR of Even Numbers in Array                              | [link](solutions/3688/solution3688.go) | 🟩    
 | 3701 | Compute Alternating Sum                                          | [link](solutions/3701/solution3701.go) | 🟩    
+| 3750  | Minimum Number of Flips to Reverse Binary String                 | [link](solutions/3750/solution3750.go) | 🟩    
 | 3783 | Mirror Distance of an Integer                                    | [link](solutions/3783/solution3783.go) | 🟩    
 | 3794 | Reverse String Prefix                                            | [link](solutions/3794/solution3794.go) | 🟩    
 | 3838 | Weighted Word Mapping                                            | [link](solutions/3838/solution3838.go) | 🟩    
 | 3894 | Traffic Signal Color                                             | [link](solutions/3894/solution3894.go) | 🟩    
 | 3908 | Valid Digit Number                                               | [link](solutions/3908/solution3908.go) | 🟩    
 | 3925 | Concatenate Array With Reverse                                   | [link](solutions/3925/solution3925.go) | 🟩    
-| 3921  | Score Validator                                                  | [link](solutions/3921/solution3921.go) | 🟩    
-| 3931  | Check Adjacent Digits Differences                                | [link](solutions/3931/solution3931.go) | 🟩    
+| 3921 | Score Validator                                                  | [link](solutions/3921/solution3921.go) | 🟩    
+| 3931 | Check Adjacent Digits Differences                                | [link](solutions/3931/solution3931.go) | 🟩    
 | 3945 | Digit Frequency Score                                            | [link](solutions/3945/solution3945.go) | 🟩    
 
 ### Static Analysis
