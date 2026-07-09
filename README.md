@@ -13,7 +13,7 @@ that are useful for solving these problems.
 
 ### Solutions
 
-🟩 Easy: **322*
+🟩 Easy: **323*
 
 🟨 Medium: **43**
 
@@ -360,6 +360,7 @@ that are useful for solving these problems.
 | 3392 | Count Subarrays of Length Three With a Condition                 | [link](solutions/3392/solution3392.go) | 🟩    
 | 3396 | Minimum Number of Operations to Make Elements in Array Distinct  | [link](solutions/3396/solution3396.go) | 🟩    
 | 3959 | Check Good Integer                                               | [link](solutions/3959/solution3959.go) | 🟩    
+| 3978 | Unique Middle Element                                            | [link](solutions/3978/solution3978.go) | 🟩    
 | 3402 | Minimum Operations to Make Columns Strictly Increasing           | [link](solutions/3402/solution3402.go) | 🟩    
 | 3407 | Substring Matching Pattern                                       | [link](solutions/3407/solution3407.go) | 🟩    
 | 3412 | Find Mirror Score of a String                                    | [link](solutions/3412/solution3412.go) | 🟨    
