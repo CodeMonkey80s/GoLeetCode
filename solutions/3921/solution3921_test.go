@@ -1,0 +1,38 @@
+package solution3921
+
+import (
+	"fmt"
+	"reflect"
+	"testing"
+)
+
+var testCases = []struct {
+	Input  []string
+	Output []int
+}{
+	{
+		Input:  []string{"1", "4", "W", "6", "WD"},
+		Output: []int{12, 1},
+	},
+	{
+		Input:  []string{"WD", "NB", "0", "4", "4"},
+		Output: []int{10, 0},
+	},
+	{
+		Input:  []string{"W", "W", "W", "W", "W", "W", "W", "W", "W", "W", "W"},
+		Output: []int{0, 10},
+	},
+}
+
+func Test_scoreValidator(t *testing.T) {
+	var label string
+	for _, tc := range testCases {
+		label = fmt.Sprintf("Case: Input: %v, Output: %v\n", tc.Input, tc.Output)
+		t.Run(label, func(t *testing.T) {
+			output := scoreValidator(tc.Input)
+			if !reflect.DeepEqual(output, tc.Output) {
+				t.Errorf("Expected output to be %v but we got %v", tc.Output, output)
+			}
+		})
+	}
+}
