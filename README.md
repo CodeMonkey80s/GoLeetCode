@@ -13,7 +13,7 @@ that are useful for solving these problems.
 
 ### Solutions
 
-🟩 Easy: **325*
+🟩 Easy: **326**
 
 🟨 Medium: **43**
 
@@ -385,6 +385,7 @@ that are useful for solving these problems.
 | 3794 | Reverse String Prefix                                            | [link](solutions/3794/solution3794.go) | 🟩    
 | 3838 | Weighted Word Mapping                                            | [link](solutions/3838/solution3838.go) | 🟩    
 | 3894 | Traffic Signal Color                                             | [link](solutions/3894/solution3894.go) | 🟩    
+| 3908 | Valid Digit Number                                               | [link](solutions/3908/solution3908.go) | 🟩    
 | 3925 | Concatenate Array With Reverse                                   | [link](solutions/3925/solution3925.go) | 🟩    
 | 3921  | Score Validator                                                  | [link](solutions/3921/solution3921.go) | 🟩    
 | 3931  | Check Adjacent Digits Differences                                | [link](solutions/3931/solution3931.go) | 🟩    
