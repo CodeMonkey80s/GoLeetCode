@@ -1,11 +1,21 @@
 package solution3978
 
 func isMiddleElementUnique(nums []int) bool {
-	middle := nums[len(nums)/2]
-	for i := 0; i < len(nums); i++ {
-		if i != len(nums)/2 && nums[i] == middle {
+	idx := len(nums) / 2
+	val := nums[idx]
+	a := idx - 1
+	b := idx + 1
+	for {
+		if a < 0 || b > len(nums) {
+			break
+		}
+
+		if nums[a] == val || nums[b] == val {
 			return false
 		}
+
+		a--
+		b++
 	}
 
 	return true
