@@ -13,7 +13,7 @@ that are useful for solving these problems.
 
 ### Solutions
 
-🟩 Easy: **328**
+🟩 Easy: **331**
 
 🟨 Medium: **43**
 
@@ -391,7 +391,8 @@ that are useful for solving these problems.
 | 3921 | Score Validator                                                  | [link](solutions/3921/solution3921.go) | 🟩    
 | 3931 | Check Adjacent Digits Differences                                | [link](solutions/3931/solution3931.go) | 🟩    
 | 3945 | Digit Frequency Score                                            | [link](solutions/3945/solution3945.go) | 🟩    
-| 3982  | Sum of Integers with Maximum Digit Range                         | [link](solutions/3982/solution3982.go) | 🟩    
+| 3945 | Exactly One Consecutive Set Bits Pair                            | [link](solutions/3950/solution3950.go) | 🟩    
+| 3982 | Sum of Integers with Maximum Digit Range                         | [link](solutions/3982/solution3982.go) | 🟩    
 
 ### Static Analysis
 
